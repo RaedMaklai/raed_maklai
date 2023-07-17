@@ -1,0 +1,29 @@
+{
+  "aws": {
+    "account": "prod"
+  },
+  "customer_log_sources": [
+    {
+      "source": [
+        "omtc-dv-dc-01-AD",
+        "omtc-dv-dc-01-MSWinEventLog"],
+      "timezone_offset": "America/New_York",
+      "type": "ad-nxlog"
+    },
+    {
+      "source": "omtc-dv-dc-01-DNS",
+      "timezone_offset": "America/New_York",
+      "type": "ad-nxlog-dns"
+    }
+    
+  ],
+  "id": "trowepricecharitable1",
+  "sensors": {
+    "nmap": {
+      "bypass": [
+        "0.0.0.0/0"
+      ]
+    }
+  },
+  "type": "deployment"
+}

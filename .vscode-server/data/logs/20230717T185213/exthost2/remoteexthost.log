@@ -1,0 +1,28 @@
+2023-07-17 18:53:20.969 [info] Extension host with pid 26553 started
+2023-07-17 18:53:20.989 [info] Lock '/home/raed_maklai/.vscode-server/data/User/workspaceStorage/be8817d3b5b7baf92b10598762b3a82f/vscode.lock': Lock acquired.
+2023-07-17 18:53:21.164 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2023-07-17 18:53:21.323 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2023-07-17 18:53:21.413 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2023-07-17 18:53:21.413 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2023-07-17 18:53:21.655 [info] Eager extensions activated
+2023-07-17 18:53:21.655 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2023-07-17 18:53:21.655 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2023-07-17 18:53:21.971 [info] ExtensionService#_doActivateExtension vscode.extension-editing, startup: false, activationEvent: 'onLanguage:markdown'
+2023-07-17 18:53:21.971 [info] ExtensionService#_doActivateExtension vscode.markdown-language-features, startup: false, activationEvent: 'onLanguage:markdown'
+2023-07-17 18:53:22.102 [info] ExtensionService#_doActivateExtension GitHub.vscode-pull-request-github, startup: false, activationEvent: 'onStartupFinished'
+2023-07-17 18:53:22.594 [info] ExtensionService#_doActivateExtension vscode.markdown-math, startup: false, activationEvent: 'api', root cause: vscode.markdown-language-features
+2023-07-17 18:58:22.547 [info] ExtensionService#_doActivateExtension vscode.npm, startup: false, activationEvent: 'onTerminalQuickFixRequest:ms-vscode.npm-command'
+2023-07-17 19:00:39.347 [error] Error: file:///home/raed_maklai/volatile_configs-1 has a detached HEAD (create a branch first
+	at nn.getPullRequestDefaults (/home/raed_maklai/.vscode-server/extensions/github.vscode-pull-request-github-0.68.1/dist/extension.js:1739:1668)
+	at Gg.create (/home/raed_maklai/.vscode-server/extensions/github.vscode-pull-request-github-0.68.1/dist/extension.js:1822:2342)
+2023-07-17 19:00:40.975 [error] Error: file:///home/raed_maklai/volatile_configs-1 has a detached HEAD (create a branch first
+	at nn.getPullRequestDefaults (/home/raed_maklai/.vscode-server/extensions/github.vscode-pull-request-github-0.68.1/dist/extension.js:1739:1668)
+	at Gg.create (/home/raed_maklai/.vscode-server/extensions/github.vscode-pull-request-github-0.68.1/dist/extension.js:1822:2342)
+2023-07-17 19:00:41.611 [error] Error: file:///home/raed_maklai/volatile_configs-1 has a detached HEAD (create a branch first
+	at nn.getPullRequestDefaults (/home/raed_maklai/.vscode-server/extensions/github.vscode-pull-request-github-0.68.1/dist/extension.js:1739:1668)
+	at Gg.create (/home/raed_maklai/.vscode-server/extensions/github.vscode-pull-request-github-0.68.1/dist/extension.js:1822:2342)
+2023-07-17 19:00:42.273 [error] Error: file:///home/raed_maklai/volatile_configs-1 has a detached HEAD (create a branch first
+	at nn.getPullRequestDefaults (/home/raed_maklai/.vscode-server/extensions/github.vscode-pull-request-github-0.68.1/dist/extension.js:1739:1668)
+	at Gg.create (/home/raed_maklai/.vscode-server/extensions/github.vscode-pull-request-github-0.68.1/dist/extension.js:1822:2342)
+2023-07-17 19:01:10.904 [warning] [Decorations] CAPPING events from decorations provider vscode.git 5188
+2023-07-17 19:01:12.545 [warning] [Decorations] CAPPING events from decorations provider vscode.git 5188

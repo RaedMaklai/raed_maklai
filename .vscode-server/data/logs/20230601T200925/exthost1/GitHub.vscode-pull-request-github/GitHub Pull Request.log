@@ -1,0 +1,32 @@
+2023-06-01 20:09:31.837 [info] Looking for git repository
+2023-06-01 20:09:31.837 [info] Found 0 repositories during activation
+2023-06-01 20:09:31.837 [info] Git repository found, initializing review manager and pr tree view.
+2023-06-01 20:09:31.842 [info] Registering git provider
+2023-06-01 20:09:31.842 [info] Review> Validate state in progress
+2023-06-01 20:09:31.842 [info] Review> Validating state...
+2023-06-01 20:09:31.990 [info] Found GitHub remote for folder /mnt/disk1/sework/raed_maklai/volatile_configs
+2023-06-01 20:09:33.359 [info] Repo state for file:///mnt/disk1/sework/raed_maklai/volatile_configs changed.
+2023-06-01 20:09:33.359 [info] Repo file:///mnt/disk1/sework/raed_maklai/volatile_configs has already been setup.
+2023-06-01 20:09:33.360 [info] Review> current branch master is associated with pull request #107791
+2023-06-01 20:09:33.360 [info] Review> Resolving pull request
+2023-06-01 20:09:33.801 [info] Review> no matching pull request metadata found for current branch master
+2023-06-01 20:09:34.724 [info] Review> Fetching pull request data
+2023-06-01 20:09:34.724 [info] PullRequestTree> Adding PR #107791 to tree
+2023-06-01 20:09:35.174 [info] Review> Register comments provider
+2023-06-01 20:09:35.176 [info] Review> Display pull request status bar indicator and refresh pull request tree view.
+2023-06-01 20:09:35.176 [info] Review> Using focus mode = true.
+2023-06-01 20:09:35.176 [info] Review> State validation silent = true.
+2023-06-01 20:09:35.176 [info] Review> PR show should show = false.
+2023-06-01 20:09:43.873 [info] Review> Branch master will now be ignored in ignoredPullRequestBranches.
+2023-06-01 20:09:46.252 [info] Review> Validate state in progress
+2023-06-01 20:09:46.252 [info] Review> Validating state...
+2023-06-01 20:09:46.580 [info] Review> Validating state...
+2023-06-01 20:09:46.675 [info] Found GitHub remote for folder /mnt/disk1/sework/raed_maklai/volatile_configs
+2023-06-01 20:09:46.978 [info] Trying to use globalState for mentionable users.
+2023-06-01 20:09:46.984 [info] Review> Branch master is ignored in ignoredPullRequestBranches.
+2023-06-01 20:09:46.984 [info] PullRequestTree> Removing PR #107791 from tree
+2023-06-01 20:09:47.207 [info] Found GitHub remote for folder /mnt/disk1/sework/raed_maklai/volatile_configs
+2023-06-01 20:09:47.479 [info] Trying to use globalState for mentionable users.
+2023-06-01 20:09:47.481 [info] Review> Branch master is ignored in ignoredPullRequestBranches.
+2023-06-01 20:09:48.201 [info] Using globalState mentionable users for 2.
+2023-06-01 20:09:48.970 [info] Using globalState mentionable users for 2.

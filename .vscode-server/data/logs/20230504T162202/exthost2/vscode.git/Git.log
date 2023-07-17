@@ -1,0 +1,147 @@
+2023-05-04 16:36:07.630 [info] Log level: Info
+2023-05-04 16:36:07.630 [info] Validating found git in: "git"
+2023-05-04 16:36:07.630 [info] Using git "2.7.4" from "git"
+2023-05-04 16:36:07.630 [info] > git rev-parse --show-toplevel [52ms]
+2023-05-04 16:36:07.630 [info] > git rev-parse --git-dir --git-common-dir [7ms]
+2023-05-04 16:36:07.630 [info] Open repository: /mnt/disk1/sework/raed_maklai/volatile_configs
+2023-05-04 16:36:07.630 [info] > git rev-parse --show-toplevel [8ms]
+2023-05-04 16:36:07.630 [info] > git config --get commit.template [8ms]
+2023-05-04 16:36:07.630 [info] > git rev-parse --show-toplevel [7ms]
+2023-05-04 16:36:07.630 [info] > git rev-parse --show-toplevel [9ms]
+2023-05-04 16:36:07.630 [info] > git rev-parse --show-toplevel [6ms]
+2023-05-04 16:36:07.630 [info] > git rev-parse --show-toplevel [9ms]
+2023-05-04 16:36:07.630 [info] > git rev-parse --show-toplevel [10ms]
+2023-05-04 16:36:07.630 [info] > git rev-parse --show-toplevel [8ms]
+2023-05-04 16:36:07.631 [info] > git rev-parse --show-toplevel [5ms]
+2023-05-04 16:36:07.631 [info] > git rev-parse --show-toplevel [6ms]
+2023-05-04 16:36:07.631 [info] > git rev-parse --show-toplevel [21ms]
+2023-05-04 16:36:07.631 [info] > git rev-parse --show-toplevel [5ms]
+2023-05-04 16:36:07.631 [info] > git rev-parse --show-toplevel [5ms]
+2023-05-04 16:36:07.631 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master [419ms]
+2023-05-04 16:36:07.682 [info] > git status -z -uall [212ms]
+2023-05-04 16:36:07.746 [info] > git config --get commit.template [54ms]
+2023-05-04 16:36:08.144 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master [447ms]
+2023-05-04 16:36:08.267 [info] > git status -z -uall [118ms]
+2023-05-04 16:36:08.612 [info] > git config --local branch.master.github-pr-owner-number [96ms]
+2023-05-04 16:36:08.645 [info] > git config --get commit.template [27ms]
+2023-05-04 16:36:09.055 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master [433ms]
+2023-05-04 16:36:09.193 [info] > git status -z -uall [132ms]
+2023-05-04 16:37:02.682 [info] > git rev-parse --show-toplevel [6ms]
+2023-05-04 16:37:11.963 [info] > git rev-parse --show-toplevel [28ms]
+2023-05-04 16:37:49.030 [info] > git rev-parse --show-toplevel [5ms]
+2023-05-04 16:38:59.688 [info] > git rev-parse --show-toplevel [7ms]
+2023-05-04 16:40:38.442 [info] > git rev-parse --show-toplevel [7ms]
+2023-05-04 16:40:48.792 [info] > git rev-parse --show-toplevel [10ms]
+2023-05-04 16:45:27.555 [info] > git rev-parse --show-toplevel [3ms]
+2023-05-04 16:45:33.182 [info] > git rev-parse --show-toplevel [7ms]
+2023-05-04 16:45:39.042 [info] > git rev-parse --show-toplevel [8ms]
+2023-05-04 16:47:58.959 [info] > git config --get commit.template [7ms]
+2023-05-04 16:47:59.315 [info] > git rev-parse --show-toplevel [6ms]
+2023-05-04 16:47:59.390 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master [432ms]
+2023-05-04 16:47:59.551 [info] > git status -z -uall [155ms]
+2023-05-04 16:48:00.393 [info] > git rev-parse --show-toplevel [7ms]
+2023-05-04 16:48:18.818 [info] > git config --get commit.template [10ms]
+2023-05-04 16:48:19.237 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master [424ms]
+2023-05-04 16:48:19.362 [info] > git status -z -uall [119ms]
+2023-05-04 16:48:20.087 [info] > git rev-parse --show-toplevel [7ms]
+2023-05-04 16:48:20.333 [info] > git rev-parse --show-toplevel [6ms]
+2023-05-04 16:48:21.240 [info] > git rev-parse --show-toplevel [7ms]
+2023-05-04 16:48:24.176 [info] > git rev-parse --show-toplevel [6ms]
+2023-05-04 16:48:24.707 [info] > git check-ignore -v -z --stdin [29ms]
+2023-05-04 16:53:08.849 [info] > git add -A -- /mnt/disk1/sework/raed_maklai/volatile_configs/deployments/trowepricecharitable1.json /mnt/disk1/sework/raed_maklai/volatile_configs/deployments/trowepricecharitable2.json [66ms]
+2023-05-04 16:53:08.874 [info] > git config --get commit.template [17ms]
+2023-05-04 16:53:09.303 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master [442ms]
+2023-05-04 16:53:09.440 [info] > git status -z -uall [131ms]
+2023-05-04 16:53:09.584 [info] > git rev-parse --show-toplevel [9ms]
+2023-05-04 16:53:10.165 [info] > git rev-parse --show-toplevel [10ms]
+2023-05-04 16:53:27.827 [info] > git rev-parse --show-toplevel [3ms]
+2023-05-04 16:53:31.278 [info] > git -c user.useConfigOnly=true commit --quiet --allow-empty-message --file - [4328ms]
+2023-05-04 16:53:31.279 [info] Calling function: determine_host
+HOST:BASTAWN
+VOLATILE_CONFIGS: /home/raed_maklai/volatile_configs
+VENV_PATH: /opt/awn/venv
+VIRTUAL_ENV: /opt/awn/venv
+RTKVCONF_LOCATION: /opt/awn/venv/site-packages/rtkvconf
+RTK_BUILD_ROOT: 
+RTK_DEPLOY_ROOT: /opt/awn
+CARSERS_LOCATION: /home/raed_maklai/volatile_configs/rules/carsers/carsers
+pwd: /mnt/disk1/sework/raed_maklai/volatile_configs
+Calling function: node_config_validation
+CHANGED DEPLOYMENT CONFIGS: deployments/trowepricecharitable1.json
+deployments/trowepricecharitable2.json
+RUNNING NODE_CONFIGCTL: deployments/trowepricecharitable1.json
+RUNNING NODE_CONFIGCTL: deployments/trowepricecharitable2.json
+Calling function: parsers_json_validation
+Calling function: console_files_validation
+CHANGED S10/S13 CONFIGS: 
+Calling function: intentions_verify_customerization
+Reached end
+2023-05-04 16:53:31.294 [info] > git config --get commit.template [9ms]
+2023-05-04 16:53:31.310 [info] > git config --get commit.template [10ms]
+2023-05-04 16:53:31.738 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master [433ms]
+2023-05-04 16:53:31.869 [info] > git status -z -uall [125ms]
+2023-05-04 16:53:32.015 [info] > git rev-parse --show-toplevel [14ms]
+2023-05-04 16:53:32.667 [info] > git push rtkwlf master:master [779ms]
+2023-05-04 16:53:32.667 [info] Host key verification failed.
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+2023-05-04 16:53:32.683 [info] > git config --get commit.template [9ms]
+2023-05-04 16:53:33.111 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master [432ms]
+2023-05-04 16:53:33.229 [info] > git status -z -uall [112ms]
+2023-05-04 16:53:33.361 [info] > git config --get commit.template [10ms]
+2023-05-04 16:53:33.783 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master [427ms]
+2023-05-04 16:53:33.902 [info] > git status -z -uall [112ms]
+2023-05-04 16:53:33.953 [info] > git rev-parse --show-toplevel [8ms]
+2023-05-04 16:53:34.636 [info] > git rev-parse --show-toplevel [9ms]
+2023-05-04 16:54:04.131 [info] > git rev-parse --show-toplevel [2ms]
+2023-05-04 16:54:04.638 [info] > git config --get commit.template [9ms]
+2023-05-04 16:54:05.064 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master [430ms]
+2023-05-04 16:54:05.190 [info] > git status -z -uall [120ms]
+2023-05-04 16:54:05.913 [info] > git rev-parse --show-toplevel [9ms]
+2023-05-04 16:54:17.707 [info] > git rev-parse --show-toplevel [12ms]
+2023-05-04 16:54:18.308 [info] > git config --get commit.template [9ms]
+2023-05-04 16:54:18.742 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master [438ms]
+2023-05-04 16:54:18.872 [info] > git status -z -uall [124ms]
+2023-05-04 16:54:19.600 [info] > git rev-parse --show-toplevel [12ms]
+2023-05-04 16:54:23.003 [info] > git rev-parse --show-toplevel [22ms]
+2023-05-04 16:54:23.536 [info] > git rev-parse --show-toplevel [12ms]
+2023-05-04 16:54:24.036 [info] > git config --get commit.template [10ms]
+2023-05-04 16:54:24.466 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master [435ms]
+2023-05-04 16:54:24.617 [info] > git status -z -uall [145ms]
+2023-05-04 16:54:25.346 [info] > git rev-parse --show-toplevel [12ms]
+2023-05-04 16:54:29.656 [info] > git config --get commit.template [24ms]
+2023-05-04 16:54:30.066 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master [428ms]
+2023-05-04 16:54:30.188 [info] > git status -z -uall [116ms]
+2023-05-04 16:54:31.902 [info] > git rev-parse --show-toplevel [9ms]
+2023-05-04 16:55:23.885 [info] > git rev-parse --show-toplevel [3ms]
+2023-05-04 16:55:52.656 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) refs/heads/ [424ms]
+2023-05-04 16:55:52.672 [info] > git config --local branch.master.github-pr-owner-number [8ms]
+2023-05-04 16:55:52.687 [info] > git config --get commit.template [9ms]
+2023-05-04 16:55:53.107 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master [426ms]
+2023-05-04 16:55:53.233 [info] > git status -z -uall [119ms]
+2023-05-04 16:55:53.963 [info] > git rev-parse --show-toplevel [8ms]
+2023-05-04 16:55:57.514 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master [422ms]
+2023-05-04 16:55:59.549 [info] > git show -s --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z 2e626327171d11be74b48e1fa75e1a1e3683617d [2027ms]
+2023-05-04 16:56:13.760 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master [425ms]
+2023-05-04 16:56:14.199 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master [431ms]
+2023-05-04 16:56:16.233 [info] > git show -s --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z 2e626327171d11be74b48e1fa75e1a1e3683617d [2028ms]
+2023-05-04 16:56:22.917 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master [428ms]
+2023-05-04 16:56:23.371 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master [445ms]
+2023-05-04 16:56:23.393 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master [462ms]
+2023-05-04 16:56:25.424 [info] > git show -s --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z 2e626327171d11be74b48e1fa75e1a1e3683617d [2025ms]
+2023-05-04 16:56:49.798 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master [419ms]
+2023-05-04 17:11:01.953 [info] > git rev-parse --show-toplevel [2ms]
+2023-05-04 17:11:02.501 [info] > git rev-parse --show-toplevel [8ms]
+2023-05-04 17:11:03.004 [info] > git config --get commit.template [10ms]
+2023-05-04 17:11:03.437 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master [437ms]
+2023-05-04 17:11:03.597 [info] > git status -z -uall [155ms]
+2023-05-04 17:11:04.321 [info] > git rev-parse --show-toplevel [10ms]
+2023-05-04 17:50:07.799 [info] > git rev-parse --show-toplevel [19ms]
+2023-05-04 17:50:07.863 [info] > git rev-parse --show-toplevel [11ms]
+2023-05-04 17:50:07.880 [info] > git rev-parse --show-toplevel [11ms]
+2023-05-04 17:50:07.999 [info] > git rev-parse --show-toplevel [19ms]
+2023-05-04 17:50:08.020 [info] > git rev-parse --show-toplevel [14ms]
+2023-05-04 17:50:08.036 [info] > git rev-parse --show-toplevel [11ms]
+2023-05-04 17:50:08.052 [info] > git rev-parse --show-toplevel [11ms]

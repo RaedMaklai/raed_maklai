@@ -1,0 +1,33 @@
+{
+  "aws": {
+    "account": "prod"
+  },
+  "customer_log_sources": [
+    {
+      "source": [
+        "PSB-DC-03-AD",
+        "PSB-DC-03-MSWinEventLog"],
+      "timezone_offset": "America/Chicago",
+      "type": "ad-nxlog"
+    },
+    {
+      "source": "PSB-DC-03-DNS",
+      "timezone_offset": "America/Chicago",
+      "type": "ad-nxlog-dns"
+    },
+    {
+      "source": "T40-Eagan",
+      "timezone_offset": "America/Chicago",
+      "type": "fw-watchguard"
+    }
+  ],
+  "id": "primesecuritybank3",
+  "sensors": {
+    "nmap": {
+      "bypass": [
+        "0.0.0.0/0"
+      ]
+    }
+  },
+  "type": "deployment"
+}

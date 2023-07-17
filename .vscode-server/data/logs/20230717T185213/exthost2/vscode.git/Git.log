@@ -1,0 +1,74 @@
+2023-07-17 18:53:21.840 [info] Log level: Info
+2023-07-17 18:53:21.840 [info] Validating found git in: "git"
+2023-07-17 18:53:21.840 [info] Using git "2.7.4" from "git"
+2023-07-17 18:53:21.840 [info] > git rev-parse --show-toplevel [32ms]
+2023-07-17 18:53:21.840 [info] fatal: Not a git repository (or any parent up to mount point /home)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2023-07-17 18:53:21.840 [info] > git rev-parse --show-toplevel [6ms]
+2023-07-17 18:53:21.840 [info] fatal: Not a git repository (or any parent up to mount point /home)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2023-07-17 18:53:21.840 [info] > git rev-parse --show-toplevel [2ms]
+2023-07-17 18:53:21.840 [info] fatal: Not a git repository (or any parent up to mount point /home)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2023-07-17 18:53:21.840 [info] > git rev-parse --show-toplevel [3ms]
+2023-07-17 18:53:21.840 [info] fatal: Not a git repository (or any parent up to mount point /home)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2023-07-17 18:53:21.840 [info] > git rev-parse --show-toplevel [3ms]
+2023-07-17 18:53:21.840 [info] fatal: Not a git repository (or any parent up to mount point /home)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2023-07-17 18:53:21.840 [info] > git rev-parse --show-toplevel [4ms]
+2023-07-17 18:53:21.840 [info] fatal: Not a git repository (or any parent up to mount point /home)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2023-07-17 18:53:21.840 [info] > git rev-parse --show-toplevel [3ms]
+2023-07-17 18:53:21.840 [info] fatal: Not a git repository (or any parent up to mount point /home)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2023-07-17 18:53:21.840 [info] > git rev-parse --show-toplevel [4ms]
+2023-07-17 18:53:21.840 [info] fatal: Not a git repository (or any parent up to mount point /home)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2023-07-17 18:53:21.840 [info] > git rev-parse --show-toplevel [3ms]
+2023-07-17 18:53:21.840 [info] fatal: Not a git repository (or any parent up to mount point /home)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2023-07-17 18:53:21.840 [info] > git rev-parse --show-toplevel [7ms]
+2023-07-17 18:53:21.840 [info] > git rev-parse --git-dir --git-common-dir [6ms]
+2023-07-17 18:53:21.840 [info] Open repository: /home/raed_maklai/volatile_configs-1
+2023-07-17 18:53:21.840 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master [11ms]
+2023-07-17 18:53:21.840 [info] > git config --get commit.template [8ms]
+2023-07-17 18:53:21.840 [info] > git status -z -uall [34ms]
+2023-07-17 18:53:21.871 [info] > git config --get commit.template [34ms]
+2023-07-17 18:53:21.902 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master [32ms]
+2023-07-17 18:53:21.947 [info] > git status -z -uall [41ms]
+2023-07-17 18:53:22.412 [info] > git check-ignore -v -z --stdin [14ms]
+2023-07-17 18:53:23.509 [info] > git config --local branch.master.github-pr-owner-number [72ms]
+2023-07-17 18:53:23.528 [info] > git config --get commit.template [14ms]
+2023-07-17 18:53:23.532 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master [12ms]
+2023-07-17 18:53:23.562 [info] > git status -z -uall [26ms]
+2023-07-17 18:53:57.825 [info] > git rev-parse --show-toplevel [1ms]
+2023-07-17 18:53:57.826 [info] fatal: Not a git repository (or any parent up to mount point /home)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2023-07-17 18:55:25.294 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master [11ms]
+2023-07-17 18:55:25.301 [info] > git config --get commit.template [13ms]
+2023-07-17 18:55:25.345 [info] > git status -z -uall [39ms]
+2023-07-17 18:58:15.455 [warning] ENOENT: no such file or directory, open '/home/raed_maklai/volatile_configs-1/.git/HEAD'
+2023-07-17 18:58:15.472 [warning] getRemotes() - ENOENT: no such file or directory, open '/home/raed_maklai/volatile_configs-1/.git/config'
+2023-07-17 18:58:15.492 [warning] ENOENT: no such file or directory, open '/home/raed_maklai/volatile_configs-1/.git/HEAD'
+2023-07-17 18:58:15.506 [warning] getRemotes() - ENOENT: no such file or directory, open '/home/raed_maklai/volatile_configs-1/.git/config'
+2023-07-17 19:01:00.507 [info] > git init [381ms]
+2023-07-17 19:01:00.537 [info] > git rev-parse --show-toplevel [22ms]
+2023-07-17 19:01:00.553 [info] > git rev-parse --git-dir --git-common-dir [12ms]
+2023-07-17 19:01:00.558 [info] Open repository: /home/raed_maklai
+2023-07-17 19:01:00.572 [info] No remotes found in the git config file.
+2023-07-17 19:01:00.599 [info] > git config --get commit.template [28ms]
+2023-07-17 19:01:00.599 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master [23ms]
+2023-07-17 19:01:00.813 [info] > git rev-parse --show-toplevel [12ms]
+2023-07-17 19:01:10.796 [info] > git status -z -uall [10192ms]
+2023-07-17 19:01:11.427 [info] No remotes found in the git config file.
+2023-07-17 19:01:11.429 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master [490ms]
+2023-07-17 19:01:11.430 [info] > git config --get commit.template [498ms]
+2023-07-17 19:01:11.441 [info] > git config --local branch.master.github-pr-owner-number [513ms]
+2023-07-17 19:01:11.453 [info] > git status -z -uall [14ms] (cancelled)
+2023-07-17 19:01:11.463 [info] No remotes found in the git config file.
+2023-07-17 19:01:11.468 [info] > git config --get commit.template [16ms]
+2023-07-17 19:01:11.481 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master [18ms]
+2023-07-17 19:01:12.488 [info] > git status -z -uall [999ms]
+2023-07-17 19:01:12.585 [info] > git check-ignore -v -z --stdin [18ms]
+2023-07-17 19:01:17.919 [info] > git check-ignore -v -z --stdin [18ms]

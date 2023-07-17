@@ -1,0 +1,50 @@
+2023-04-24 15:12:29.788 [info] 
+
+
+
+
+2023-04-24 15:12:29.859 [info] Extension host agent started.
+2023-04-24 15:12:30.385 [info] [127.0.0.1][928d474f][ManagementConnection] New connection established.
+2023-04-24 15:12:30.523 [info] [127.0.0.1][40933ddc][ExtensionHostConnection] New connection established.
+2023-04-24 15:12:30.530 [info] [127.0.0.1][40933ddc][ExtensionHostConnection] <16915> Launched Extension Host Process.
+2023-04-24 15:12:42.475 [info] [127.0.0.1][928d474f][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2023-04-24 15:12:42.499 [info] [127.0.0.1][40933ddc][ExtensionHostConnection] <16915> Extension Host Process exited with code: 0, signal: null.
+2023-04-24 15:12:42.499 [info] Cancelling previous shutdown timeout
+2023-04-24 15:12:42.499 [info] Last EH closed, waiting before shutting down
+2023-04-24 15:12:46.467 [info] Got delay-shutdown request while in shutdown timeout, delaying
+2023-04-24 15:12:46.468 [info] Cancelling previous shutdown timeout
+2023-04-24 15:12:46.864 [info] [127.0.0.1][1bd58afe][ManagementConnection] New connection established.
+2023-04-24 15:12:46.997 [info] [127.0.0.1][78726209][ExtensionHostConnection] New connection established.
+2023-04-24 15:12:47.016 [info] [127.0.0.1][78726209][ExtensionHostConnection] <17191> Launched Extension Host Process.
+2023-04-24 15:12:49.730 [error] CodeExpectedError: Could not find pty on pty host
+    at L (/home/raed_maklai/.vscode-server/bin/704ed70d4fd1c6bd6342c436f1ede30d1cff4710/out/vs/platform/terminal/node/ptyHostMain.js:28:6849)
+    at L.updateIcon (/home/raed_maklai/.vscode-server/bin/704ed70d4fd1c6bd6342c436f1ede30d1cff4710/out/vs/platform/terminal/node/ptyHostMain.js:28:2680)
+    at Object.call (/home/raed_maklai/.vscode-server/bin/704ed70d4fd1c6bd6342c436f1ede30d1cff4710/out/vs/platform/terminal/node/ptyHostMain.js:17:5043)
+    at g.s (/home/raed_maklai/.vscode-server/bin/704ed70d4fd1c6bd6342c436f1ede30d1cff4710/out/vs/platform/terminal/node/ptyHostMain.js:15:5413)
+    at g.q (/home/raed_maklai/.vscode-server/bin/704ed70d4fd1c6bd6342c436f1ede30d1cff4710/out/vs/platform/terminal/node/ptyHostMain.js:15:4916)
+    at /home/raed_maklai/.vscode-server/bin/704ed70d4fd1c6bd6342c436f1ede30d1cff4710/out/vs/platform/terminal/node/ptyHostMain.js:15:4327
+    at c.invoke (/home/raed_maklai/.vscode-server/bin/704ed70d4fd1c6bd6342c436f1ede30d1cff4710/out/vs/platform/terminal/node/ptyHostMain.js:11:145)
+    at f.deliver (/home/raed_maklai/.vscode-server/bin/704ed70d4fd1c6bd6342c436f1ede30d1cff4710/out/vs/platform/terminal/node/ptyHostMain.js:11:2125)
+    at n.fire (/home/raed_maklai/.vscode-server/bin/704ed70d4fd1c6bd6342c436f1ede30d1cff4710/out/vs/platform/terminal/node/ptyHostMain.js:11:1733)
+    at process.T (/home/raed_maklai/.vscode-server/bin/704ed70d4fd1c6bd6342c436f1ede30d1cff4710/out/vs/platform/terminal/node/ptyHostMain.js:9:21039)
+    at process.emit (node:events:526:28)
+    at emit (node:internal/child_process:938:14)
+    at processTicksAndRejections (node:internal/process/task_queues:84:21)
+2023-04-24 15:12:49.731 [error] CodeExpectedError: Could not find pty on pty host
+    at L (/home/raed_maklai/.vscode-server/bin/704ed70d4fd1c6bd6342c436f1ede30d1cff4710/out/vs/platform/terminal/node/ptyHostMain.js:28:6849)
+    at L.updateTitle (/home/raed_maklai/.vscode-server/bin/704ed70d4fd1c6bd6342c436f1ede30d1cff4710/out/vs/platform/terminal/node/ptyHostMain.js:28:2630)
+    at Object.call (/home/raed_maklai/.vscode-server/bin/704ed70d4fd1c6bd6342c436f1ede30d1cff4710/out/vs/platform/terminal/node/ptyHostMain.js:17:5043)
+    at g.s (/home/raed_maklai/.vscode-server/bin/704ed70d4fd1c6bd6342c436f1ede30d1cff4710/out/vs/platform/terminal/node/ptyHostMain.js:15:5413)
+    at g.q (/home/raed_maklai/.vscode-server/bin/704ed70d4fd1c6bd6342c436f1ede30d1cff4710/out/vs/platform/terminal/node/ptyHostMain.js:15:4916)
+    at /home/raed_maklai/.vscode-server/bin/704ed70d4fd1c6bd6342c436f1ede30d1cff4710/out/vs/platform/terminal/node/ptyHostMain.js:15:4327
+    at c.invoke (/home/raed_maklai/.vscode-server/bin/704ed70d4fd1c6bd6342c436f1ede30d1cff4710/out/vs/platform/terminal/node/ptyHostMain.js:11:145)
+    at f.deliver (/home/raed_maklai/.vscode-server/bin/704ed70d4fd1c6bd6342c436f1ede30d1cff4710/out/vs/platform/terminal/node/ptyHostMain.js:11:2125)
+    at n.fire (/home/raed_maklai/.vscode-server/bin/704ed70d4fd1c6bd6342c436f1ede30d1cff4710/out/vs/platform/terminal/node/ptyHostMain.js:11:1733)
+    at process.T (/home/raed_maklai/.vscode-server/bin/704ed70d4fd1c6bd6342c436f1ede30d1cff4710/out/vs/platform/terminal/node/ptyHostMain.js:9:21039)
+    at process.emit (node:events:526:28)
+    at emit (node:internal/child_process:938:14)
+    at processTicksAndRejections (node:internal/process/task_queues:84:21)
+2023-04-24 15:17:46.469 [info] New EH opened, aborting shutdown
+2023-04-25 04:24:27.554 [info] [127.0.0.1][78726209][ExtensionHostConnection] <17191> Extension Host Process exited with code: 0, signal: null.
+2023-04-25 04:24:27.555 [info] Last EH closed, waiting before shutting down
+2023-04-25 04:29:27.560 [info] Last EH closed, shutting down

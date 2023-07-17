@@ -1,0 +1,24 @@
+2023-05-04 16:36:08.042 [info] Looking for git repository
+2023-05-04 16:36:08.042 [info] Found 0 repositories during activation
+2023-05-04 16:36:08.042 [info] Git repository found, initializing review manager and pr tree view.
+2023-05-04 16:36:08.042 [info] Registering git provider
+2023-05-04 16:36:08.042 [info] Review> Validate state in progress
+2023-05-04 16:36:08.042 [info] Review> Validating state...
+2023-05-04 16:36:08.042 [info] Found GitHub remote for folder /mnt/disk1/sework/raed_maklai/volatile_configs
+2023-05-04 16:36:08.269 [info] Repo state for file:///mnt/disk1/sework/raed_maklai/volatile_configs changed.
+2023-05-04 16:36:08.269 [info] Repo file:///mnt/disk1/sework/raed_maklai/volatile_configs has already been setup.
+2023-05-04 16:36:09.195 [info] Review> current branch master is associated with pull request #107303
+2023-05-04 16:36:09.195 [info] Review> Resolving pull request
+2023-05-04 16:36:09.629 [info] Review> no matching pull request metadata found for current branch master
+2023-05-04 16:36:19.604 [error] GitHubRepository> Fetching pull requests for branch failed: Error: GraphQL error: Something went wrong while executing your query. Please include `BB6C:7630:118F8CE:121A55F:6453DEF9` when reporting this issue.
+2023-05-04 16:53:31.873 [info] Review> Queuing additional validate state
+2023-05-04 16:54:18.874 [info] Review> Queuing additional validate state
+2023-05-04 16:54:24.619 [info] Review> Queuing additional validate state
+2023-05-04 16:56:00.023 [info] CreatePullRequestViewProvider> Initializing "create" view: {"availableBaseRemotes":[{"owner":"RaedMaklai","repositoryName":"volatile_configs"},{"owner":"rtkwlf","repositoryName":"volatile_configs"}],"availableCompareRemotes":[{"owner":"RaedMaklai","repositoryName":"volatile_configs"},{"owner":"rtkwlf","repositoryName":"volatile_configs"},{"owner":"RaedMaklai","repositoryName":"volatile_configs"}],"defaultBaseRemote":{"owner":"rtkwlf","repositoryName":"volatile_configs"},"defaultBaseBranch":"master","defaultCompareRemote":{"owner":"rtkwlf","repositoryName":"volatile_configs"},"defaultCompareBranch":"master","branchesForRemote":["master"],"branchesForCompare":["master"],"defaultTitle":"Master","defaultDescription":"","defaultMergeMethod":"merge","allowAutoMerge":false,"mergeMethodsAvailability":{"merge":true,"squash":true,"rebase":true},"autoMergeDefault":false,"createError":"","labels":[],"isDraftDefault":false,"isDarkTheme":false}
+2023-05-04 16:56:05.701 [warning] GitHubRepository> List branches timeout hit.
+2023-05-04 16:56:08.289 [warning] GitHubRepository> List branches timeout hit.
+2023-05-04 16:56:11.157 [warning] GitHubRepository> List branches timeout hit.
+2023-05-04 16:56:13.212 [warning] GitHubRepository> List branches timeout hit.
+2023-05-04 16:56:22.373 [warning] GitHubRepository> List branches timeout hit.
+2023-05-04 16:57:00.225 [error] GitHubRepository> Unable to create PR: Error: Network error: Response not successful: Received status code 502
+2023-05-04 16:57:00.227 [error] FolderRepositoryManager> Creating pull requests failed: Error: Network error: Response not successful: Received status code 502

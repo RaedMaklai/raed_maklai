@@ -1,0 +1,166 @@
+2023-05-04 18:14:54.405 [info] Looking for git repository
+2023-05-04 18:14:54.405 [info] Found 0 repositories during activation
+2023-05-04 18:14:54.405 [info] Git repository found, initializing review manager and pr tree view.
+2023-05-04 18:14:54.469 [info] Registering git provider
+2023-05-04 18:14:54.591 [info] Repository file:///mnt/disk1/sework/raed_maklai/volatile_configs has been opened
+2023-05-04 18:14:54.591 [info] Review> Validate state in progress
+2023-05-04 18:14:54.591 [info] Review> Validating state...
+2023-05-04 18:14:54.591 [info] Cannot updates repositories as git is uninitialized
+2023-05-04 18:14:54.743 [info] Git initialization state changed: state=initialized
+2023-05-04 18:14:54.743 [info] Review> Queuing additional validate state
+2023-05-04 18:14:55.008 [info] Review> Validating state...
+2023-05-04 18:14:55.008 [warning] No remotes found. The following remotes are missing: origin, upstream
+2023-05-04 18:14:55.008 [info] No GitHub remotes found for folder /mnt/disk1/sework/raed_maklai/volatile_configs
+2023-05-04 18:14:55.186 [info] Review> Validate state in progress
+2023-05-04 18:14:55.186 [info] Review> Validating state...
+2023-05-04 18:14:55.186 [info] Repo state for file:///mnt/disk1/sework/raed_maklai/volatile_configs changed.
+2023-05-04 18:14:55.186 [info] Repo file:///mnt/disk1/sework/raed_maklai/volatile_configs has already been setup.
+2023-05-04 18:14:55.300 [info] Found GitHub remote for folder /mnt/disk1/sework/raed_maklai/volatile_configs
+2023-05-04 18:14:56.458 [info] Review> current branch master is associated with pull request #107303
+2023-05-04 18:14:56.458 [info] Review> Resolving pull request
+2023-05-04 18:14:56.887 [info] Review> no matching pull request metadata found for current branch master
+2023-05-04 18:14:58.606 [info] Review> Fetching pull request data
+2023-05-04 18:14:58.606 [info] PullRequestTree> Adding PR #107303 to tree
+2023-05-04 18:14:58.950 [info] Review> Register comments provider
+2023-05-04 18:14:58.953 [info] Review> Display pull request status bar indicator and refresh pull request tree view.
+2023-05-04 18:14:58.953 [info] Review> Using focus mode = true.
+2023-05-04 18:14:58.953 [info] Review> State validation silent = true.
+2023-05-04 18:14:58.953 [info] Review> PR show should show = false.
+2023-05-04 18:50:50.249 [info] Review> Validate state in progress
+2023-05-04 18:50:50.250 [info] Review> Validating state...
+2023-05-04 18:50:50.454 [info] Found GitHub remote for folder /mnt/disk1/sework/raed_maklai/volatile_configs
+2023-05-04 18:50:50.761 [info] Trying to use globalState for mentionable users.
+2023-05-04 18:50:51.382 [info] Review> current branch master is associated with pull request #107303
+2023-05-04 18:50:51.382 [info] Review> Resolving pull request
+2023-05-04 18:50:51.458 [info] Using globalState mentionable users for 1.
+2023-05-04 18:50:51.763 [info] Review> no matching pull request metadata found for current branch master
+2023-05-04 18:50:59.754 [info] Review> Validate state in progress
+2023-05-04 18:50:59.755 [info] Review> Validating state...
+2023-05-04 18:50:59.855 [info] Found GitHub remote for folder /mnt/disk1/sework/raed_maklai/volatile_configs
+2023-05-04 18:51:00.124 [info] Trying to use globalState for mentionable users.
+2023-05-04 18:51:00.756 [info] Review> current branch master is associated with pull request #107303
+2023-05-04 18:51:00.756 [info] Review> Resolving pull request
+2023-05-04 18:51:00.771 [info] Using globalState mentionable users for 1.
+2023-05-04 18:51:01.172 [info] Review> no matching pull request metadata found for current branch master
+2023-05-04 18:51:02.049 [info] Review> Fetching pull request data
+2023-05-04 18:51:02.049 [info] PullRequestTree> Adding PR #107303 to tree
+2023-05-04 18:51:02.358 [info] Review> Register comments provider
+2023-05-04 18:51:02.370 [info] Review> Display pull request status bar indicator and refresh pull request tree view.
+2023-05-04 18:51:02.373 [info] Review> Using focus mode = true.
+2023-05-04 18:51:02.373 [info] Review> State validation silent = true.
+2023-05-04 18:51:02.373 [info] Review> PR show should show = false.
+2023-05-04 18:51:45.411 [info] PullRequestTree> Creating file and commit nodes for PR #107303
+2023-05-04 18:51:45.509 [info] PullRequestTree> Getting children for Files node
+2023-05-04 18:51:45.509 [info] PullRequestTree> Got all children for Files node
+2023-05-04 18:52:10.761 [info] CreatePullRequestViewProvider> Initializing "create" view: {"availableBaseRemotes":[{"owner":"RaedMaklai","repositoryName":"volatile_configs"},{"owner":"rtkwlf","repositoryName":"volatile_configs"}],"availableCompareRemotes":[{"owner":"RaedMaklai","repositoryName":"volatile_configs"},{"owner":"rtkwlf","repositoryName":"volatile_configs"},{"owner":"RaedMaklai","repositoryName":"volatile_configs"}],"defaultBaseRemote":{"owner":"rtkwlf","repositoryName":"volatile_configs"},"defaultBaseBranch":"master","defaultCompareRemote":{"owner":"rtkwlf","repositoryName":"volatile_configs"},"defaultCompareBranch":"master","branchesForRemote":["master"],"branchesForCompare":["master"],"defaultTitle":"Master","defaultDescription":"","defaultMergeMethod":"merge","allowAutoMerge":false,"mergeMethodsAvailability":{"merge":true,"squash":true,"rebase":true},"autoMergeDefault":false,"createError":"","labels":[],"isDraftDefault":false,"isDarkTheme":false}
+2023-05-04 18:52:16.539 [warning] GitHubRepository> List branches timeout hit.
+2023-05-04 18:52:19.060 [error] GitHubRepository> Unable to create PR: Error: GraphQL error: No commits between master and master
+2023-05-04 18:52:19.061 [error] FolderRepositoryManager> Creating pull requests failed: Error: GraphQL error: No commits between master and master
+2023-05-04 18:52:22.155 [warning] GitHubRepository> List branches timeout hit.
+2023-05-04 18:52:32.489 [warning] GitHubRepository> List branches timeout hit.
+2023-05-04 18:52:37.402 [warning] GitHubRepository> List branches timeout hit.
+2023-05-04 18:52:42.237 [warning] GitHubRepository> List branches timeout hit.
+2023-05-04 18:52:43.597 [info] PullRequestGitHelper> associate master with Pull Request #107765
+2023-05-04 18:52:44.908 [info] PullRequestTree> Review threads have changed, refreshing Files node
+2023-05-04 18:52:44.908 [info] PullRequestTree> Review threads have changed, refreshing Commits node
+2023-05-04 18:52:45.007 [info] PullRequestTree> Getting children for Files node
+2023-05-04 18:52:45.007 [info] PullRequestTree> Got all children for Files node
+2023-05-04 18:52:45.169 [info] Review> Validate state in progress
+2023-05-04 18:52:45.169 [info] Review> Validating state...
+2023-05-04 18:52:45.267 [info] Found GitHub remote for folder /mnt/disk1/sework/raed_maklai/volatile_configs
+2023-05-04 18:52:45.530 [info] Trying to use globalState for mentionable users.
+2023-05-04 18:52:46.133 [info] Using globalState mentionable users for 1.
+2023-05-04 18:52:46.215 [info] Review> current branch master is associated with pull request #107765
+2023-05-04 18:52:46.215 [info] Review> Resolving pull request
+2023-05-04 18:52:47.263 [info] Review> Fetching pull request data
+2023-05-04 18:52:47.263 [info] PullRequestTree> Adding PR #107765 to tree
+2023-05-04 18:52:47.557 [info] Review> Register comments provider
+2023-05-04 18:52:47.570 [info] Review> Display pull request status bar indicator and refresh pull request tree view.
+2023-05-04 18:52:47.570 [info] Review> Using focus mode = true.
+2023-05-04 18:52:47.570 [info] Review> State validation silent = false.
+2023-05-04 18:52:47.570 [info] Review> PR show should show = false.
+2023-05-04 18:52:47.858 [info] PullRequestTree> Creating file and commit nodes for PR #107765
+2023-05-04 18:52:47.908 [info] PullRequestTree> Local files have changed, refreshing Files node
+2023-05-04 18:52:47.908 [info] PullRequestTree> Local files have changed, refreshing Files node
+2023-05-04 18:52:47.960 [info] PullRequestTree> Review threads have changed, refreshing Files node
+2023-05-04 18:52:47.960 [info] PullRequestTree> Review threads have changed, refreshing Commits node
+2023-05-04 18:52:47.960 [info] PullRequestTree> Comments have changed, refreshing Files node
+2023-05-04 18:52:47.960 [info] PullRequestTree> Comments have changed, refreshing Commits node
+2023-05-04 18:52:47.960 [info] PullRequestTree> Review threads have changed, refreshing Files node
+2023-05-04 18:52:47.960 [info] PullRequestTree> Review threads have changed, refreshing Commits node
+2023-05-04 18:52:47.963 [info] PullRequestTree> Getting children for Files node
+2023-05-04 18:52:47.976 [info] PullRequestTree> Got all children for Files node
+2023-05-04 18:52:48.269 [info] PullRequestTree> Getting children for Files node
+2023-05-04 18:52:48.269 [info] PullRequestTree> Got all children for Files node
+2023-05-04 18:55:13.641 [info] PullRequestTree> Local files have changed, refreshing Files node
+2023-05-04 18:55:13.642 [info] PullRequestTree> Local files have changed, refreshing Files node
+2023-05-04 18:55:13.946 [info] PullRequestTree> Comments have changed, refreshing Files node
+2023-05-04 18:55:13.946 [info] PullRequestTree> Comments have changed, refreshing Commits node
+2023-05-04 18:55:13.946 [info] PullRequestTree> Review threads have changed, refreshing Files node
+2023-05-04 18:55:13.946 [info] PullRequestTree> Review threads have changed, refreshing Commits node
+2023-05-04 18:55:13.953 [info] PullRequestTree> Getting children for Files node
+2023-05-04 18:55:13.953 [info] PullRequestTree> Got all children for Files node
+2023-05-04 18:55:14.209 [info] PullRequestTree> Getting children for Files node
+2023-05-04 18:55:14.209 [info] PullRequestTree> Got all children for Files node
+2023-05-04 18:55:14.486 [info] PullRequestTree> Getting children for Files node
+2023-05-04 18:55:14.486 [info] PullRequestTree> Got all children for Files node
+2023-05-04 19:00:39.426 [info] PullRequestTree> Local files have changed, refreshing Files node
+2023-05-04 19:00:39.427 [info] PullRequestTree> Local files have changed, refreshing Files node
+2023-05-04 19:00:39.723 [info] PullRequestTree> Comments have changed, refreshing Files node
+2023-05-04 19:00:39.723 [info] PullRequestTree> Comments have changed, refreshing Commits node
+2023-05-04 19:00:39.723 [info] PullRequestTree> Review threads have changed, refreshing Files node
+2023-05-04 19:00:39.723 [info] PullRequestTree> Review threads have changed, refreshing Commits node
+2023-05-04 19:01:03.028 [info] PullRequestTree> Getting children for Files node
+2023-05-04 19:01:03.029 [info] PullRequestTree> Got all children for Files node
+2023-05-04 19:06:36.207 [info] PullRequestTree> Local files have changed, refreshing Files node
+2023-05-04 19:06:36.208 [info] PullRequestTree> Local files have changed, refreshing Files node
+2023-05-04 19:06:36.506 [info] PullRequestTree> Comments have changed, refreshing Files node
+2023-05-04 19:06:36.506 [info] PullRequestTree> Comments have changed, refreshing Commits node
+2023-05-04 19:06:36.506 [info] PullRequestTree> Review threads have changed, refreshing Files node
+2023-05-04 19:06:36.506 [info] PullRequestTree> Review threads have changed, refreshing Commits node
+2023-05-04 19:32:12.128 [info] PullRequestTree> Getting children for Files node
+2023-05-04 19:32:12.129 [info] PullRequestTree> Got all children for Files node
+2023-05-04 19:32:12.430 [info] PullRequestTree> Getting children for Files node
+2023-05-04 19:32:12.430 [info] PullRequestTree> Got all children for Files node
+2023-05-04 19:32:12.711 [info] PullRequestTree> Getting children for Files node
+2023-05-04 19:32:12.711 [info] PullRequestTree> Got all children for Files node
+2023-05-04 19:32:12.980 [info] PullRequestTree> Getting children for Files node
+2023-05-04 19:32:12.980 [info] PullRequestTree> Got all children for Files node
+2023-05-04 19:32:13.247 [info] PullRequestTree> Getting children for Files node
+2023-05-04 19:32:13.247 [info] PullRequestTree> Got all children for Files node
+2023-05-04 19:37:36.007 [info] PullRequestTree> Local files have changed, refreshing Files node
+2023-05-04 19:37:36.008 [info] PullRequestTree> Local files have changed, refreshing Files node
+2023-05-04 19:37:36.329 [info] PullRequestTree> Comments have changed, refreshing Files node
+2023-05-04 19:37:36.329 [info] PullRequestTree> Comments have changed, refreshing Commits node
+2023-05-04 19:37:36.329 [info] PullRequestTree> Review threads have changed, refreshing Files node
+2023-05-04 19:37:36.329 [info] PullRequestTree> Review threads have changed, refreshing Commits node
+2023-05-04 19:38:02.569 [info] PullRequestTree> Getting children for Files node
+2023-05-04 19:38:02.570 [info] PullRequestTree> Got all children for Files node
+2023-05-04 19:41:02.103 [info] PullRequestTree> Getting children for Files node
+2023-05-04 19:41:02.103 [info] PullRequestTree> Got all children for Files node
+2023-05-04 19:43:04.036 [info] PullRequestTree> Local files have changed, refreshing Files node
+2023-05-04 19:43:04.037 [info] PullRequestTree> Local files have changed, refreshing Files node
+2023-05-04 19:43:04.347 [info] PullRequestTree> Comments have changed, refreshing Files node
+2023-05-04 19:43:04.347 [info] PullRequestTree> Comments have changed, refreshing Commits node
+2023-05-04 19:43:04.347 [info] PullRequestTree> Review threads have changed, refreshing Files node
+2023-05-04 19:43:04.347 [info] PullRequestTree> Review threads have changed, refreshing Commits node
+2023-05-04 19:44:02.558 [info] PullRequestTree> Getting children for Files node
+2023-05-04 19:44:02.559 [info] PullRequestTree> Got all children for Files node
+2023-05-04 19:47:02.563 [info] PullRequestTree> Getting children for Files node
+2023-05-04 19:47:02.563 [info] PullRequestTree> Got all children for Files node
+2023-05-04 19:49:04.117 [info] PullRequestTree> Local files have changed, refreshing Files node
+2023-05-04 19:49:04.117 [info] PullRequestTree> Local files have changed, refreshing Files node
+2023-05-04 19:49:04.431 [info] PullRequestTree> Comments have changed, refreshing Files node
+2023-05-04 19:49:04.431 [info] PullRequestTree> Comments have changed, refreshing Commits node
+2023-05-04 19:49:04.431 [info] PullRequestTree> Review threads have changed, refreshing Files node
+2023-05-04 19:49:04.431 [info] PullRequestTree> Review threads have changed, refreshing Commits node
+2023-05-04 19:50:02.561 [info] PullRequestTree> Getting children for Files node
+2023-05-04 19:50:02.562 [info] PullRequestTree> Got all children for Files node
+2023-05-04 19:53:02.556 [info] PullRequestTree> Getting children for Files node
+2023-05-04 19:53:02.557 [info] PullRequestTree> Got all children for Files node
+2023-05-04 19:53:56.431 [info] PullRequestTree> Getting children for Files node
+2023-05-04 19:53:56.432 [info] PullRequestTree> Got all children for Files node
+2023-05-04 19:53:56.740 [info] PullRequestTree> Getting children for Files node
+2023-05-04 19:53:56.740 [info] PullRequestTree> Got all children for Files node
+2023-05-04 19:53:57.028 [info] PullRequestTree> Getting children for Files node
+2023-05-04 19:53:57.028 [info] PullRequestTree> Got all children for Files node

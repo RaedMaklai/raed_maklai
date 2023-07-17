@@ -1,0 +1,43 @@
+2023-05-17 17:24:55.625 [info] Looking for git repository
+2023-05-17 17:24:55.625 [info] Found 0 repositories during activation
+2023-05-17 17:24:55.625 [info] Git repository found, initializing review manager and pr tree view.
+2023-05-17 17:24:55.625 [info] Registering git provider
+2023-05-17 17:24:55.625 [info] Repository file:///mnt/disk1/sework/raed_maklai/volatile_configs has been opened
+2023-05-17 17:24:55.625 [info] Review> Validate state in progress
+2023-05-17 17:24:55.625 [info] Review> Validating state...
+2023-05-17 17:24:55.625 [info] Cannot updates repositories as git is uninitialized
+2023-05-17 17:24:55.780 [info] Git initialization state changed: state=initialized
+2023-05-17 17:24:55.780 [info] Review> Queuing additional validate state
+2023-05-17 17:24:55.831 [info] GitContentFileSystemProvider> Getting change model (file:///mnt/disk1/sework/raed_maklai/volatile_configs) content for commit 677015d02a08a459106b4ef4997799241245c32e and path /mnt/disk1/sework/raed_maklai/volatile_configs/deployments/enerquip2.json
+2023-05-17 17:24:55.839 [info] GitContentFileSystemProvider> Getting repository (file:///mnt/disk1/sework/raed_maklai/volatile_configs) content for commit 677015d02a08a459106b4ef4997799241245c32e and path /mnt/disk1/sework/raed_maklai/volatile_configs/deployments/enerquip2.json
+2023-05-17 17:24:56.001 [info] Review> Validating state...
+2023-05-17 17:24:56.001 [warning] No remotes found. The following remotes are missing: origin, upstream
+2023-05-17 17:24:56.001 [info] No GitHub remotes found for folder /mnt/disk1/sework/raed_maklai/volatile_configs
+2023-05-17 17:25:18.958 [info] Review> Validate state in progress
+2023-05-17 17:25:18.959 [info] Review> Validating state...
+2023-05-17 17:25:18.960 [info] Repo state for file:///mnt/disk1/sework/raed_maklai/volatile_configs changed.
+2023-05-17 17:25:18.960 [info] Repo file:///mnt/disk1/sework/raed_maklai/volatile_configs has already been setup.
+2023-05-17 17:25:19.044 [info] Found GitHub remote for folder /mnt/disk1/sework/raed_maklai/volatile_configs
+2023-05-17 17:25:20.276 [info] Review> current branch master is associated with pull request #107791
+2023-05-17 17:25:20.276 [info] Review> Resolving pull request
+2023-05-17 17:25:20.685 [info] Review> no matching pull request metadata found for current branch master
+2023-05-17 17:25:23.691 [info] Review> Fetching pull request data
+2023-05-17 17:25:23.692 [info] PullRequestTree> Adding PR #107791 to tree
+2023-05-17 17:25:23.946 [info] Review> Register comments provider
+2023-05-17 17:25:23.948 [info] Review> Display pull request status bar indicator and refresh pull request tree view.
+2023-05-17 17:25:23.948 [info] Review> Using focus mode = true.
+2023-05-17 17:25:23.948 [info] Review> State validation silent = true.
+2023-05-17 17:25:23.948 [info] Review> PR show should show = false.
+2023-05-17 17:25:56.465 [info] Review> Validate state in progress
+2023-05-17 17:25:56.466 [info] Review> Validating state...
+2023-05-17 17:25:56.468 [error] FolderRepositoryManager> Error when fetching: From github.com:rtkwlf/volatile_configs
+ * branch            master     -> FETCH_HEAD
+error: cannot lock ref 'refs/remotes/rtkwlf/master': ref refs/remotes/rtkwlf/master is at 38497b55d41b06cb556bd0144e69f800bd4d7513 but expected c68afe22736d8f4ad7c14893a2d0121799060a1b
+ ! c68afe2..38497b5  master     -> rtkwlf/master  (unable to update local ref)
+
+2023-05-17 17:25:56.546 [info] Found GitHub remote for folder /mnt/disk1/sework/raed_maklai/volatile_configs
+2023-05-17 17:25:56.803 [info] Trying to use globalState for mentionable users.
+2023-05-17 17:25:57.569 [info] Review> current branch master is associated with pull request #107791
+2023-05-17 17:25:57.569 [info] Review> Resolving pull request
+2023-05-17 17:25:58.229 [info] Using globalState mentionable users for 1.
+2023-05-17 17:25:58.579 [info] Review> no matching pull request metadata found for current branch master

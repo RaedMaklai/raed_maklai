@@ -1,0 +1,85 @@
+{
+  "aws": {
+    "account": "prod"
+  },
+  "customer_log_sources": [
+    {
+      "source": "10.11.20.1",
+      "timezone_offset": "America/New_York",
+      "type": "fw-firepower-asa"
+    },
+    {
+      "source": "10.11.20.2",
+      "timezone_offset": "UTC",
+      "type": "fw-firepower-asa"
+    },
+    {
+      "source": "10.11.20.21",
+      "timezone_offset": "America/New_York",
+      "type": "fw-firepower-asa"
+    },
+    {
+      "source": "10.11.20.22",
+      "timezone_offset": "America/New_York",
+      "type": "fw-firepower-asa"
+    },
+    {
+      "source": [
+        "CACDC1-AD",
+        "CACDC1-MSWinEventLog"
+      ],
+      "timezone_offset": "America/New_York",
+      "type": "ad-nxlog"
+    },
+    {
+      "source": "CACDC1-DHCP",
+      "timezone_offset": "America/New_York",
+      "type": "ad-nxlog-dhcp"
+    },
+    {
+      "source": "CACDC1-DNS",
+      "timezone_offset": "America/New_York",
+      "type": "ad-nxlog-dns"
+    },
+    {
+      "source":[
+        "CACDC2-AD",
+        "CACDC2-MSWinEventLog"
+      ],
+      "timezone_offset": "America/New_York",
+      "type": "ad-nxlog"
+    },
+    {
+      "source": "CACDC2-DNS",
+      "timezone_offset": "America/New_York",
+      "type": "ad-nxlog-dns"
+    },
+    {
+      "source":[
+        "CACDC3-AD",
+        "CACDC3-MSWinEventLog"
+      ],
+      "timezone_offset": "America/New_York",
+      "type": "ad-nxlog"
+    },
+    {
+      "source": "CACDC3-DHCP",
+      "timezone_offset": "America/New_York",
+      "type": "ad-nxlog-dhcp"
+    },
+    {
+      "source": "CACDC3-DNS",
+      "timezone_offset": "America/New_York",
+      "type": "ad-nxlog-dns"
+    }
+  ],
+  "id": "cooperclinic1",
+  "sensors": {
+    "nmap": {
+      "bypass": [
+        "0.0.0.0/0"
+      ]
+    }
+  },
+  "type": "deployment"
+}

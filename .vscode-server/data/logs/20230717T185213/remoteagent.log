@@ -1,0 +1,53 @@
+2023-07-17 18:52:13.526 [info] 
+
+
+
+
+2023-07-17 18:52:13.576 [info] Extension host agent started.
+2023-07-17 18:52:13.876 [info] [127.0.0.1][0695dec2][ManagementConnection] New connection established.
+2023-07-17 18:52:14.045 [info] [127.0.0.1][89861c47][ExtensionHostConnection] New connection established.
+2023-07-17 18:52:14.207 [info] [127.0.0.1][89861c47][ExtensionHostConnection] <26284> Launched Extension Host Process.
+2023-07-17 18:52:17.795 [info] Getting Manifest... github.vscode-pull-request-github
+2023-07-17 18:52:17.796 [info] Getting Manifest... ms-toolsai.jupyter
+2023-07-17 18:52:17.797 [info] Getting Manifest... ms-toolsai.jupyter-keymap
+2023-07-17 18:52:17.797 [info] Getting Manifest... ms-toolsai.jupyter-renderers
+2023-07-17 18:52:17.851 [info] Installing extension: ms-toolsai.jupyter-keymap
+2023-07-17 18:52:17.858 [info] Installing extension: ms-toolsai.jupyter-renderers
+2023-07-17 18:52:17.860 [info] Installing extension: ms-toolsai.jupyter
+2023-07-17 18:52:17.874 [info] Installing extension: github.vscode-pull-request-github
+2023-07-17 18:52:20.002 [info] Extension signature is verified: ms-toolsai.jupyter-keymap
+2023-07-17 18:52:20.009 [info] Extension signature is verified: ms-toolsai.jupyter-renderers
+2023-07-17 18:52:20.025 [info] Extension signature is verified: ms-toolsai.jupyter
+2023-07-17 18:52:20.082 [info] Extension signature is verified: github.vscode-pull-request-github
+2023-07-17 18:52:20.193 [info] Extracted extension to /home/raed_maklai/.vscode-server/extensions/.27cc73ac-8bca-4345-8b4b-9231b5be1055: ms-toolsai.jupyter-keymap
+2023-07-17 18:52:20.223 [info] Renamed to /home/raed_maklai/.vscode-server/extensions/ms-toolsai.jupyter-keymap-1.1.2
+2023-07-17 18:52:20.233 [info] Extracting extension completed. ms-toolsai.jupyter-keymap
+2023-07-17 18:52:20.257 [info] Extension installed successfully: ms-toolsai.jupyter-keymap
+2023-07-17 18:52:20.267 [info] Marked extension as uninstalled ms-toolsai.jupyter-keymap-1.1.0
+2023-07-17 18:52:21.273 [info] Extracted extension to /home/raed_maklai/.vscode-server/extensions/.49f47665-39d6-4be1-9f05-4c145e40c2a4: ms-toolsai.jupyter-renderers
+2023-07-17 18:52:21.309 [info] Extracted extension to /home/raed_maklai/.vscode-server/extensions/.a60f0e11-18f3-4a9e-b85d-2124f7757bd3: github.vscode-pull-request-github
+2023-07-17 18:52:21.310 [info] Renamed to /home/raed_maklai/.vscode-server/extensions/ms-toolsai.jupyter-renderers-1.0.17
+2023-07-17 18:52:21.322 [info] Extracting extension completed. ms-toolsai.jupyter-renderers
+2023-07-17 18:52:21.339 [info] Extension installed successfully: ms-toolsai.jupyter-renderers
+2023-07-17 18:52:21.354 [info] Renamed to /home/raed_maklai/.vscode-server/extensions/github.vscode-pull-request-github-0.68.1
+2023-07-17 18:52:21.355 [info] Marked extension as uninstalled ms-toolsai.jupyter-renderers-1.0.15
+2023-07-17 18:52:21.369 [info] Extracting extension completed. github.vscode-pull-request-github
+2023-07-17 18:52:21.386 [info] Extension installed successfully: github.vscode-pull-request-github
+2023-07-17 18:52:21.397 [info] Marked extension as uninstalled github.vscode-pull-request-github-0.64.0
+2023-07-17 18:52:23.311 [info] Extracted extension to /home/raed_maklai/.vscode-server/extensions/.8185b1be-f95c-4a6e-86bc-da0f32a98028: ms-toolsai.jupyter
+2023-07-17 18:52:23.351 [info] Renamed to /home/raed_maklai/.vscode-server/extensions/ms-toolsai.jupyter-2023.6.1101941928-linux-x64
+2023-07-17 18:52:23.369 [info] Extracting extension completed. ms-toolsai.jupyter
+2023-07-17 18:52:23.388 [info] Extension installed successfully: ms-toolsai.jupyter
+2023-07-17 18:52:23.401 [info] Marked extension as uninstalled ms-toolsai.jupyter-2023.4.1011241018-linux-x64
+2023-07-17 18:52:26.545 [error] Error: EBUSY: resource busy or locked, unlink '/home/raed_maklai/.vscode-server/data/logs/20230424T151229/.nfs9776d116f4dd699200001138'
+2023-07-17 18:53:15.454 [info] [127.0.0.1][0695dec2][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2023-07-17 18:53:15.490 [info] [127.0.0.1][89861c47][ExtensionHostConnection] <26284> Extension Host Process exited with code: 0, signal: null.
+2023-07-17 18:53:15.490 [info] Cancelling previous shutdown timeout
+2023-07-17 18:53:15.490 [info] Last EH closed, waiting before shutting down
+2023-07-17 18:53:19.198 [info] Got delay-shutdown request while in shutdown timeout, delaying
+2023-07-17 18:53:19.199 [info] Cancelling previous shutdown timeout
+2023-07-17 18:53:19.722 [info] [127.0.0.1][1bd1fed9][ManagementConnection] New connection established.
+2023-07-17 18:53:19.798 [info] [127.0.0.1][9f3f1a89][ExtensionHostConnection] New connection established.
+2023-07-17 18:53:19.811 [info] [127.0.0.1][9f3f1a89][ExtensionHostConnection] <26553> Launched Extension Host Process.
+2023-07-17 18:58:14.343 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2023-07-17 18:58:19.200 [info] New EH opened, aborting shutdown

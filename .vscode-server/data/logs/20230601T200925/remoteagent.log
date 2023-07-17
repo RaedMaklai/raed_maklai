@@ -1,0 +1,14 @@
+2023-06-01 20:09:25.584 [info] 
+
+
+
+
+2023-06-01 20:09:25.667 [info] Extension host agent started.
+2023-06-01 20:09:26.208 [info] [127.0.0.1][706668f8][ManagementConnection] New connection established.
+2023-06-01 20:09:26.774 [info] [127.0.0.1][66d08555][ExtensionHostConnection] New connection established.
+2023-06-01 20:09:26.809 [info] [127.0.0.1][66d08555][ExtensionHostConnection] <21649> Launched Extension Host Process.
+2023-06-01 20:09:38.093 [error] Error: EBUSY: resource busy or locked, unlink '/home/raed_maklai/.vscode-server/data/logs/20230424T151229/.nfs9776d116f4dd699200001138'
+2023-06-01 20:14:25.668 [info] New EH opened, aborting shutdown
+2023-06-02 00:51:13.038 [info] [127.0.0.1][66d08555][ExtensionHostConnection] <21649> Extension Host Process exited with code: 0, signal: null.
+2023-06-02 00:51:13.040 [info] Last EH closed, waiting before shutting down
+2023-06-02 00:56:13.040 [info] Last EH closed, shutting down

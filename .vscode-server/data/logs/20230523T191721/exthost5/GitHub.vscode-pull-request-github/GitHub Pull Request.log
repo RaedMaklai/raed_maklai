@@ -1,0 +1,4 @@
+2023-05-23 22:35:33.815 [info] Looking for git repository
+2023-05-23 22:35:33.815 [info] Found 0 repositories during activation
+2023-05-23 22:35:33.815 [info] Git repository found, initializing review manager and pr tree view.
+2023-05-23 22:35:33.816 [info] Registering git provider

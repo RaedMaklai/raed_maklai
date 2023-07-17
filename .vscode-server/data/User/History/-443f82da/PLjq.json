@@ -1,0 +1,224 @@
+{
+  "aws": {
+    "account": "prod"
+  },
+  "customer_log_sources": [
+    {
+      "source": [
+        "ABV-DC02P-AD",
+        "ABV-DC02P-MSWinEventLog"
+      ],
+      "timezone_offset": "America/Los_Angeles",
+      "type": "ad-nxlog"
+    },
+    {
+      "source": "ABV-DC02P-DHCP",
+      "timezone_offset": "America/Los_Angeles",
+      "type": "ad-nxlog-dhcp"
+    },
+    {
+      "source": "ABV-DC02P-DNS",
+      "timezone_offset": "America/Los_Angeles",
+      "type": "ad-nxlog-dns"
+    },
+    {
+      "source": [
+        "ALV-DC02P-AD",
+        "ALV-DC02P-MSWinEventLog"
+      ],
+      "timezone_offset": "America/Chicago",
+      "type": "ad-nxlog"
+    },
+    {
+      "source": "ALV-DC02P-DHCP",
+      "timezone_offset": "America/Chicago",
+      "type": "ad-nxlog-dhcp"
+    },
+    {
+      "source": "ALV-DC02P-DNS",
+      "timezone_offset": "America/Chicago",
+      "type": "ad-nxlog-dns"
+    },
+    {
+      "source": [
+        "CLI-DC02P-AD",
+        "CLI-DC02P-MSWinEventLog"
+      ],
+      "timezone_offset": "America/New_York",
+      "type": "ad-nxlog"
+    },
+    {
+      "source": "CLI-DC02P-DHCP",
+      "timezone_offset": "America/New_York",
+      "type": "ad-nxlog-dhcp"
+    },
+    {
+      "source": "CLI-DC02P-DNS",
+      "timezone_offset": "America/New_York",
+      "type": "ad-nxlog-dns"
+    },
+    {
+      "source": [
+        "GOD-DC01P-AD",
+        "GOD-DC01P-MSWinEventLog"
+      ],
+      "timezone_offset": "America/Chicago",
+      "type": "ad-nxlog"
+    },
+    {
+      "source": "GOD-DC01P-DHCP",
+      "timezone_offset": "America/Chicago",
+      "type": "ad-nxlog-dhcp"
+    },
+    {
+      "source": "GOD-DC01P-DNS",
+      "timezone_offset": "America/Chicago",
+      "type": "ad-nxlog-dns"
+    },
+    {
+      "source": [
+        "HDC-DC01P-AD",
+        "HDC-DC01P-MSWinEventLog"
+      ],
+      "timezone_offset": "America/Chicago",
+      "type": "ad-nxlog"
+    },
+    {
+      "source": "HDC-DC01P-DNS",
+      "timezone_offset": "America/Chicago",
+      "type": "ad-nxlog-dns"
+    },
+    {
+      "source": [
+        "hdc-dc03p-AD",
+        "hdc-dc03p-MSWinEventLog"
+      ],
+      "timezone_offset": "America/Chicago",
+      "type": "ad-nxlog"
+    },
+    {
+      "source": "hdc-dc03p-DNS",
+      "timezone_offset": "America/Chicago",
+      "type": "ad-nxlog-dns"
+    },
+    {
+      "source": [
+        "hdc-dc04p-AD",
+        "hdc-dc04p-MSWinEventLog"
+      ],
+      "timezone_offset": "America/Chicago",
+      "type": "ad-nxlog"
+    },
+    {
+      "source": "hdc-dc04p-DNS",
+      "timezone_offset": "America/Chicago",
+      "type": "ad-nxlog-dns"
+    },
+    {
+      "source": [
+        "hdc-dc06p-AD",
+        "hdc-dc06p-MSWinEventLog"
+      ],
+      "timezone_offset": "America/Chicago",
+      "type": "ad-nxlog"
+    },
+    {
+      "source": "hdc-dc06p-DHCP",
+      "timezone_offset": "America/Chicago",
+      "type": "ad-nxlog-dhcp"
+    },
+    {
+      "source": "hdc-dc06p-DNS",
+      "timezone_offset": "America/Chicago",
+      "type": "ad-nxlog-dns"
+    },
+    {
+      "source": [
+        "SON-DC02P-AD",
+        "SON-DC02P-MSWinEventLog"
+      ],
+      "timezone_offset": "America/Chicago",
+      "type": "ad-nxlog"
+    },
+    {
+      "source": "SON-DC02P-DHCP",
+      "timezone_offset": "America/Chicago",
+      "type": "ad-nxlog-dhcp"
+    },
+    {
+      "source": "SON-DC02P-DNS",
+      "timezone_offset": "America/Chicago",
+      "type": "ad-nxlog-dns"
+    },
+    {
+      "source": "TX-HDC-FW01.enervest.net",
+      "timezone_offset": "America/Chicago",
+      "type": "fw-palo-alto"
+    },
+    {
+      "source": "TX-HDC-FW02.enervest.net",
+      "timezone_offset": "America/Chicago",
+      "type": "fw-palo-alto"
+    },
+    {
+      "source": "TX-SON-FW01.enervest.net",
+      "timezone_offset": "America/Chicago",
+      "type": "fw-palo-alto"
+    },
+    {
+      "source": "VA-ABV-FW01.enervest.net",
+      "timezone_offset": "America/New_York",
+      "type": "fw-palo-alto"
+    },
+    {
+      "source": "VA-CLI-FW01.enervest.net",
+      "timezone_offset": "America/New_York",
+      "type": "fw-palo-alto"
+    }
+  ],
+  "id": "enervest3",
+  "sensors": {
+    "nmap": {
+      "bypass": [
+        "10.20.0.0/24",
+        "10.20.1.0/24",
+        "10.20.10.0/24",
+        "10.20.20.0/24",
+        "10.20.3.0/24",
+        "10.20.32.0/24",
+        "10.20.34.0/24",
+        "10.20.72.0/24",
+        "10.20.74.0/24",
+        "10.20.80.0/24",
+        "10.20.82.0/24",
+        "10.254.200.0/24",
+        "10.254.253.8/29",
+        "10.254.254.120/29",
+        "10.254.254.128/29",
+        "10.254.254.136/29",
+        "10.254.254.144/29",
+        "10.254.254.212/30",
+        "10.254.254.216/30",
+        "10.254.254.40/30",
+        "10.254.254.80/29",
+        "10.254.254.88/29",
+        "10.254.254.96/28",
+        "10.254.3.0/24",
+        "10.26.1.0/24",
+        "10.26.10.0/24",
+        "10.26.100.0/24",
+        "10.26.150.0/24",
+        "10.26.168.0/22",
+        "10.26.199.0/24",
+        "10.26.34.0/24",
+        "10.26.5.0/24",
+        "10.26.8.0/24",
+        "10.26.99.0/24",
+        "10.28.199.0/24",
+        "10.28.200.0/24"
+      ]
+    }
+  },
+  "sensor_observation_bpf": "not (((src net 10.28.18.96/28) and (dst net 10.0.0.0/8)) or ((src net 10.0.0.0/8) and (dst net 10.28.18.96/28)) or ((src net 10.28.34.0/24) and (dst net 10.0.0.0/8)) or ((src net 10.0.0.0/8) and (dst net 10.28.34.0/24)))",
+  "type": "deployment"
+}

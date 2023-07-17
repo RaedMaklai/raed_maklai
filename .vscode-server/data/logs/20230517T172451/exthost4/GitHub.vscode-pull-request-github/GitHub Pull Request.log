@@ -1,0 +1,35 @@
+2023-05-17 17:26:59.579 [info] TemporaryState> Error in initialization: Unable to delete nonexistent file 'vscode-remote://ssh-remote+us001/home/raed_maklai/.vscode-server/data/User/globalStorage/github.vscode-pull-request-github/temp'
+2023-05-17 17:26:59.579 [info] Looking for git repository
+2023-05-17 17:26:59.579 [info] Found 0 repositories during activation
+2023-05-17 17:26:59.579 [info] Git repository found, initializing review manager and pr tree view.
+2023-05-17 17:26:59.579 [info] Registering git provider
+2023-05-17 17:26:59.579 [info] Review> Validate state in progress
+2023-05-17 17:26:59.579 [info] Review> Validating state...
+2023-05-17 17:26:59.579 [info] Found GitHub remote for folder /mnt/disk1/sework/raed_maklai/volatile_configs
+2023-05-17 17:26:59.935 [info] Repo state for file:///mnt/disk1/sework/raed_maklai/volatile_configs changed.
+2023-05-17 17:26:59.935 [info] Repo file:///mnt/disk1/sework/raed_maklai/volatile_configs has already been setup.
+2023-05-17 17:27:00.809 [info] Review> current branch master is associated with pull request #107791
+2023-05-17 17:27:00.809 [info] Review> Resolving pull request
+2023-05-17 17:27:01.253 [info] Review> no matching pull request metadata found for current branch master
+2023-05-17 17:27:04.232 [info] Review> Fetching pull request data
+2023-05-17 17:27:04.233 [info] PullRequestTree> Adding PR #107791 to tree
+2023-05-17 17:27:04.493 [info] Review> Register comments provider
+2023-05-17 17:27:04.495 [info] Review> Display pull request status bar indicator and refresh pull request tree view.
+2023-05-17 17:27:04.495 [info] Review> Using focus mode = true.
+2023-05-17 17:27:04.495 [info] Review> State validation silent = true.
+2023-05-17 17:27:04.495 [info] Review> PR show should show = false.
+2023-05-17 17:27:23.584 [info] Review> Validate state in progress
+2023-05-17 17:27:23.585 [info] Review> Validating state...
+2023-05-17 17:27:23.746 [info] Found GitHub remote for folder /mnt/disk1/sework/raed_maklai/volatile_configs
+2023-05-17 17:27:24.017 [info] Trying to use globalState for mentionable users.
+2023-05-17 17:27:24.692 [info] Review> current branch master is associated with pull request #107791
+2023-05-17 17:27:24.692 [info] Review> Resolving pull request
+2023-05-17 17:27:24.970 [info] Using globalState mentionable users for 1.
+2023-05-17 17:27:25.109 [info] Review> no matching pull request metadata found for current branch master
+2023-05-17 17:27:26.115 [info] Review> Fetching pull request data
+2023-05-17 17:27:26.115 [info] PullRequestTree> Adding PR #107791 to tree
+2023-05-17 17:27:26.557 [info] Review> Register comments provider
+2023-05-17 17:27:26.567 [info] Review> Display pull request status bar indicator and refresh pull request tree view.
+2023-05-17 17:27:26.567 [info] Review> Using focus mode = true.
+2023-05-17 17:27:26.567 [info] Review> State validation silent = true.
+2023-05-17 17:27:26.567 [info] Review> PR show should show = false.

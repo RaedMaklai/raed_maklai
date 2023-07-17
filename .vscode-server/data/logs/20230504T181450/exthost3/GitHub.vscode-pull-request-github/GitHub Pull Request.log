@@ -1,0 +1,99 @@
+2023-05-04 20:00:26.694 [info] Looking for git repository
+2023-05-04 20:00:26.694 [info] Found 0 repositories during activation
+2023-05-04 20:00:26.694 [info] Git repository found, initializing review manager and pr tree view.
+2023-05-04 20:00:26.694 [info] Registering git provider
+2023-05-04 20:00:26.694 [info] Review> Validate state in progress
+2023-05-04 20:00:26.694 [info] Review> Validating state...
+2023-05-04 20:00:26.716 [info] Found GitHub remote for folder /mnt/disk1/sework/raed_maklai/volatile_configs
+2023-05-04 20:00:28.027 [info] Repo state for file:///mnt/disk1/sework/raed_maklai/volatile_configs changed.
+2023-05-04 20:00:28.027 [info] Repo file:///mnt/disk1/sework/raed_maklai/volatile_configs has already been setup.
+2023-05-04 20:00:28.027 [info] Review> current branch master is associated with pull request #107765
+2023-05-04 20:00:28.027 [info] Review> Resolving pull request
+2023-05-04 20:00:28.414 [info] Review> no matching pull request metadata found for current branch master
+2023-05-04 20:00:29.776 [info] Review> Fetching pull request data
+2023-05-04 20:00:29.777 [info] PullRequestTree> Adding PR #107765 to tree
+2023-05-04 20:00:30.070 [info] Review> Register comments provider
+2023-05-04 20:00:30.071 [info] Review> Display pull request status bar indicator and refresh pull request tree view.
+2023-05-04 20:00:30.071 [info] Review> Using focus mode = true.
+2023-05-04 20:00:30.071 [info] Review> State validation silent = true.
+2023-05-04 20:00:30.071 [info] Review> PR show should show = false.
+2023-05-04 20:00:41.596 [info] Review> Validate state in progress
+2023-05-04 20:00:41.597 [info] Review> Validating state...
+2023-05-04 20:00:41.711 [info] Found GitHub remote for folder /mnt/disk1/sework/raed_maklai/volatile_configs
+2023-05-04 20:00:41.997 [info] Trying to use globalState for mentionable users.
+2023-05-04 20:00:42.693 [info] Review> current branch master is associated with pull request #107765
+2023-05-04 20:00:42.693 [info] Review> Resolving pull request
+2023-05-04 20:00:42.789 [info] Using globalState mentionable users for 1.
+2023-05-04 20:00:43.089 [info] Review> no matching pull request metadata found for current branch master
+2023-05-04 20:12:16.684 [info] Review> Validate state in progress
+2023-05-04 20:12:16.684 [info] Review> Validating state...
+2023-05-04 20:12:16.883 [info] Found GitHub remote for folder /mnt/disk1/sework/raed_maklai/volatile_configs
+2023-05-04 20:12:17.143 [info] Trying to use globalState for mentionable users.
+2023-05-04 20:12:17.813 [info] Using globalState mentionable users for 1.
+2023-05-04 20:12:17.881 [info] Review> current branch master is associated with pull request #107765
+2023-05-04 20:12:17.881 [info] Review> Resolving pull request
+2023-05-04 20:12:18.245 [info] Review> no matching pull request metadata found for current branch master
+2023-05-04 20:12:28.037 [info] Review> Validate state in progress
+2023-05-04 20:12:28.037 [info] Review> Validating state...
+2023-05-04 20:12:28.143 [info] Found GitHub remote for folder /mnt/disk1/sework/raed_maklai/volatile_configs
+2023-05-04 20:12:28.430 [info] Trying to use globalState for mentionable users.
+2023-05-04 20:12:29.040 [info] Using globalState mentionable users for 1.
+2023-05-04 20:12:29.142 [info] Review> current branch master is associated with pull request #107765
+2023-05-04 20:12:29.142 [info] Review> Resolving pull request
+2023-05-04 20:12:29.538 [info] Review> no matching pull request metadata found for current branch master
+2023-05-04 20:12:32.942 [info] Review> Fetching pull request data
+2023-05-04 20:12:32.943 [info] PullRequestTree> Adding PR #107765 to tree
+2023-05-04 20:12:33.329 [info] Review> Register comments provider
+2023-05-04 20:12:33.343 [info] Review> Display pull request status bar indicator and refresh pull request tree view.
+2023-05-04 20:12:33.346 [info] Review> Using focus mode = true.
+2023-05-04 20:12:33.346 [info] Review> State validation silent = true.
+2023-05-04 20:12:33.346 [info] Review> PR show should show = false.
+2023-05-04 20:12:53.425 [info] GitContentFileSystemProvider> Getting change model (file:///mnt/disk1/sework/raed_maklai/volatile_configs) content for commit 697cdf6ead89e151e02c78c4e9ef5f71627bd88b and path /mnt/disk1/sework/raed_maklai/volatile_configs/deployments/primesecuritybank2.json
+2023-05-04 20:12:57.386 [info] GitContentFileSystemProvider> Getting change model (file:///mnt/disk1/sework/raed_maklai/volatile_configs) content for commit 697cdf6ead89e151e02c78c4e9ef5f71627bd88b and path /mnt/disk1/sework/raed_maklai/volatile_configs/deployments/primesecuritybank3.json
+2023-05-04 20:13:13.960 [info] RateLimit> Unexpectedly low rate limit: 30
+2023-05-04 20:13:13.961 [warning] RateLimit> REST Rate limit remaining: 29, /search/issues
+2023-05-04 20:13:14.181 [info] RateLimit> Unexpectedly low rate limit: 30
+2023-05-04 20:13:14.181 [warning] RateLimit> REST Rate limit remaining: 28, /search/issues
+2023-05-04 20:13:48.317 [info] PullRequestTree> Creating file and commit nodes for PR #107765
+2023-05-04 20:13:48.529 [info] PullRequestTree> Getting children for Files node
+2023-05-04 20:13:48.529 [info] PullRequestTree> Got all children for Files node
+2023-05-04 20:13:48.662 [info] PullRequestTree> Review threads have changed, refreshing Files node
+2023-05-04 20:13:48.663 [info] PullRequestTree> Review threads have changed, refreshing Commits node
+2023-05-04 20:13:48.760 [info] PullRequestTree> Getting children for Files node
+2023-05-04 20:13:48.760 [info] PullRequestTree> Got all children for Files node
+2023-05-04 20:14:11.300 [info] CreatePullRequestViewProvider> Initializing "create" view: {"availableBaseRemotes":[{"owner":"RaedMaklai","repositoryName":"volatile_configs"},{"owner":"rtkwlf","repositoryName":"volatile_configs"}],"availableCompareRemotes":[{"owner":"RaedMaklai","repositoryName":"volatile_configs"},{"owner":"rtkwlf","repositoryName":"volatile_configs"},{"owner":"RaedMaklai","repositoryName":"volatile_configs"}],"defaultBaseRemote":{"owner":"rtkwlf","repositoryName":"volatile_configs"},"defaultBaseBranch":"master","defaultCompareRemote":{"owner":"rtkwlf","repositoryName":"volatile_configs"},"defaultCompareBranch":"master","branchesForRemote":["master"],"branchesForCompare":["master"],"defaultTitle":"Master","defaultDescription":"","defaultMergeMethod":"merge","allowAutoMerge":false,"mergeMethodsAvailability":{"merge":true,"squash":true,"rebase":true},"autoMergeDefault":false,"createError":"","labels":[],"isDraftDefault":false,"isDarkTheme":false}
+2023-05-04 20:14:16.615 [warning] GitHubRepository> List branches timeout hit.
+2023-05-04 20:14:19.935 [warning] GitHubRepository> List branches timeout hit.
+2023-05-04 20:14:24.086 [warning] GitHubRepository> List branches timeout hit.
+2023-05-04 20:14:25.255 [info] PullRequestGitHelper> associate master with Pull Request #107791
+2023-05-04 20:14:26.709 [info] Review> Validate state in progress
+2023-05-04 20:14:26.709 [info] Review> Validating state...
+2023-05-04 20:14:26.737 [info] PullRequestTree> Review threads have changed, refreshing Files node
+2023-05-04 20:14:26.738 [info] PullRequestTree> Review threads have changed, refreshing Commits node
+2023-05-04 20:14:26.797 [info] Found GitHub remote for folder /mnt/disk1/sework/raed_maklai/volatile_configs
+2023-05-04 20:14:26.826 [info] PullRequestTree> Getting children for Files node
+2023-05-04 20:14:26.826 [info] PullRequestTree> Got all children for Files node
+2023-05-04 20:14:27.075 [info] Trying to use globalState for mentionable users.
+2023-05-04 20:14:27.714 [info] Review> current branch master is associated with pull request #107791
+2023-05-04 20:14:27.714 [info] Review> Resolving pull request
+2023-05-04 20:14:27.801 [info] Using globalState mentionable users for 1.
+2023-05-04 20:14:28.476 [info] Review> Fetching pull request data
+2023-05-04 20:14:28.476 [info] PullRequestTree> Adding PR #107791 to tree
+2023-05-04 20:14:28.754 [info] Review> Register comments provider
+2023-05-04 20:14:28.770 [info] Review> Display pull request status bar indicator and refresh pull request tree view.
+2023-05-04 20:14:28.770 [info] Review> Using focus mode = true.
+2023-05-04 20:14:28.770 [info] Review> State validation silent = false.
+2023-05-04 20:14:28.770 [info] Review> PR show should show = false.
+2023-05-04 20:14:29.073 [info] PullRequestTree> Creating file and commit nodes for PR #107791
+2023-05-04 20:14:29.145 [info] PullRequestTree> Local files have changed, refreshing Files node
+2023-05-04 20:14:29.145 [info] PullRequestTree> Local files have changed, refreshing Files node
+2023-05-04 20:14:29.169 [info] PullRequestTree> Review threads have changed, refreshing Files node
+2023-05-04 20:14:29.169 [info] PullRequestTree> Review threads have changed, refreshing Commits node
+2023-05-04 20:14:29.169 [info] PullRequestTree> Comments have changed, refreshing Files node
+2023-05-04 20:14:29.169 [info] PullRequestTree> Comments have changed, refreshing Commits node
+2023-05-04 20:14:29.169 [info] PullRequestTree> Review threads have changed, refreshing Files node
+2023-05-04 20:14:29.169 [info] PullRequestTree> Review threads have changed, refreshing Commits node
+2023-05-04 20:14:29.169 [info] PullRequestTree> Getting children for Files node
+2023-05-04 20:14:29.169 [info] PullRequestTree> Got all children for Files node
+2023-05-04 20:14:29.475 [info] PullRequestTree> Getting children for Files node
+2023-05-04 20:14:29.475 [info] PullRequestTree> Got all children for Files node

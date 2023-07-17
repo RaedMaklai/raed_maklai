@@ -1,0 +1,197 @@
+2021-09-17 17:54:56,723 awngit DEBUG 25519 MainThread root execute: git rev-parse
+2021-09-17 17:54:56,749 awngit DEBUG 25519 MainThread root 
+2021-09-17 17:54:56,750 awngit DEBUG 25519 MainThread root execute: git rev-parse --git-path rebase-merge
+2021-09-17 17:54:56,765 awngit DEBUG 25519 MainThread root .git/rebase-merge
+
+2021-09-17 17:54:56,766 awngit DEBUG 25519 MainThread root execute: git rev-parse --git-path rebase-apply
+2021-09-17 17:54:56,779 awngit DEBUG 25519 MainThread root .git/rebase-apply
+
+2021-09-17 17:54:56,780 awngit DEBUG 25519 MainThread root execute: git rev-parse --git-path MERGE_HEAD
+2021-09-17 17:54:56,792 awngit DEBUG 25519 MainThread root .git/MERGE_HEAD
+
+2021-09-17 17:54:56,793 awngit DEBUG 25519 MainThread root execute: git rev-parse --git-path CHERRY_PICK_HEAD
+2021-09-17 17:54:56,805 awngit DEBUG 25519 MainThread root .git/CHERRY_PICK_HEAD
+
+2021-09-17 17:54:56,806 awngit DEBUG 25519 MainThread root execute: git diff --check
+2021-09-17 17:54:56,840 awngit DEBUG 25519 MainThread root 
+2021-09-17 17:54:56,841 awngit DEBUG 25519 MainThread root execute: git remote -v
+2021-09-17 17:54:56,854 awngit DEBUG 25519 MainThread root origin	git@github.com:RaedMaklai/volatile_configs.git (fetch)
+origin	git@github.com:RaedMaklai/volatile_configs.git (push)
+rtkwlf	git@github.com:rtkwlf/volatile_configs.git (fetch)
+rtkwlf	git@github.com:RaedMaklai/volatile_configs.git (push)
+
+2021-09-17 17:54:56,858 awngit DEBUG 25519 MainThread root execute: git status -sb
+2021-09-17 17:54:56,937 awngit DEBUG 25519 MainThread root ## master...rtkwlf/master [ahead 8, behind 14]
+
+2021-09-17 17:54:56,938 awngit DEBUG 25519 MainThread root execute: git ls-remote --exit-code -h origin master
+2021-09-17 17:54:59,946 awngit DEBUG 25519 MainThread root 0b9235b1ef36f8967a8f4e053ee2fe86b8d90a23	refs/heads/master
+
+2021-09-17 17:54:59,947 awngit INFO 25519 MainThread root  
+2021-09-17 17:54:59,947 awngit INFO 25519 MainThread root  On branch RaedMaklai/master tracking rtkwlf/master
+2021-09-17 17:54:59,947 awngit DEBUG 25519 MainThread root execute: git rev-list --count master..rtkwlf/master
+2021-09-17 17:54:59,984 awngit DEBUG 25519 MainThread root 14
+
+2021-09-17 17:54:59,985 awngit DEBUG 25519 MainThread root execute: git log --color --date="format-local:%Y-%m-%d %H:%M:%SZ" --format="%ad"  -n 1 rtkwlf/master --
+2021-09-17 17:55:00,021 awngit DEBUG 25519 MainThread root 2021-09-17 17:19:27Z
+
+2021-09-17 17:55:00,021 awngit INFO 25519 MainThread root  
+2021-09-17 17:55:00,021 awngit INFO 25519 MainThread root  The upstream branch is ahead by 14 commits. Last commit at 2021-09-17 17:19:27Z.
+2021-09-17 17:55:00,021 awngit INFO 25519 MainThread root  Consider performing an 'awngit update' to pull in the latest changes.
+2021-09-17 17:55:00,021 awngit DEBUG 25519 MainThread root execute: git rev-list --count rtkwlf/master..origin/master
+2021-09-17 17:55:00,059 awngit DEBUG 25519 MainThread root 2
+
+2021-09-17 17:55:00,059 awngit INFO 25519 MainThread root  
+2021-09-17 17:55:00,059 awngit INFO 25519 MainThread root  UNMERGED COMMITS
+2021-09-17 17:55:00,059 awngit INFO 25519 MainThread root    Remote branch: origin/master has 2 unmerged commits.
+2021-09-17 17:55:00,059 awngit INFO 25519 MainThread root  ---
+2021-09-17 17:55:00,059 awngit DEBUG 25519 MainThread root execute: git log --color   -n 2 origin/master --
+2021-09-17 17:55:00,096 awngit DEBUG 25519 MainThread root [33mcommit 0b9235b1ef36f8967a8f4e053ee2fe86b8d90a23[m
+Author: Raed Maklai <raed.maklai@arcticwolf.com>
+Date:   Tue Sep 14 17:54:37 2021 +0000
+
+    added home country for pagosaspringsmedical
+
+[33mcommit 3241db6af8700ac239db1d06352263e7d188428e[m
+Author: Raed Maklai <raed.maklai@arcticwolf.com>
+Date:   Tue Sep 14 17:34:49 2021 +0000
+
+    parsed logs for pagosaspringsmedical
+
+2021-09-17 17:55:00,096 awngit INFO 25519 MainThread root  [33mcommit 0b9235b1ef36f8967a8f4e053ee2fe86b8d90a23[m
+2021-09-17 17:55:00,096 awngit INFO 25519 MainThread root  Author: Raed Maklai <raed.maklai@arcticwolf.com>
+2021-09-17 17:55:00,096 awngit INFO 25519 MainThread root  Date:   Tue Sep 14 17:54:37 2021 +0000
+2021-09-17 17:55:00,096 awngit INFO 25519 MainThread root  
+2021-09-17 17:55:00,096 awngit INFO 25519 MainThread root      added home country for pagosaspringsmedical
+2021-09-17 17:55:00,096 awngit INFO 25519 MainThread root  
+2021-09-17 17:55:00,096 awngit INFO 25519 MainThread root  [33mcommit 3241db6af8700ac239db1d06352263e7d188428e[m
+2021-09-17 17:55:00,097 awngit INFO 25519 MainThread root  Author: Raed Maklai <raed.maklai@arcticwolf.com>
+2021-09-17 17:55:00,097 awngit INFO 25519 MainThread root  Date:   Tue Sep 14 17:34:49 2021 +0000
+2021-09-17 17:55:00,097 awngit INFO 25519 MainThread root  
+2021-09-17 17:55:00,097 awngit INFO 25519 MainThread root      parsed logs for pagosaspringsmedical
+2021-09-17 17:55:00,097 awngit INFO 25519 MainThread root  
+2021-09-17 17:55:00,097 awngit INFO 25519 MainThread root  https://github.com/rtkwlf/volatile_configs/compare/master...RaedMaklai:master?expand=1
+2021-09-17 17:55:00,097 awngit DEBUG 25519 MainThread root execute: git rev-list --count rtkwlf/master..master
+2021-09-17 17:55:00,140 awngit DEBUG 25519 MainThread root 8
+
+2021-09-17 17:55:00,140 awngit DEBUG 25519 MainThread root execute: git log --color --date="format-local:%Y-%m-%d %H:%M:%SZ" --format="%ad"  -n 2 origin/master --
+2021-09-17 17:55:00,176 awngit DEBUG 25519 MainThread root 2021-09-14 17:54:37Z
+2021-09-14 17:34:49Z
+
+2021-09-17 17:55:00,176 awngit DEBUG 25519 MainThread root execute: git log --color --date="format-local:%Y-%m-%d %H:%M:%SZ" --format="%ad"  -n 8 master --
+2021-09-17 17:55:00,210 awngit DEBUG 25519 MainThread root 2021-09-17 17:38:05Z
+2021-09-17 17:19:27Z
+2021-09-17 17:02:56Z
+2021-09-17 16:59:44Z
+2021-09-17 16:16:25Z
+2021-09-17 16:56:09Z
+2021-09-17 16:56:14Z
+2021-09-17 16:46:29Z
+
+2021-09-17 17:55:00,210 awngit INFO 25519 MainThread root  
+2021-09-17 17:55:00,210 awngit INFO 25519 MainThread root  UNPUSHED COMMITS
+2021-09-17 17:55:00,210 awngit INFO 25519 MainThread root    There are 8 unpushed commits.
+2021-09-17 17:55:00,210 awngit INFO 25519 MainThread root  ---
+2021-09-17 17:55:00,211 awngit DEBUG 25519 MainThread root execute: git log --color   -n 8 master --
+2021-09-17 17:55:00,245 awngit DEBUG 25519 MainThread root [33mcommit 6aa2f6d05c5c9f342a8ca3316a297f2f4ad854a6[m
+Author: Raed Maklai <raed.maklai@arcticwolf.com>
+Date:   Fri Sep 17 17:38:05 2021 +0000
+
+    parsed logs for gagetelephone
+
+[33mcommit 59712a93d53f1303beca57c4a873a4cbd2b176b7[m
+Author: rtkasuthar <58791184+rtkasuthar@users.noreply.github.com>
+Date:   Fri Sep 17 13:19:27 2021 -0400
+
+    [AWN-74064] Fix print category bug in Umbrella intention (#50563)
+
+[33mcommit 2b4c12caaab0a283c960679182e81e62c4a16582[m
+Author: Zach Ljungren <zach.ljungren@arcticwolf.com>
+Date:   Fri Sep 17 17:02:56 2021 +0000
+
+    Adding Meraki parsers
+
+[33mcommit 137907ba9b10b14b228d9df3fa360c55db18d3dd[m
+Author: premal1 <premal.patel@arcticwolf.com>
+Date:   Fri Sep 17 16:59:44 2021 +0000
+
+    log sources removed ticket# 1735094
+
+[33mcommit d67e187526cdae2058ea4f0dbada6c02a4d28f8a[m
+Author: sumanth mahesh <sumanth.mahesh@arcticwolf.com>
+Date:   Fri Sep 17 16:16:25 2021 +0000
+
+     Log source removed
+
+[33mcommit 3f4362df9de88531492efb4bdada13289db8437f[m
+Author: Sruthi Sreedhar <sruthi.sreedhar@arcticwolf.com>
+Date:   Fri Sep 17 16:56:09 2021 +0000
+
+    NMAP for helpsystems
+
+[33mcommit c38965203b740a0c361af1d169f33074035b8287[m
+Author: rtkdeng <denise.eng@arcticwolf.com>
+Date:   Fri Sep 17 12:56:14 2021 -0400
+
+    AD Nxlog Update us001 Fri, 17 Sep 2021 16:11:32 +0000 (#50561)
+    
+    Co-authored-by: tester-ci <tester-ci@build-i-07e26d59064027e22.jenkinsagent.prod.awn>
+
+[33mcommit 503b035f4df8dbe65e3e78e411e4de3b0a192e0f[m
+Author: kunal sikri <kunal.sikri@arcticwolf.com>
+Date:   Fri Sep 17 16:46:29 2021 +0000
+
+    Parsing logs after new sensor install
+
+2021-09-17 17:55:00,246 awngit INFO 25519 MainThread root  [33mcommit 6aa2f6d05c5c9f342a8ca3316a297f2f4ad854a6[m
+2021-09-17 17:55:00,246 awngit INFO 25519 MainThread root  Author: Raed Maklai <raed.maklai@arcticwolf.com>
+2021-09-17 17:55:00,246 awngit INFO 25519 MainThread root  Date:   Fri Sep 17 17:38:05 2021 +0000
+2021-09-17 17:55:00,246 awngit INFO 25519 MainThread root  
+2021-09-17 17:55:00,246 awngit INFO 25519 MainThread root      parsed logs for gagetelephone
+2021-09-17 17:55:00,246 awngit INFO 25519 MainThread root  
+2021-09-17 17:55:00,246 awngit INFO 25519 MainThread root  [33mcommit 59712a93d53f1303beca57c4a873a4cbd2b176b7[m
+2021-09-17 17:55:00,246 awngit INFO 25519 MainThread root  Author: rtkasuthar <58791184+rtkasuthar@users.noreply.github.com>
+2021-09-17 17:55:00,246 awngit INFO 25519 MainThread root  Date:   Fri Sep 17 13:19:27 2021 -0400
+2021-09-17 17:55:00,246 awngit INFO 25519 MainThread root  
+2021-09-17 17:55:00,246 awngit INFO 25519 MainThread root      [AWN-74064] Fix print category bug in Umbrella intention (#50563)
+2021-09-17 17:55:00,247 awngit INFO 25519 MainThread root  
+2021-09-17 17:55:00,247 awngit INFO 25519 MainThread root  [33mcommit 2b4c12caaab0a283c960679182e81e62c4a16582[m
+2021-09-17 17:55:00,247 awngit INFO 25519 MainThread root  Author: Zach Ljungren <zach.ljungren@arcticwolf.com>
+2021-09-17 17:55:00,247 awngit INFO 25519 MainThread root  Date:   Fri Sep 17 17:02:56 2021 +0000
+2021-09-17 17:55:00,247 awngit INFO 25519 MainThread root  
+2021-09-17 17:55:00,247 awngit INFO 25519 MainThread root      Adding Meraki parsers
+2021-09-17 17:55:00,247 awngit INFO 25519 MainThread root  
+2021-09-17 17:55:00,247 awngit INFO 25519 MainThread root  [33mcommit 137907ba9b10b14b228d9df3fa360c55db18d3dd[m
+2021-09-17 17:55:00,247 awngit INFO 25519 MainThread root  Author: premal1 <premal.patel@arcticwolf.com>
+2021-09-17 17:55:00,247 awngit INFO 25519 MainThread root  Date:   Fri Sep 17 16:59:44 2021 +0000
+2021-09-17 17:55:00,247 awngit INFO 25519 MainThread root  
+2021-09-17 17:55:00,247 awngit INFO 25519 MainThread root      log sources removed ticket# 1735094
+2021-09-17 17:55:00,247 awngit INFO 25519 MainThread root  
+2021-09-17 17:55:00,247 awngit INFO 25519 MainThread root  [33mcommit d67e187526cdae2058ea4f0dbada6c02a4d28f8a[m
+2021-09-17 17:55:00,247 awngit INFO 25519 MainThread root  Author: sumanth mahesh <sumanth.mahesh@arcticwolf.com>
+2021-09-17 17:55:00,248 awngit INFO 25519 MainThread root  Date:   Fri Sep 17 16:16:25 2021 +0000
+2021-09-17 17:55:00,248 awngit INFO 25519 MainThread root  
+2021-09-17 17:55:00,248 awngit INFO 25519 MainThread root       Log source removed
+2021-09-17 17:55:00,248 awngit INFO 25519 MainThread root  
+2021-09-17 17:55:00,248 awngit INFO 25519 MainThread root  [33mcommit 3f4362df9de88531492efb4bdada13289db8437f[m
+2021-09-17 17:55:00,248 awngit INFO 25519 MainThread root  Author: Sruthi Sreedhar <sruthi.sreedhar@arcticwolf.com>
+2021-09-17 17:55:00,248 awngit INFO 25519 MainThread root  Date:   Fri Sep 17 16:56:09 2021 +0000
+2021-09-17 17:55:00,248 awngit INFO 25519 MainThread root  
+2021-09-17 17:55:00,248 awngit INFO 25519 MainThread root      NMAP for helpsystems
+2021-09-17 17:55:00,248 awngit INFO 25519 MainThread root  
+2021-09-17 17:55:00,248 awngit INFO 25519 MainThread root  [33mcommit c38965203b740a0c361af1d169f33074035b8287[m
+2021-09-17 17:55:00,248 awngit INFO 25519 MainThread root  Author: rtkdeng <denise.eng@arcticwolf.com>
+2021-09-17 17:55:00,248 awngit INFO 25519 MainThread root  Date:   Fri Sep 17 12:56:14 2021 -0400
+2021-09-17 17:55:00,248 awngit INFO 25519 MainThread root  
+2021-09-17 17:55:00,249 awngit INFO 25519 MainThread root      AD Nxlog Update us001 Fri, 17 Sep 2021 16:11:32 +0000 (#50561)
+2021-09-17 17:55:00,249 awngit INFO 25519 MainThread root  
+2021-09-17 17:55:00,249 awngit INFO 25519 MainThread root      Co-authored-by: tester-ci <tester-ci@build-i-07e26d59064027e22.jenkinsagent.prod.awn>
+2021-09-17 17:55:00,249 awngit INFO 25519 MainThread root  
+2021-09-17 17:55:00,249 awngit INFO 25519 MainThread root  [33mcommit 503b035f4df8dbe65e3e78e411e4de3b0a192e0f[m
+2021-09-17 17:55:00,249 awngit INFO 25519 MainThread root  Author: kunal sikri <kunal.sikri@arcticwolf.com>
+2021-09-17 17:55:00,249 awngit INFO 25519 MainThread root  Date:   Fri Sep 17 16:46:29 2021 +0000
+2021-09-17 17:55:00,249 awngit INFO 25519 MainThread root  
+2021-09-17 17:55:00,249 awngit INFO 25519 MainThread root      Parsing logs after new sensor install
+2021-09-17 17:55:00,249 awngit DEBUG 25519 MainThread root execute: git diff --check
+2021-09-17 17:55:00,291 awngit DEBUG 25519 MainThread root 
+2021-09-17 17:55:00,292 awngit DEBUG 25519 MainThread root execute: git status -s
+2021-09-17 17:55:00,370 awngit DEBUG 25519 MainThread root 

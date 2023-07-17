@@ -1,0 +1,22 @@
+#!/bin/bash
+mapfile -t array1 < List.txt
+mapfile -t array2 < observer.txt
+COUNT=0
+for variable in ${array1[@]};
+do
+LIST=$(ask lsutil -d $variable | grep $(echo ${array2[$COUNT]}) -B 5)
+OUTPUT=$(echo "$LIST" | grep $(echo ${array2[$COUNT]}))
+if [[ ${OUTPUT} != *\|* ]];then
+  for i in {1..5}
+  do
+    OUTPUT=$(echo "$LIST" | grep $(echo ${array2[$COUNT]} -B ${i}) | grep -v $(echo ${array2[$COUNT]}))
+    if [[ ${OUTPUT} == *\|* ]];then
+      echo $OUTPUT
+      break
+    fi
+  done
+else
+  echo $OUTPUT
+fi
+COUNT=$((COUNT+1))
+done

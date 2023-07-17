@@ -1,0 +1,16 @@
+2023-05-04 18:00:25.920 [info] Extension host with pid 13720 started
+2023-05-04 18:00:25.941 [info] Lock '/home/raed_maklai/.vscode-server/data/User/workspaceStorage/be8817d3b5b7baf92b10598762b3a82f/vscode.lock': Lock acquired.
+2023-05-04 18:00:26.033 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2023-05-04 18:00:26.243 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2023-05-04 18:00:26.352 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2023-05-04 18:00:26.352 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2023-05-04 18:00:26.585 [info] Eager extensions activated
+2023-05-04 18:00:26.586 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2023-05-04 18:00:26.586 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2023-05-04 18:00:26.852 [info] ExtensionService#_doActivateExtension GitHub.vscode-pull-request-github, startup: false, activationEvent: 'onStartupFinished'
+2023-05-04 18:01:03.921 [info] ExtensionService#_doActivateExtension vscode.extension-editing, startup: false, activationEvent: 'onLanguage:markdown'
+2023-05-04 18:01:03.923 [info] ExtensionService#_doActivateExtension vscode.markdown-language-features, startup: false, activationEvent: 'onLanguage:markdown'
+2023-05-04 18:01:04.486 [info] ExtensionService#_doActivateExtension vscode.markdown-math, startup: false, activationEvent: 'api', root cause: vscode.markdown-language-features
+2023-05-04 18:05:44.298 [info] Extension host terminating: received terminate message from renderer
+2023-05-04 18:05:44.299 [info] Lock '/home/raed_maklai/.vscode-server/data/User/workspaceStorage/be8817d3b5b7baf92b10598762b3a82f/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
+2023-05-04 18:05:44.313 [info] Extension host with pid 13720 exiting with code 0

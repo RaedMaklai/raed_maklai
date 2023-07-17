@@ -1,0 +1,562 @@
+2023-05-04 18:14:55.120 [info] Log level: Info
+2023-05-04 18:14:55.120 [info] Validating found git in: "git"
+2023-05-04 18:14:55.120 [info] Using git "2.7.4" from "git"
+2023-05-04 18:14:55.120 [info] > git rev-parse --show-toplevel [99ms]
+2023-05-04 18:14:55.120 [info] > git rev-parse --git-dir --git-common-dir [7ms]
+2023-05-04 18:14:55.120 [info] Open repository: /mnt/disk1/sework/raed_maklai/volatile_configs
+2023-05-04 18:14:55.120 [info] > git rev-parse --show-toplevel [9ms]
+2023-05-04 18:14:55.120 [info] > git config --get commit.template [12ms]
+2023-05-04 18:14:55.120 [info] > git rev-parse --show-toplevel [7ms]
+2023-05-04 18:14:55.120 [info] > git rev-parse --show-toplevel [3ms]
+2023-05-04 18:14:55.120 [info] > git rev-parse --show-toplevel [3ms]
+2023-05-04 18:14:55.120 [info] > git rev-parse --show-toplevel [3ms]
+2023-05-04 18:14:55.120 [info] > git rev-parse --show-toplevel [3ms]
+2023-05-04 18:14:55.120 [info] > git rev-parse --show-toplevel [7ms]
+2023-05-04 18:14:55.120 [info] > git rev-parse --show-toplevel [4ms]
+2023-05-04 18:14:55.120 [info] > git rev-parse --show-toplevel [32ms]
+2023-05-04 18:14:55.120 [info] > git rev-parse --show-toplevel [3ms]
+2023-05-04 18:14:55.120 [info] > git rev-parse --show-toplevel [30ms]
+2023-05-04 18:14:55.120 [info] > git rev-parse --show-toplevel [3ms]
+2023-05-04 18:14:55.120 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master [434ms]
+2023-05-04 18:14:55.180 [info] > git status -z -uall [128ms]
+2023-05-04 18:14:55.204 [info] > git config --get commit.template [11ms]
+2023-05-04 18:14:55.633 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master [436ms]
+2023-05-04 18:14:55.759 [info] > git status -z -uall [121ms]
+2023-05-04 18:14:55.902 [info] > git config --local branch.master.github-pr-owner-number [22ms]
+2023-05-04 18:14:55.915 [info] > git config --get commit.template [8ms]
+2023-05-04 18:14:56.331 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master [419ms]
+2023-05-04 18:14:56.455 [info] > git status -z -uall [118ms]
+2023-05-04 18:14:59.406 [info] > git show --textconv 08d2167b76d5388b44ec3afb3de91d7794b5c742:deployments/cooperclinic1.json [60ms]
+2023-05-04 18:15:08.242 [info] > git fetch rtkwlf master [9638ms]
+2023-05-04 18:15:08.243 [info] From github.com:rtkwlf/volatile_configs
+ * branch            master     -> FETCH_HEAD
+2023-05-04 18:15:08.264 [info] > git config --get commit.template [13ms]
+2023-05-04 18:15:08.724 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master [460ms]
+2023-05-04 18:15:08.792 [info] > git rev-parse --show-toplevel [7ms]
+2023-05-04 18:15:08.855 [info] > git status -z -uall [124ms]
+2023-05-04 18:15:08.871 [info] > git config --get commit.template [7ms]
+2023-05-04 18:15:09.299 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master [430ms]
+2023-05-04 18:15:09.428 [info] > git status -z -uall [123ms]
+2023-05-04 18:15:09.577 [info] > git rev-parse --show-toplevel [7ms]
+2023-05-04 18:15:11.228 [info] > git rev-parse --show-toplevel [6ms]
+2023-05-04 18:15:14.444 [info] > git config --get commit.template [7ms]
+2023-05-04 18:15:14.888 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master [444ms]
+2023-05-04 18:15:15.017 [info] > git status -z -uall [122ms]
+2023-05-04 18:15:15.765 [info] > git rev-parse --show-toplevel [6ms]
+2023-05-04 18:15:40.731 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2378ms]
+2023-05-04 18:15:43.552 [info] > git log --oneline --cherry master...master@{upstream} -- [27ms]
+2023-05-04 18:15:44.821 [info] > git rev-parse --show-toplevel [2ms]
+2023-05-04 18:15:54.790 [info] > git pull --tags rtkwlf master [11222ms]
+2023-05-04 18:15:54.791 [info] From github.com:rtkwlf/volatile_configs
+ * branch            master     -> FETCH_HEAD
+2023-05-04 18:15:54.826 [info] > git config --get commit.template [16ms]
+2023-05-04 18:15:55.251 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master [426ms]
+2023-05-04 18:15:55.387 [info] > git status -z -uall [119ms]
+2023-05-04 18:15:55.528 [info] > git rev-parse --show-toplevel [8ms]
+2023-05-04 18:15:59.782 [info] > git rev-parse --show-toplevel [7ms]
+2023-05-04 18:16:00.333 [info] > git rev-parse --show-toplevel [9ms]
+2023-05-04 18:16:00.834 [info] > git config --get commit.template [9ms]
+2023-05-04 18:16:01.278 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master [446ms]
+2023-05-04 18:16:01.408 [info] > git status -z -uall [121ms]
+2023-05-04 18:16:02.127 [info] > git rev-parse --show-toplevel [7ms]
+2023-05-04 18:16:06.571 [info] > git rev-parse --show-toplevel [8ms]
+2023-05-04 18:16:07.072 [info] > git config --get commit.template [8ms]
+2023-05-04 18:16:07.495 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master [425ms]
+2023-05-04 18:16:07.621 [info] > git status -z -uall [118ms]
+2023-05-04 18:16:08.339 [info] > git rev-parse --show-toplevel [8ms]
+2023-05-04 18:16:18.286 [info] > git rev-parse --show-toplevel [3ms]
+2023-05-04 18:19:54.604 [info] > git config --local branch.master.github-pr-owner-number [6ms]
+2023-05-04 18:19:54.620 [info] > git config --get commit.template [9ms]
+2023-05-04 18:19:55.040 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master [424ms]
+2023-05-04 18:19:55.170 [info] > git status -z -uall [123ms]
+2023-05-04 18:19:55.889 [info] > git rev-parse --show-toplevel [9ms]
+2023-05-04 18:19:56.242 [info] > git show --textconv 08d2167b76d5388b44ec3afb3de91d7794b5c742:deployments/cooperclinic1.json [37ms]
+2023-05-04 18:24:56.838 [info] > git config --local branch.master.github-pr-owner-number [3ms]
+2023-05-04 18:24:56.853 [info] > git config --get commit.template [9ms]
+2023-05-04 18:24:57.301 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master [452ms]
+2023-05-04 18:24:57.420 [info] > git status -z -uall [111ms]
+2023-05-04 18:24:58.139 [info] > git rev-parse --show-toplevel [7ms]
+2023-05-04 18:24:58.313 [info] > git show --textconv 08d2167b76d5388b44ec3afb3de91d7794b5c742:deployments/cooperclinic1.json [37ms]
+2023-05-04 18:29:58.902 [info] > git config --local branch.master.github-pr-owner-number [3ms]
+2023-05-04 18:29:58.919 [info] > git config --get commit.template [10ms]
+2023-05-04 18:29:59.330 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master [416ms]
+2023-05-04 18:29:59.447 [info] > git status -z -uall [110ms]
+2023-05-04 18:30:00.177 [info] > git rev-parse --show-toplevel [10ms]
+2023-05-04 18:30:00.407 [info] > git show --textconv 08d2167b76d5388b44ec3afb3de91d7794b5c742:deployments/cooperclinic1.json [37ms]
+2023-05-04 18:32:50.269 [info] > git config --get commit.template [7ms]
+2023-05-04 18:32:50.693 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master [424ms]
+2023-05-04 18:32:50.831 [info] > git status -z -uall [130ms]
+2023-05-04 18:32:51.536 [info] > git rev-parse --show-toplevel [8ms]
+2023-05-04 18:32:56.223 [info] > git config --get commit.template [40ms]
+2023-05-04 18:32:56.635 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master [446ms]
+2023-05-04 18:32:56.770 [info] > git status -z -uall [128ms]
+2023-05-04 18:32:57.481 [info] > git rev-parse --show-toplevel [7ms]
+2023-05-04 18:33:01.799 [info] > git config --get commit.template [16ms]
+2023-05-04 18:33:02.206 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master [417ms]
+2023-05-04 18:33:02.324 [info] > git status -z -uall [111ms]
+2023-05-04 18:33:03.043 [info] > git rev-parse --show-toplevel [8ms]
+2023-05-04 18:33:23.999 [info] > git config --get commit.template [9ms]
+2023-05-04 18:33:24.411 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master [415ms]
+2023-05-04 18:33:24.537 [info] > git status -z -uall [118ms]
+2023-05-04 18:33:25.257 [info] > git rev-parse --show-toplevel [9ms]
+2023-05-04 18:33:31.609 [info] > git config --get commit.template [14ms]
+2023-05-04 18:33:32.025 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master [424ms]
+2023-05-04 18:33:32.150 [info] > git status -z -uall [118ms]
+2023-05-04 18:33:32.877 [info] > git rev-parse --show-toplevel [12ms]
+2023-05-04 18:33:37.295 [info] > git config --get commit.template [16ms]
+2023-05-04 18:33:37.711 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master [427ms]
+2023-05-04 18:33:37.837 [info] > git status -z -uall [119ms]
+2023-05-04 18:33:38.555 [info] > git rev-parse --show-toplevel [8ms]
+2023-05-04 18:33:58.047 [info] > git config --get commit.template [14ms]
+2023-05-04 18:33:58.477 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master [438ms]
+2023-05-04 18:33:58.598 [info] > git status -z -uall [114ms]
+2023-05-04 18:33:59.309 [info] > git rev-parse --show-toplevel [3ms]
+2023-05-04 18:34:19.127 [info] > git config --get commit.template [10ms]
+2023-05-04 18:34:19.542 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master [419ms]
+2023-05-04 18:34:19.666 [info] > git status -z -uall [117ms]
+2023-05-04 18:34:20.384 [info] > git rev-parse --show-toplevel [8ms]
+2023-05-04 18:34:55.940 [info] > git rev-parse --show-toplevel [3ms]
+2023-05-04 18:35:01.077 [info] > git config --local branch.master.github-pr-owner-number [14ms]
+2023-05-04 18:35:01.096 [info] > git config --get commit.template [12ms]
+2023-05-04 18:35:01.515 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master [427ms]
+2023-05-04 18:35:01.653 [info] > git status -z -uall [131ms]
+2023-05-04 18:35:02.365 [info] > git rev-parse --show-toplevel [12ms]
+2023-05-04 18:35:02.696 [info] > git show --textconv 08d2167b76d5388b44ec3afb3de91d7794b5c742:deployments/cooperclinic1.json [46ms]
+2023-05-04 18:40:03.498 [info] > git config --local branch.master.github-pr-owner-number [4ms]
+2023-05-04 18:40:03.516 [info] > git config --get commit.template [9ms]
+2023-05-04 18:40:04.043 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master [531ms]
+2023-05-04 18:40:04.187 [info] > git status -z -uall [134ms]
+2023-05-04 18:40:04.906 [info] > git rev-parse --show-toplevel [8ms]
+2023-05-04 18:40:05.126 [info] > git show --textconv 08d2167b76d5388b44ec3afb3de91d7794b5c742:deployments/cooperclinic1.json [50ms]
+2023-05-04 18:44:25.535 [info] > git rev-parse --show-toplevel [4ms]
+2023-05-04 18:44:26.230 [info] > git rev-parse --show-toplevel [10ms]
+2023-05-04 18:45:05.872 [info] > git config --local branch.master.github-pr-owner-number [2ms]
+2023-05-04 18:45:05.890 [info] > git config --get commit.template [9ms]
+2023-05-04 18:45:06.359 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master [472ms]
+2023-05-04 18:45:06.511 [info] > git status -z -uall [144ms]
+2023-05-04 18:45:07.237 [info] > git rev-parse --show-toplevel [17ms]
+2023-05-04 18:45:07.522 [info] > git show --textconv 08d2167b76d5388b44ec3afb3de91d7794b5c742:deployments/cooperclinic1.json [57ms]
+2023-05-04 18:45:33.136 [info] > git config --get commit.template [10ms]
+2023-05-04 18:45:33.596 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master [464ms]
+2023-05-04 18:45:33.716 [info] > git status -z -uall [113ms]
+2023-05-04 18:45:34.433 [info] > git rev-parse --show-toplevel [8ms]
+2023-05-04 18:45:44.537 [info] > git check-ignore -v -z --stdin [25ms]
+2023-05-04 18:45:49.933 [info] > git show --textconv HEAD:deployments/primesecuritybank2.json [48ms]
+2023-05-04 18:45:49.933 [info] > git ls-tree -l HEAD -- /mnt/disk1/sework/raed_maklai/volatile_configs/deployments/primesecuritybank2.json [41ms]
+2023-05-04 18:45:50.438 [info] > git check-ignore -v -z --stdin [37ms]
+2023-05-04 18:45:51.705 [info] > git show --textconv HEAD:deployments/primesecuritybank3.json [43ms]
+2023-05-04 18:45:51.705 [info] > git ls-tree -l HEAD -- /mnt/disk1/sework/raed_maklai/volatile_configs/deployments/primesecuritybank3.json [37ms]
+2023-05-04 18:45:59.377 [info] > git add -A -- /mnt/disk1/sework/raed_maklai/volatile_configs/deployments/primesecuritybank2.json [111ms]
+2023-05-04 18:45:59.406 [info] > git config --get commit.template [20ms]
+2023-05-04 18:45:59.833 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master [441ms]
+2023-05-04 18:45:59.977 [info] > git status -z -uall [136ms]
+2023-05-04 18:46:00.090 [info] > git rev-parse --show-toplevel [22ms]
+2023-05-04 18:46:00.706 [info] > git rev-parse --show-toplevel [20ms]
+2023-05-04 18:46:00.853 [info] > git ls-tree -l HEAD -- /mnt/disk1/sework/raed_maklai/volatile_configs/deployments/primesecuritybank3.json [39ms]
+2023-05-04 18:46:00.990 [info] > git show --textconv HEAD:deployments/primesecuritybank3.json [47ms]
+2023-05-04 18:46:00.990 [info] > git add -A -- /mnt/disk1/sework/raed_maklai/volatile_configs/deployments/primesecuritybank3.json [79ms]
+2023-05-04 18:46:01.023 [info] > git config --get commit.template [23ms]
+2023-05-04 18:46:01.438 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master [433ms]
+2023-05-04 18:46:01.584 [info] > git status -z -uall [138ms]
+2023-05-04 18:46:01.740 [info] > git rev-parse --show-toplevel [28ms]
+2023-05-04 18:46:01.845 [info] > git config --get commit.template [29ms]
+2023-05-04 18:46:02.255 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master [435ms]
+2023-05-04 18:46:02.307 [info] > git rev-parse --show-toplevel [24ms]
+2023-05-04 18:46:02.398 [info] > git status -z -uall [135ms]
+2023-05-04 18:46:02.516 [info] > git ls-files --stage -- /mnt/disk1/sework/raed_maklai/volatile_configs/deployments/primesecuritybank3.json [55ms]
+2023-05-04 18:46:02.562 [info] > git cat-file -s f682a384a3dd2180ecbc4f80b0a3a9ed34e21ad3 [39ms]
+2023-05-04 18:46:02.718 [info] > git show --textconv :deployments/primesecuritybank3.json [54ms]
+2023-05-04 18:46:03.134 [info] > git rev-parse --show-toplevel [23ms]
+2023-05-04 18:46:07.432 [info] > git config --get commit.template [23ms]
+2023-05-04 18:46:07.855 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master [439ms]
+2023-05-04 18:46:07.996 [info] > git status -z -uall [134ms]
+2023-05-04 18:46:08.735 [info] > git rev-parse --show-toplevel [22ms]
+2023-05-04 18:46:25.661 [info] > git ls-files --stage -- /mnt/disk1/sework/raed_maklai/volatile_configs/deployments/primesecuritybank3.json [22ms]
+2023-05-04 18:46:25.698 [info] > git cat-file -s f682a384a3dd2180ecbc4f80b0a3a9ed34e21ad3 [29ms]
+2023-05-04 18:46:35.738 [info] > git rev-parse --show-toplevel [2ms]
+2023-05-04 18:46:36.498 [info] > git ls-files --stage -- /mnt/disk1/sework/raed_maklai/volatile_configs/deployments/primesecuritybank3.json [22ms]
+2023-05-04 18:46:36.568 [info] > git cat-file -s f682a384a3dd2180ecbc4f80b0a3a9ed34e21ad3 [63ms]
+2023-05-04 18:46:36.721 [info] > git show --textconv :deployments/primesecuritybank3.json [55ms]
+2023-05-04 18:46:39.182 [info] > git -c user.useConfigOnly=true commit --quiet --allow-empty-message --file - [4552ms]
+2023-05-04 18:46:39.262 [info] Calling function: determine_host
+HOST:BASTAWN
+VOLATILE_CONFIGS: /home/raed_maklai/volatile_configs
+VENV_PATH: /opt/awn/venv
+VIRTUAL_ENV: /opt/awn/venv
+RTKVCONF_LOCATION: /opt/awn/venv/site-packages/rtkvconf
+RTK_BUILD_ROOT: 
+RTK_DEPLOY_ROOT: /opt/awn
+CARSERS_LOCATION: /home/raed_maklai/volatile_configs/rules/carsers/carsers
+pwd: /mnt/disk1/sework/raed_maklai/volatile_configs
+Calling function: node_config_validation
+CHANGED DEPLOYMENT CONFIGS: deployments/primesecuritybank2.json
+deployments/primesecuritybank3.json
+RUNNING NODE_CONFIGCTL: deployments/primesecuritybank2.json
+RUNNING NODE_CONFIGCTL: deployments/primesecuritybank3.json
+2023-05-04 18:46:39,148 Configuration Management Tool CRITICAL 27371 MainThread root _excepthook traceback:   File "/opt/awn/venv/site-packages/rtkvconf/node_configctl.py", line 234, in <module>
+    main()
+  File "/opt/awn/venv/site-packages/rtkvconf/node_configctl.py", line 230, in main
+    args.func(args)
+  File "/opt/awn/venv/site-packages/rtkvconf/node_configctl.py", line 95, in _wrapper
+    raise ValueError("There was an error reading %s: ", config_file, e)
+
+2023-05-04 18:46:39,148 Configuration Management Tool CRITICAL 27371 MainThread root <type 'exceptions.ValueError'>: ('There was an error reading %s: ', 'deployments/primesecuritybank3.json', ValueError('Unexpected \'"\' when decoding object (char 157)',))
+Verify failed
+2023-05-04 18:46:39.300 [info] > git config --get-all user.name [29ms]
+2023-05-04 18:46:39.323 [info] > git config --get-all user.email [17ms]
+2023-05-04 18:46:39.340 [info] > git config --get commit.template [12ms]
+2023-05-04 18:46:39.759 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master [425ms]
+2023-05-04 18:46:39.905 [info] > git status -z -uall [139ms]
+2023-05-04 18:46:40.673 [info] > git rev-parse --show-toplevel [12ms]
+2023-05-04 18:47:27.139 [info] > git ls-files --stage -- /mnt/disk1/sework/raed_maklai/volatile_configs/deployments/primesecuritybank3.json [24ms]
+2023-05-04 18:47:27.185 [info] > git cat-file -s f682a384a3dd2180ecbc4f80b0a3a9ed34e21ad3 [39ms]
+2023-05-04 18:47:43.059 [info] > git -c user.useConfigOnly=true commit --quiet --allow-empty-message --file - [3973ms]
+2023-05-04 18:47:43.059 [info] Calling function: determine_host
+HOST:BASTAWN
+VOLATILE_CONFIGS: /home/raed_maklai/volatile_configs
+VENV_PATH: /opt/awn/venv
+VIRTUAL_ENV: /opt/awn/venv
+RTKVCONF_LOCATION: /opt/awn/venv/site-packages/rtkvconf
+RTK_BUILD_ROOT: 
+RTK_DEPLOY_ROOT: /opt/awn
+CARSERS_LOCATION: /home/raed_maklai/volatile_configs/rules/carsers/carsers
+pwd: /mnt/disk1/sework/raed_maklai/volatile_configs
+Calling function: node_config_validation
+CHANGED DEPLOYMENT CONFIGS: deployments/primesecuritybank2.json
+deployments/primesecuritybank3.json
+RUNNING NODE_CONFIGCTL: deployments/primesecuritybank2.json
+RUNNING NODE_CONFIGCTL: deployments/primesecuritybank3.json
+2023-05-04 18:47:43,040 Configuration Management Tool CRITICAL 27491 MainThread root _excepthook traceback:   File "/opt/awn/venv/site-packages/rtkvconf/node_configctl.py", line 234, in <module>
+    main()
+  File "/opt/awn/venv/site-packages/rtkvconf/node_configctl.py", line 230, in main
+    args.func(args)
+  File "/opt/awn/venv/site-packages/rtkvconf/node_configctl.py", line 95, in _wrapper
+    raise ValueError("There was an error reading %s: ", config_file, e)
+
+2023-05-04 18:47:43,041 Configuration Management Tool CRITICAL 27491 MainThread root <type 'exceptions.ValueError'>: ('There was an error reading %s: ', 'deployments/primesecuritybank3.json', ValueError('Unexpected \'"\' when decoding object (char 157)',))
+Verify failed
+2023-05-04 18:47:43.077 [info] > git config --get-all user.name [10ms]
+2023-05-04 18:47:43.093 [info] > git config --get-all user.email [9ms]
+2023-05-04 18:47:43.108 [info] > git config --get commit.template [9ms]
+2023-05-04 18:47:43.523 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master [420ms]
+2023-05-04 18:47:43.662 [info] > git status -z -uall [131ms]
+2023-05-04 18:47:44.408 [info] > git rev-parse --show-toplevel [8ms]
+2023-05-04 18:47:58.906 [info] > git show --textconv HEAD:deployments/primesecuritybank3.json [36ms]
+2023-05-04 18:47:58.933 [info] > git show --textconv :deployments/primesecuritybank3.json [57ms]
+2023-05-04 18:47:58.933 [info] > git ls-tree -l HEAD -- /mnt/disk1/sework/raed_maklai/volatile_configs/deployments/primesecuritybank3.json [52ms]
+2023-05-04 18:47:58.933 [info] > git ls-files --stage -- /mnt/disk1/sework/raed_maklai/volatile_configs/deployments/primesecuritybank3.json [47ms]
+2023-05-04 18:47:58.984 [info] > git cat-file -s f682a384a3dd2180ecbc4f80b0a3a9ed34e21ad3 [43ms]
+2023-05-04 18:47:59.431 [info] > git check-ignore -v -z --stdin [34ms]
+2023-05-04 18:48:03.162 [info] > git show --textconv HEAD:deployments/primesecuritybank2.json [48ms]
+2023-05-04 18:48:03.184 [info] > git show --textconv :deployments/primesecuritybank2.json [64ms]
+2023-05-04 18:48:03.184 [info] > git ls-files --stage -- /mnt/disk1/sework/raed_maklai/volatile_configs/deployments/primesecuritybank2.json [52ms]
+2023-05-04 18:48:03.192 [info] > git ls-tree -l HEAD -- /mnt/disk1/sework/raed_maklai/volatile_configs/deployments/primesecuritybank2.json [66ms]
+2023-05-04 18:48:03.223 [info] > git cat-file -s 622ac32152484f04c2d0bb81954923505f206363 [31ms]
+2023-05-04 18:48:03.677 [info] > git check-ignore -v -z --stdin [35ms]
+2023-05-04 18:48:19.756 [info] > git -c user.useConfigOnly=true commit --quiet --allow-empty-message --file - [3988ms]
+2023-05-04 18:48:19.757 [info] Calling function: determine_host
+HOST:BASTAWN
+VOLATILE_CONFIGS: /home/raed_maklai/volatile_configs
+VENV_PATH: /opt/awn/venv
+VIRTUAL_ENV: /opt/awn/venv
+RTKVCONF_LOCATION: /opt/awn/venv/site-packages/rtkvconf
+RTK_BUILD_ROOT: 
+RTK_DEPLOY_ROOT: /opt/awn
+CARSERS_LOCATION: /home/raed_maklai/volatile_configs/rules/carsers/carsers
+pwd: /mnt/disk1/sework/raed_maklai/volatile_configs
+Calling function: node_config_validation
+CHANGED DEPLOYMENT CONFIGS: deployments/primesecuritybank2.json
+deployments/primesecuritybank3.json
+RUNNING NODE_CONFIGCTL: deployments/primesecuritybank2.json
+RUNNING NODE_CONFIGCTL: deployments/primesecuritybank3.json
+2023-05-04 18:48:19,740 Configuration Management Tool CRITICAL 27644 MainThread root _excepthook traceback:   File "/opt/awn/venv/site-packages/rtkvconf/node_configctl.py", line 234, in <module>
+    main()
+  File "/opt/awn/venv/site-packages/rtkvconf/node_configctl.py", line 230, in main
+    args.func(args)
+  File "/opt/awn/venv/site-packages/rtkvconf/node_configctl.py", line 95, in _wrapper
+    raise ValueError("There was an error reading %s: ", config_file, e)
+
+2023-05-04 18:48:19,740 Configuration Management Tool CRITICAL 27644 MainThread root <type 'exceptions.ValueError'>: ('There was an error reading %s: ', 'deployments/primesecuritybank3.json', ValueError('Unexpected \'"\' when decoding object (char 157)',))
+Verify failed
+2023-05-04 18:48:19.774 [info] > git config --get-all user.name [9ms]
+2023-05-04 18:48:19.790 [info] > git config --get-all user.email [10ms]
+2023-05-04 18:48:19.805 [info] > git config --get commit.template [9ms]
+2023-05-04 18:48:20.241 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master [440ms]
+2023-05-04 18:48:20.371 [info] > git status -z -uall [123ms]
+2023-05-04 18:48:21.090 [info] > git rev-parse --show-toplevel [9ms]
+2023-05-04 18:49:11.908 [info] > git show --textconv :deployments/primesecuritybank3.json [41ms]
+2023-05-04 18:49:11.923 [info] > git show --textconv HEAD:deployments/primesecuritybank3.json [63ms]
+2023-05-04 18:49:11.923 [info] > git ls-tree -l HEAD -- /mnt/disk1/sework/raed_maklai/volatile_configs/deployments/primesecuritybank3.json [50ms]
+2023-05-04 18:49:11.924 [info] > git ls-files --stage -- /mnt/disk1/sework/raed_maklai/volatile_configs/deployments/primesecuritybank3.json [44ms]
+2023-05-04 18:49:11.969 [info] > git cat-file -s f682a384a3dd2180ecbc4f80b0a3a9ed34e21ad3 [37ms]
+2023-05-04 18:49:59.380 [info] > git branch [37ms]
+2023-05-04 18:49:59.533 [info] > git reset -q HEAD -- /mnt/disk1/sework/raed_maklai/volatile_configs/deployments/primesecuritybank3.json [145ms]
+2023-05-04 18:49:59.552 [info] > git config --get commit.template [10ms]
+2023-05-04 18:49:59.981 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master [433ms]
+2023-05-04 18:50:00.106 [info] > git add -A -- /mnt/disk1/sework/raed_maklai/volatile_configs/deployments/primesecuritybank3.json [85ms]
+2023-05-04 18:50:00.115 [info] > git status -z -uall [126ms] (cancelled)
+2023-05-04 18:50:00.125 [info] > git config --get commit.template [10ms]
+2023-05-04 18:50:00.551 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master [429ms]
+2023-05-04 18:50:00.689 [info] > git status -z -uall [130ms]
+2023-05-04 18:50:00.749 [info] > git rev-parse --show-toplevel [9ms]
+2023-05-04 18:50:01.425 [info] > git rev-parse --show-toplevel [10ms]
+2023-05-04 18:50:01.489 [info] > git branch [28ms]
+2023-05-04 18:50:01.607 [info] > git ls-tree -l HEAD -- /mnt/disk1/sework/raed_maklai/volatile_configs/deployments/primesecuritybank3.json [36ms]
+2023-05-04 18:50:01.608 [info] > git ls-files --stage -- /mnt/disk1/sework/raed_maklai/volatile_configs/deployments/primesecuritybank3.json [31ms]
+2023-05-04 18:50:01.643 [info] > git reset -q HEAD -- /mnt/disk1/sework/raed_maklai/volatile_configs/deployments/primesecuritybank3.json [147ms]
+2023-05-04 18:50:01.644 [info] > git cat-file -s f682a384a3dd2180ecbc4f80b0a3a9ed34e21ad3 [29ms]
+2023-05-04 18:50:01.661 [info] > git config --get commit.template [10ms]
+2023-05-04 18:50:01.761 [info] > git show --textconv HEAD:deployments/primesecuritybank3.json [48ms]
+2023-05-04 18:50:01.810 [info] > git show --textconv :deployments/primesecuritybank3.json [49ms]
+2023-05-04 18:50:02.086 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master [429ms]
+2023-05-04 18:50:02.228 [info] > git status -z -uall [134ms]
+2023-05-04 18:50:02.381 [info] > git rev-parse --show-toplevel [9ms]
+2023-05-04 18:50:02.974 [info] > git rev-parse --show-toplevel [9ms]
+2023-05-04 18:50:03.150 [info] > git ls-tree -l HEAD -- /mnt/disk1/sework/raed_maklai/volatile_configs/deployments/primesecuritybank3.json [35ms]
+2023-05-04 18:50:03.150 [info] > git ls-files --stage -- /mnt/disk1/sework/raed_maklai/volatile_configs/deployments/primesecuritybank3.json [30ms]
+2023-05-04 18:50:03.186 [info] > git cat-file -s 5d2edafa222fc95fb63b47cb185eb0fb3804cf12 [29ms]
+2023-05-04 18:50:03.301 [info] > git show --textconv HEAD:deployments/primesecuritybank3.json [41ms]
+2023-05-04 18:50:03.322 [info] > git show --textconv :deployments/primesecuritybank3.json [48ms]
+2023-05-04 18:50:04.124 [info] > git config --get commit.template [9ms]
+2023-05-04 18:50:04.548 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master [427ms]
+2023-05-04 18:50:04.690 [info] > git status -z -uall [135ms]
+2023-05-04 18:50:05.430 [info] > git rev-parse --show-toplevel [19ms]
+2023-05-04 18:50:07.410 [info] > git show --textconv HEAD:deployments/primesecuritybank3.json [47ms]
+2023-05-04 18:50:07.411 [info] > git ls-tree -l HEAD -- /mnt/disk1/sework/raed_maklai/volatile_configs/deployments/primesecuritybank3.json [41ms]
+2023-05-04 18:50:09.914 [info] > git config --local branch.master.github-pr-owner-number [33ms]
+2023-05-04 18:50:09.949 [info] > git config --get commit.template [28ms]
+2023-05-04 18:50:10.375 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master [447ms]
+2023-05-04 18:50:10.537 [info] > git status -z -uall [152ms]
+2023-05-04 18:50:11.285 [info] > git rev-parse --show-toplevel [15ms]
+2023-05-04 18:50:11.405 [info] > git show --textconv 08d2167b76d5388b44ec3afb3de91d7794b5c742:deployments/cooperclinic1.json [47ms]
+2023-05-04 18:50:22.609 [info] > git config --get commit.template [24ms]
+2023-05-04 18:50:23.026 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master [433ms]
+2023-05-04 18:50:23.181 [info] > git status -z -uall [147ms]
+2023-05-04 18:50:23.908 [info] > git rev-parse --show-toplevel [15ms]
+2023-05-04 18:50:25.411 [info] > git add -A -- /mnt/disk1/sework/raed_maklai/volatile_configs/deployments/primesecuritybank3.json [78ms]
+2023-05-04 18:50:25.433 [info] > git config --get commit.template [13ms]
+2023-05-04 18:50:25.869 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master [443ms]
+2023-05-04 18:50:26.018 [info] > git status -z -uall [141ms]
+2023-05-04 18:50:26.737 [info] > git rev-parse --show-toplevel [10ms]
+2023-05-04 18:50:26.894 [info] > git ls-files --stage -- /mnt/disk1/sework/raed_maklai/volatile_configs/deployments/primesecuritybank3.json [31ms]
+2023-05-04 18:50:26.930 [info] > git cat-file -s 4aa1836d9f15fc35e8b1e286c2a7ffac908502cb [29ms]
+2023-05-04 18:50:27.069 [info] > git show --textconv :deployments/primesecuritybank3.json [50ms]
+2023-05-04 18:50:28.201 [info] > git config --get commit.template [10ms]
+2023-05-04 18:50:28.620 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master [423ms]
+2023-05-04 18:50:28.762 [info] > git status -z -uall [133ms]
+2023-05-04 18:50:29.474 [info] > git rev-parse --show-toplevel [3ms]
+2023-05-04 18:50:37.336 [info] > git show --textconv HEAD:deployments/primesecuritybank3.json [54ms]
+2023-05-04 18:50:37.336 [info] > git ls-files --stage -- /mnt/disk1/sework/raed_maklai/volatile_configs/deployments/primesecuritybank3.json [33ms]
+2023-05-04 18:50:37.354 [info] > git show --textconv :deployments/primesecuritybank3.json [65ms]
+2023-05-04 18:50:37.355 [info] > git ls-tree -l HEAD -- /mnt/disk1/sework/raed_maklai/volatile_configs/deployments/primesecuritybank3.json [58ms]
+2023-05-04 18:50:37.383 [info] > git cat-file -s 4aa1836d9f15fc35e8b1e286c2a7ffac908502cb [38ms]
+2023-05-04 18:50:45.690 [info] > git rev-parse --show-toplevel [3ms]
+2023-05-04 18:50:46.447 [info] > git ls-files --stage -- /mnt/disk1/sework/raed_maklai/volatile_configs/deployments/primesecuritybank3.json [26ms]
+2023-05-04 18:50:46.478 [info] > git ls-tree -l HEAD -- /mnt/disk1/sework/raed_maklai/volatile_configs/deployments/primesecuritybank3.json [50ms]
+2023-05-04 18:50:46.479 [info] > git ls-files --stage -- /mnt/disk1/sework/raed_maklai/volatile_configs/deployments/primesecuritybank3.json [42ms]
+2023-05-04 18:50:46.490 [info] > git cat-file -s 4aa1836d9f15fc35e8b1e286c2a7ffac908502cb [31ms]
+2023-05-04 18:50:46.516 [info] > git cat-file -s 4aa1836d9f15fc35e8b1e286c2a7ffac908502cb [30ms]
+2023-05-04 18:50:46.621 [info] > git show --textconv HEAD:deployments/primesecuritybank3.json [44ms]
+2023-05-04 18:50:46.644 [info] > git show --textconv :deployments/primesecuritybank3.json [58ms]
+2023-05-04 18:50:46.674 [info] > git show --textconv :deployments/primesecuritybank3.json [55ms]
+2023-05-04 18:50:49.653 [info] > git -c user.useConfigOnly=true commit --quiet --allow-empty-message --file - [4826ms]
+2023-05-04 18:50:49.653 [info] Calling function: determine_host
+HOST:BASTAWN
+VOLATILE_CONFIGS: /home/raed_maklai/volatile_configs
+VENV_PATH: /opt/awn/venv
+VIRTUAL_ENV: /opt/awn/venv
+RTKVCONF_LOCATION: /opt/awn/venv/site-packages/rtkvconf
+RTK_BUILD_ROOT: 
+RTK_DEPLOY_ROOT: /opt/awn
+CARSERS_LOCATION: /home/raed_maklai/volatile_configs/rules/carsers/carsers
+pwd: /mnt/disk1/sework/raed_maklai/volatile_configs
+Calling function: node_config_validation
+CHANGED DEPLOYMENT CONFIGS: deployments/primesecuritybank2.json
+deployments/primesecuritybank3.json
+RUNNING NODE_CONFIGCTL: deployments/primesecuritybank2.json
+RUNNING NODE_CONFIGCTL: deployments/primesecuritybank3.json
+Calling function: parsers_json_validation
+Calling function: console_files_validation
+CHANGED S10/S13 CONFIGS: 
+Calling function: intentions_verify_customerization
+Reached end
+2023-05-04 18:50:49.674 [info] > git config --get commit.template [13ms]
+2023-05-04 18:50:49.691 [info] > git config --get commit.template [9ms]
+2023-05-04 18:50:50.119 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master [431ms]
+2023-05-04 18:50:50.245 [info] > git status -z -uall [118ms]
+2023-05-04 18:50:50.383 [info] > git rev-parse --show-toplevel [11ms]
+2023-05-04 18:50:50.794 [info] > git config --local branch.master.github-pr-owner-number [22ms]
+2023-05-04 18:50:50.810 [info] > git config --get commit.template [8ms]
+2023-05-04 18:50:51.107 [info] > git ls-files --stage -- /mnt/disk1/sework/raed_maklai/volatile_configs/deployments/primesecuritybank3.json [25ms]
+2023-05-04 18:50:51.117 [info] > git ls-tree -l HEAD -- /mnt/disk1/sework/raed_maklai/volatile_configs/deployments/primesecuritybank3.json [49ms]
+2023-05-04 18:50:51.125 [info] > git ls-tree -l HEAD -- /mnt/disk1/sework/raed_maklai/volatile_configs/deployments/primesecuritybank3.json [50ms]
+2023-05-04 18:50:51.143 [info] > git cat-file -s 4aa1836d9f15fc35e8b1e286c2a7ffac908502cb [28ms]
+2023-05-04 18:50:51.244 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master [435ms]
+2023-05-04 18:50:51.257 [info] > git show --textconv HEAD:deployments/primesecuritybank3.json [42ms]
+2023-05-04 18:50:51.265 [info] > git show --textconv HEAD:deployments/primesecuritybank3.json [42ms]
+2023-05-04 18:50:51.290 [info] > git show --textconv :deployments/primesecuritybank3.json [50ms]
+2023-05-04 18:50:51.380 [info] > git status -z -uall [128ms]
+2023-05-04 18:50:52.148 [info] > git rev-parse --show-toplevel [10ms]
+2023-05-04 18:50:59.172 [info] > git push rtkwlf master:master [8905ms]
+2023-05-04 18:50:59.172 [info] remote: Resolving deltas:   0% (0/3)        remote: Resolving deltas:  33% (1/3)        remote: Resolving deltas:  66% (2/3)        remote: Resolving deltas: 100% (3/3)        remote: Resolving deltas: 100% (3/3), completed with 2 local objects.        
+To git@github.com:RaedMaklai/volatile_configs.git
+   37aca88..5b2e306  master -> master
+2023-05-04 18:50:59.193 [info] > git config --get commit.template [12ms]
+2023-05-04 18:50:59.607 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master [420ms]
+2023-05-04 18:50:59.751 [info] > git status -z -uall [136ms]
+2023-05-04 18:50:59.848 [info] > git rev-parse --show-toplevel [17ms]
+2023-05-04 18:50:59.899 [info] > git config --get commit.template [22ms]
+2023-05-04 18:51:00.157 [info] > git config --local branch.master.github-pr-owner-number [22ms]
+2023-05-04 18:51:00.175 [info] > git config --get commit.template [11ms]
+2023-05-04 18:51:00.338 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master [454ms]
+2023-05-04 18:51:00.611 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master [440ms]
+2023-05-04 18:51:00.754 [info] > git status -z -uall [134ms]
+2023-05-04 18:51:00.797 [info] > git ls-tree -l HEAD -- /mnt/disk1/sework/raed_maklai/volatile_configs/deployments/primesecuritybank3.json [52ms]
+2023-05-04 18:51:00.797 [info] > git ls-tree -l HEAD -- /mnt/disk1/sework/raed_maklai/volatile_configs/deployments/primesecuritybank3.json [62ms]
+2023-05-04 18:51:00.797 [info] > git ls-files --stage -- /mnt/disk1/sework/raed_maklai/volatile_configs/deployments/primesecuritybank3.json [46ms]
+2023-05-04 18:51:00.838 [info] > git cat-file -s 4aa1836d9f15fc35e8b1e286c2a7ffac908502cb [32ms]
+2023-05-04 18:51:00.959 [info] > git show --textconv HEAD:deployments/primesecuritybank3.json [48ms]
+2023-05-04 18:51:00.959 [info] > git show --textconv HEAD:deployments/primesecuritybank3.json [40ms]
+2023-05-04 18:51:00.979 [info] > git show --textconv :deployments/primesecuritybank3.json [52ms]
+2023-05-04 18:51:01.483 [info] > git rev-parse --show-toplevel [14ms]
+2023-05-04 18:51:02.449 [info] > git config --local -l [82ms]
+2023-05-04 18:51:02.506 [info] > git config --get commit.template [48ms]
+2023-05-04 18:51:02.713 [info] > git show --textconv 08d2167b76d5388b44ec3afb3de91d7794b5c742:deployments/cooperclinic1.json [47ms]
+2023-05-04 18:51:02.913 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master [444ms]
+2023-05-04 18:51:03.058 [info] > git status -z -uall [136ms]
+2023-05-04 18:51:03.830 [info] > git rev-parse --show-toplevel [12ms]
+2023-05-04 18:51:13.409 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) refs/heads/ [440ms]
+2023-05-04 18:51:13.433 [info] > git config --local branch.master.github-pr-owner-number [15ms]
+2023-05-04 18:51:13.451 [info] > git config --get commit.template [10ms]
+2023-05-04 18:51:13.891 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master [443ms]
+2023-05-04 18:51:14.030 [info] > git status -z -uall [129ms]
+2023-05-04 18:51:14.748 [info] > git rev-parse --show-toplevel [15ms]
+2023-05-04 18:51:40.903 [info] > git config --local -l [75ms]
+2023-05-04 18:51:40.928 [info] > git config --get commit.template [14ms]
+2023-05-04 18:51:41.349 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master [428ms]
+2023-05-04 18:51:41.485 [info] > git status -z -uall [127ms]
+2023-05-04 18:51:42.220 [info] > git rev-parse --show-toplevel [8ms]
+2023-05-04 18:51:46.256 [info] > git check-ignore -v -z --stdin [34ms]
+2023-05-04 18:52:07.616 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master [441ms]
+2023-05-04 18:52:10.261 [info] > git show -s --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z 5b2e3063f98c2bb229bf405b76a22f59f3c3c489 [2636ms]
+2023-05-04 18:52:18.680 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master [429ms]
+2023-05-04 18:52:22.738 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master [449ms]
+2023-05-04 18:52:23.189 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master [441ms]
+2023-05-04 18:52:25.355 [info] > git show -s --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z 5b2e3063f98c2bb229bf405b76a22f59f3c3c489 [2155ms]
+2023-05-04 18:52:33.052 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master [454ms]
+2023-05-04 18:52:33.537 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master [475ms]
+2023-05-04 18:52:33.538 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master [467ms]
+2023-05-04 18:52:35.711 [info] > git show -s --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z 5b2e3063f98c2bb229bf405b76a22f59f3c3c489 [2164ms]
+2023-05-04 18:52:41.413 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master [447ms]
+2023-05-04 18:52:43.616 [info] > git config --local branch.master.github-pr-owner-number rtkwlf#volatile_configs#107765 [19ms]
+2023-05-04 18:52:43.648 [info] > git config --get commit.template [21ms]
+2023-05-04 18:52:44.084 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master [449ms]
+2023-05-04 18:52:44.222 [info] > git status -z -uall [128ms]
+2023-05-04 18:52:44.321 [info] > git config --local -l [85ms]
+2023-05-04 18:52:44.333 [info] > git rev-parse --show-toplevel [12ms]
+2023-05-04 18:52:44.354 [info] > git config --get commit.template [23ms]
+2023-05-04 18:52:44.634 [info] > git config --local -l [110ms]
+2023-05-04 18:52:44.673 [info] > git config --get commit.template [26ms]
+2023-05-04 18:52:44.822 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master [479ms]
+2023-05-04 18:52:45.119 [info] > git ls-tree -l HEAD -- /mnt/disk1/sework/raed_maklai/volatile_configs/deployments/primesecuritybank3.json [52ms]
+2023-05-04 18:52:45.120 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master [459ms]
+2023-05-04 18:52:45.131 [info] > git ls-tree -l HEAD -- /mnt/disk1/sework/raed_maklai/volatile_configs/deployments/primesecuritybank3.json [51ms]
+2023-05-04 18:52:45.149 [info] > git ls-files --stage -- /mnt/disk1/sework/raed_maklai/volatile_configs/deployments/primesecuritybank3.json [53ms]
+2023-05-04 18:52:45.206 [info] > git cat-file -s 4aa1836d9f15fc35e8b1e286c2a7ffac908502cb [41ms]
+2023-05-04 18:52:45.206 [info] > git rev-parse --show-toplevel [19ms]
+2023-05-04 18:52:45.280 [info] > git status -z -uall [150ms]
+2023-05-04 18:52:45.316 [info] > git show --textconv HEAD:deployments/primesecuritybank3.json [72ms]
+2023-05-04 18:52:45.316 [info] > git show --textconv HEAD:deployments/primesecuritybank3.json [49ms]
+2023-05-04 18:52:45.378 [info] > git show --textconv :deployments/primesecuritybank3.json [63ms]
+2023-05-04 18:52:45.572 [info] > git config --local branch.master.github-pr-owner-number [29ms]
+2023-05-04 18:52:45.596 [info] > git config --get commit.template [14ms]
+2023-05-04 18:52:45.997 [info] > git rev-parse --show-toplevel [19ms]
+2023-05-04 18:52:46.037 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master [443ms]
+2023-05-04 18:52:46.213 [info] > git status -z -uall [166ms]
+2023-05-04 18:52:46.284 [info] > git config --get commit.template [34ms]
+2023-05-04 18:52:46.707 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master [448ms]
+2023-05-04 18:52:46.879 [info] > git status -z -uall [161ms]
+2023-05-04 18:52:46.936 [info] > git rev-parse --show-toplevel [17ms]
+2023-05-04 18:52:47.638 [info] > git config --local -l [70ms]
+2023-05-04 18:52:47.676 [info] > git config --get commit.template [26ms]
+2023-05-04 18:52:47.790 [info] > git rev-parse --show-toplevel [17ms]
+2023-05-04 18:52:47.962 [info] > git show --textconv 37aca8883fb0a4def860a40680b31074588f9968:deployments/primesecuritybank2.json [73ms]
+2023-05-04 18:52:47.988 [info] > git show --textconv 37aca8883fb0a4def860a40680b31074588f9968:deployments/primesecuritybank3.json [82ms]
+2023-05-04 18:52:48.116 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master [453ms]
+2023-05-04 18:52:48.267 [info] > git status -z -uall [140ms]
+2023-05-04 18:52:48.758 [info] > git check-ignore -v -z --stdin [82ms]
+2023-05-04 18:52:49.005 [info] > git rev-parse --show-toplevel [28ms]
+2023-05-04 18:55:12.083 [info] > git config --local branch.master.github-pr-owner-number [4ms]
+2023-05-04 18:55:12.122 [info] > git config --get commit.template [28ms]
+2023-05-04 18:55:12.548 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master [445ms]
+2023-05-04 18:55:12.711 [info] > git status -z -uall [153ms]
+2023-05-04 18:55:13.412 [info] > git rev-parse --show-toplevel [12ms]
+2023-05-04 18:55:13.669 [info] > git show --textconv 697cdf6ead89e151e02c78c4e9ef5f71627bd88b:deployments/primesecuritybank2.json [38ms]
+2023-05-04 18:55:13.669 [info] > git show --textconv 697cdf6ead89e151e02c78c4e9ef5f71627bd88b:deployments/primesecuritybank3.json [29ms]
+2023-05-04 18:55:13.710 [info] > git ls-tree -l 697cdf6ead89e151e02c78c4e9ef5f71627bd88b -- deployments/ [31ms]
+2023-05-04 18:55:13.710 [info] fatal: not a tree object
+2023-05-04 18:55:13.724 [info] > git ls-tree -l 697cdf6ead89e151e02c78c4e9ef5f71627bd88b -- deployments/ [35ms]
+2023-05-04 18:55:13.724 [info] fatal: not a tree object
+2023-05-04 19:00:14.427 [info] > git config --local branch.master.github-pr-owner-number [10ms]
+2023-05-04 19:00:14.472 [info] > git config --get commit.template [24ms]
+2023-05-04 19:00:37.889 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master [23429ms]
+2023-05-04 19:00:38.439 [info] > git status -z -uall [538ms]
+2023-05-04 19:00:39.466 [info] > git show --textconv 697cdf6ead89e151e02c78c4e9ef5f71627bd88b:deployments/primesecuritybank2.json [53ms]
+2023-05-04 19:00:39.479 [info] > git show --textconv 697cdf6ead89e151e02c78c4e9ef5f71627bd88b:deployments/primesecuritybank3.json [53ms]
+2023-05-04 19:00:39.523 [info] > git ls-tree -l 697cdf6ead89e151e02c78c4e9ef5f71627bd88b -- deployments/ [45ms]
+2023-05-04 19:00:39.523 [info] fatal: not a tree object
+2023-05-04 19:00:39.523 [info] > git ls-tree -l 697cdf6ead89e151e02c78c4e9ef5f71627bd88b -- deployments/ [35ms]
+2023-05-04 19:00:39.523 [info] fatal: not a tree object
+2023-05-04 19:01:03.577 [info] > git rev-parse --show-toplevel [29ms]
+2023-05-04 19:06:03.052 [info] > git config --local branch.master.github-pr-owner-number [9ms]
+2023-05-04 19:06:03.081 [info] > git config --get commit.template [19ms]
+2023-05-04 19:06:34.804 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master [31733ms]
+2023-05-04 19:06:35.324 [info] > git status -z -uall [508ms]
+2023-05-04 19:06:36.233 [info] > git show --textconv 697cdf6ead89e151e02c78c4e9ef5f71627bd88b:deployments/primesecuritybank2.json [35ms]
+2023-05-04 19:06:36.233 [info] > git show --textconv 697cdf6ead89e151e02c78c4e9ef5f71627bd88b:deployments/primesecuritybank3.json [26ms]
+2023-05-04 19:06:36.270 [info] > git ls-tree -l 697cdf6ead89e151e02c78c4e9ef5f71627bd88b -- deployments/ [28ms]
+2023-05-04 19:06:36.270 [info] fatal: not a tree object
+2023-05-04 19:06:36.277 [info] > git ls-tree -l 697cdf6ead89e151e02c78c4e9ef5f71627bd88b -- deployments/ [28ms]
+2023-05-04 19:06:36.277 [info] fatal: not a tree object
+2023-05-04 19:32:11.773 [info] > git rev-parse --show-toplevel [13ms]
+2023-05-04 19:32:11.853 [info] > git rev-parse --show-toplevel [10ms]
+2023-05-04 19:32:11.872 [info] > git rev-parse --show-toplevel [9ms]
+2023-05-04 19:32:11.941 [info] > git rev-parse --show-toplevel [14ms]
+2023-05-04 19:32:11.959 [info] > git rev-parse --show-toplevel [9ms]
+2023-05-04 19:32:11.976 [info] > git rev-parse --show-toplevel [9ms]
+2023-05-04 19:32:12.043 [info] > git rev-parse --show-toplevel [9ms]
+2023-05-04 19:32:12.059 [info] > git rev-parse --show-toplevel [9ms]
+2023-05-04 19:32:12.543 [info] > git rev-parse --show-toplevel [15ms]
+2023-05-04 19:37:12.053 [info] > git config --local branch.master.github-pr-owner-number [5ms]
+2023-05-04 19:37:12.074 [info] > git config --get commit.template [11ms]
+2023-05-04 19:37:34.519 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master [22449ms]
+2023-05-04 19:37:35.058 [info] > git status -z -uall [528ms]
+2023-05-04 19:37:36.049 [info] > git show --textconv 697cdf6ead89e151e02c78c4e9ef5f71627bd88b:deployments/primesecuritybank2.json [53ms]
+2023-05-04 19:37:36.049 [info] > git show --textconv 697cdf6ead89e151e02c78c4e9ef5f71627bd88b:deployments/primesecuritybank3.json [43ms]
+2023-05-04 19:37:36.088 [info] > git ls-tree -l 697cdf6ead89e151e02c78c4e9ef5f71627bd88b -- deployments/ [28ms]
+2023-05-04 19:37:36.088 [info] fatal: not a tree object
+2023-05-04 19:37:36.105 [info] > git ls-tree -l 697cdf6ead89e151e02c78c4e9ef5f71627bd88b -- deployments/ [36ms]
+2023-05-04 19:37:36.105 [info] fatal: not a tree object
+2023-05-04 19:38:03.102 [info] > git rev-parse --show-toplevel [21ms]
+2023-05-04 19:43:02.587 [info] > git config --local branch.master.github-pr-owner-number [4ms]
+2023-05-04 19:43:02.608 [info] > git config --get commit.template [10ms]
+2023-05-04 19:43:03.030 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master [424ms]
+2023-05-04 19:43:03.156 [info] > git status -z -uall [115ms]
+2023-05-04 19:43:04.076 [info] > git show --textconv 697cdf6ead89e151e02c78c4e9ef5f71627bd88b:deployments/primesecuritybank2.json [50ms]
+2023-05-04 19:43:04.076 [info] > git show --textconv 697cdf6ead89e151e02c78c4e9ef5f71627bd88b:deployments/primesecuritybank3.json [41ms]
+2023-05-04 19:43:04.115 [info] > git ls-tree -l 697cdf6ead89e151e02c78c4e9ef5f71627bd88b -- deployments/ [29ms]
+2023-05-04 19:43:04.116 [info] fatal: not a tree object
+2023-05-04 19:43:04.123 [info] > git ls-tree -l 697cdf6ead89e151e02c78c4e9ef5f71627bd88b -- deployments/ [28ms]
+2023-05-04 19:43:04.123 [info] fatal: not a tree object
+2023-05-04 19:44:03.079 [info] > git rev-parse --show-toplevel [9ms]
+2023-05-04 19:49:02.575 [info] > git config --local branch.master.github-pr-owner-number [3ms]
+2023-05-04 19:49:02.595 [info] > git config --get commit.template [10ms]
+2023-05-04 19:49:03.042 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master [447ms]
+2023-05-04 19:49:03.180 [info] > git status -z -uall [127ms]
+2023-05-04 19:49:04.152 [info] > git show --textconv 697cdf6ead89e151e02c78c4e9ef5f71627bd88b:deployments/primesecuritybank2.json [48ms]
+2023-05-04 19:49:04.152 [info] > git show --textconv 697cdf6ead89e151e02c78c4e9ef5f71627bd88b:deployments/primesecuritybank3.json [36ms]
+2023-05-04 19:49:04.192 [info] > git ls-tree -l 697cdf6ead89e151e02c78c4e9ef5f71627bd88b -- deployments/ [29ms]
+2023-05-04 19:49:04.192 [info] fatal: not a tree object
+2023-05-04 19:49:04.206 [info] > git ls-tree -l 697cdf6ead89e151e02c78c4e9ef5f71627bd88b -- deployments/ [33ms]
+2023-05-04 19:49:04.206 [info] fatal: not a tree object
+2023-05-04 19:50:03.083 [info] > git rev-parse --show-toplevel [9ms]

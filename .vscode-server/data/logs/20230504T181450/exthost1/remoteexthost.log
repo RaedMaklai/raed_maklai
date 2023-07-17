@@ -1,0 +1,136 @@
+2023-05-04 18:14:52.947 [info] Extension host with pid 17565 started
+2023-05-04 18:14:52.966 [info] Lock '/home/raed_maklai/.vscode-server/data/User/workspaceStorage/1d46d92ebe2d39db2135ad46a070afcb/vscode.lock': Lock acquired.
+2023-05-04 18:14:53.114 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2023-05-04 18:14:53.115 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:json'
+2023-05-04 18:14:53.115 [info] ExtensionService#_doActivateExtension vscode.extension-editing, startup: false, activationEvent: 'onLanguage:json'
+2023-05-04 18:14:53.115 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:json'
+2023-05-04 18:14:53.115 [info] ExtensionService#_doActivateExtension vscode.npm, startup: false, activationEvent: 'onLanguage:json'
+2023-05-04 18:14:53.675 [info] ExtensionService#_doActivateExtension GitHub.vscode-pull-request-github, startup: false, activationEvent: 'onFileSystem:githubpr'
+2023-05-04 18:14:54.116 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2023-05-04 18:14:54.228 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2023-05-04 18:14:54.228 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2023-05-04 18:14:54.470 [info] Eager extensions activated
+2023-05-04 18:14:54.470 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2023-05-04 18:14:54.470 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2023-05-04 18:55:14.712 [error] {"message":"Failed to execute git","stdout":"","stderr":"fatal: not a tree object\n","exitCode":128,"gitCommand":"ls-tree","gitArgs":["ls-tree","-l","697cdf6ead89e151e02c78c4e9ef5f71627bd88b","--","deployments/"]}
+2023-05-04 18:55:14.725 [error] {"message":"Failed to execute git","stdout":"","stderr":"fatal: not a tree object\n","exitCode":128,"gitCommand":"ls-tree","gitArgs":["ls-tree","-l","697cdf6ead89e151e02c78c4e9ef5f71627bd88b","--","deployments/"]}
+2023-05-04 19:00:40.525 [error] {"message":"Failed to execute git","stdout":"","stderr":"fatal: not a tree object\n","exitCode":128,"gitCommand":"ls-tree","gitArgs":["ls-tree","-l","697cdf6ead89e151e02c78c4e9ef5f71627bd88b","--","deployments/"]}
+2023-05-04 19:00:40.525 [error] {"message":"Failed to execute git","stdout":"","stderr":"fatal: not a tree object\n","exitCode":128,"gitCommand":"ls-tree","gitArgs":["ls-tree","-l","697cdf6ead89e151e02c78c4e9ef5f71627bd88b","--","deployments/"]}
+2023-05-04 19:06:37.271 [error] {"message":"Failed to execute git","stdout":"","stderr":"fatal: not a tree object\n","exitCode":128,"gitCommand":"ls-tree","gitArgs":["ls-tree","-l","697cdf6ead89e151e02c78c4e9ef5f71627bd88b","--","deployments/"]}
+2023-05-04 19:06:37.277 [error] {"message":"Failed to execute git","stdout":"","stderr":"fatal: not a tree object\n","exitCode":128,"gitCommand":"ls-tree","gitArgs":["ls-tree","-l","697cdf6ead89e151e02c78c4e9ef5f71627bd88b","--","deployments/"]}
+2023-05-04 19:37:37.089 [error] {"message":"Failed to execute git","stdout":"","stderr":"fatal: not a tree object\n","exitCode":128,"gitCommand":"ls-tree","gitArgs":["ls-tree","-l","697cdf6ead89e151e02c78c4e9ef5f71627bd88b","--","deployments/"]}
+2023-05-04 19:37:37.106 [error] {"message":"Failed to execute git","stdout":"","stderr":"fatal: not a tree object\n","exitCode":128,"gitCommand":"ls-tree","gitArgs":["ls-tree","-l","697cdf6ead89e151e02c78c4e9ef5f71627bd88b","--","deployments/"]}
+2023-05-04 19:43:05.117 [error] {"message":"Failed to execute git","stdout":"","stderr":"fatal: not a tree object\n","exitCode":128,"gitCommand":"ls-tree","gitArgs":["ls-tree","-l","697cdf6ead89e151e02c78c4e9ef5f71627bd88b","--","deployments/"]}
+2023-05-04 19:43:05.124 [error] {"message":"Failed to execute git","stdout":"","stderr":"fatal: not a tree object\n","exitCode":128,"gitCommand":"ls-tree","gitArgs":["ls-tree","-l","697cdf6ead89e151e02c78c4e9ef5f71627bd88b","--","deployments/"]}
+2023-05-04 19:49:05.195 [error] {"message":"Failed to execute git","stdout":"","stderr":"fatal: not a tree object\n","exitCode":128,"gitCommand":"ls-tree","gitArgs":["ls-tree","-l","697cdf6ead89e151e02c78c4e9ef5f71627bd88b","--","deployments/"]}
+2023-05-04 19:49:05.207 [error] {"message":"Failed to execute git","stdout":"","stderr":"fatal: not a tree object\n","exitCode":128,"gitCommand":"ls-tree","gitArgs":["ls-tree","-l","697cdf6ead89e151e02c78c4e9ef5f71627bd88b","--","deployments/"]}
+2023-05-04 19:54:01.270 [info] Extension host terminating: received terminate message from renderer
+2023-05-04 19:54:01.272 [info] Lock '/home/raed_maklai/.vscode-server/data/User/workspaceStorage/1d46d92ebe2d39db2135ad46a070afcb/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
+2023-05-04 19:54:01.299 [error] Canceled: Canceled
+	at new l (/home/raed_maklai/.vscode-server/bin/704ed70d4fd1c6bd6342c436f1ede30d1cff4710/out/vs/workbench/api/node/extensionHostProcess.js:99:105190)
+	at c.O (/home/raed_maklai/.vscode-server/bin/704ed70d4fd1c6bd6342c436f1ede30d1cff4710/out/vs/workbench/api/node/extensionHostProcess.js:109:11692)
+	at Proxy.G.<computed>.Q.charCodeAt.G.<computed> (/home/raed_maklai/.vscode-server/bin/704ed70d4fd1c6bd6342c436f1ede30d1cff4710/out/vs/workbench/api/node/extensionHostProcess.js:109:8967)
+	at m.g (/home/raed_maklai/.vscode-server/bin/704ed70d4fd1c6bd6342c436f1ede30d1cff4710/out/vs/workbench/api/node/extensionHostProcess.js:99:125211)
+	at m.executeCommand (/home/raed_maklai/.vscode-server/bin/704ed70d4fd1c6bd6342c436f1ede30d1cff4710/out/vs/workbench/api/node/extensionHostProcess.js:99:124587)
+	at L.registerCommand.description (/home/raed_maklai/.vscode-server/bin/704ed70d4fd1c6bd6342c436f1ede30d1cff4710/out/vs/workbench/api/node/extensionHostProcess.js:99:123880)
+	at m.h (/home/raed_maklai/.vscode-server/bin/704ed70d4fd1c6bd6342c436f1ede30d1cff4710/out/vs/workbench/api/node/extensionHostProcess.js:99:125797)
+	at m.g (/home/raed_maklai/.vscode-server/bin/704ed70d4fd1c6bd6342c436f1ede30d1cff4710/out/vs/workbench/api/node/extensionHostProcess.js:99:124687)
+	at m.executeCommand (/home/raed_maklai/.vscode-server/bin/704ed70d4fd1c6bd6342c436f1ede30d1cff4710/out/vs/workbench/api/node/extensionHostProcess.js:99:124587)
+	at Object.executeCommand (/home/raed_maklai/.vscode-server/bin/704ed70d4fd1c6bd6342c436f1ede30d1cff4710/out/vs/workbench/api/node/extensionHostProcess.js:115:23801)
+	at D (/home/raed_maklai/.vscode-server/bin/704ed70d4fd1c6bd6342c436f1ede30d1cff4710/extensions/git/dist/main.js:2:1467156)
+	at E.invoke (/home/raed_maklai/.vscode-server/bin/704ed70d4fd1c6bd6342c436f1ede30d1cff4710/out/vs/workbench/api/node/extensionHostProcess.js:63:145)
+	at h.deliver (/home/raed_maklai/.vscode-server/bin/704ed70d4fd1c6bd6342c436f1ede30d1cff4710/out/vs/workbench/api/node/extensionHostProcess.js:63:2121)
+	at n.fire (/home/raed_maklai/.vscode-server/bin/704ed70d4fd1c6bd6342c436f1ede30d1cff4710/out/vs/workbench/api/node/extensionHostProcess.js:63:1729)
+	at Object.m [as dispose] (/home/raed_maklai/.vscode-server/bin/704ed70d4fd1c6bd6342c436f1ede30d1cff4710/extensions/git/dist/main.js:2:1481885)
+	at /home/raed_maklai/.vscode-server/bin/704ed70d4fd1c6bd6342c436f1ede30d1cff4710/extensions/git/dist/main.js:2:1485952
+	at Array.forEach (<anonymous>)
+	at g.dispose (/home/raed_maklai/.vscode-server/bin/704ed70d4fd1c6bd6342c436f1ede30d1cff4710/extensions/git/dist/main.js:2:1485938)
+	at t.<anonymous> (/home/raed_maklai/.vscode-server/bin/704ed70d4fd1c6bd6342c436f1ede30d1cff4710/out/vs/workbench/api/node/extensionHostProcess.js:97:12398)
+	at t.dispose (/home/raed_maklai/.vscode-server/bin/704ed70d4fd1c6bd6342c436f1ede30d1cff4710/out/vs/workbench/api/node/extensionHostProcess.js:97:12533)
+	at t.<anonymous> (/home/raed_maklai/.vscode-server/bin/704ed70d4fd1c6bd6342c436f1ede30d1cff4710/extensions/git/dist/main.js:2:1469286)
+	at t.dispose (/home/raed_maklai/.vscode-server/bin/704ed70d4fd1c6bd6342c436f1ede30d1cff4710/out/vs/workbench/api/node/extensionHostProcess.js:97:12533)
+	at I (/home/raed_maklai/.vscode-server/bin/704ed70d4fd1c6bd6342c436f1ede30d1cff4710/out/vs/workbench/api/node/extensionHostProcess.js:10:12084)
+	at E.Y (/home/raed_maklai/.vscode-server/bin/704ed70d4fd1c6bd6342c436f1ede30d1cff4710/out/vs/workbench/api/node/extensionHostProcess.js:111:11147)
+	at /home/raed_maklai/.vscode-server/bin/704ed70d4fd1c6bd6342c436f1ede30d1cff4710/out/vs/workbench/api/node/extensionHostProcess.js:111:9131
+	at Array.map (<anonymous>)
+	at E.R (/home/raed_maklai/.vscode-server/bin/704ed70d4fd1c6bd6342c436f1ede30d1cff4710/out/vs/workbench/api/node/extensionHostProcess.js:111:9118)
+	at E.terminate (/home/raed_maklai/.vscode-server/bin/704ed70d4fd1c6bd6342c436f1ede30d1cff4710/out/vs/workbench/api/node/extensionHostProcess.js:111:9389)
+	at d.terminate (/home/raed_maklai/.vscode-server/bin/704ed70d4fd1c6bd6342c436f1ede30d1cff4710/out/vs/workbench/api/node/extensionHostProcess.js:115:1544)
+	at p (/home/raed_maklai/.vscode-server/bin/704ed70d4fd1c6bd6342c436f1ede30d1cff4710/out/vs/workbench/api/node/extensionHostProcess.js:125:18690)
+	at /home/raed_maklai/.vscode-server/bin/704ed70d4fd1c6bd6342c436f1ede30d1cff4710/out/vs/workbench/api/node/extensionHostProcess.js:125:16600
+	at E.invoke (/home/raed_maklai/.vscode-server/bin/704ed70d4fd1c6bd6342c436f1ede30d1cff4710/out/vs/workbench/api/node/extensionHostProcess.js:63:145)
+	at h.deliver (/home/raed_maklai/.vscode-server/bin/704ed70d4fd1c6bd6342c436f1ede30d1cff4710/out/vs/workbench/api/node/extensionHostProcess.js:63:2121)
+	at n.fire (/home/raed_maklai/.vscode-server/bin/704ed70d4fd1c6bd6342c436f1ede30d1cff4710/out/vs/workbench/api/node/extensionHostProcess.js:63:1729)
+	at p.fire (/home/raed_maklai/.vscode-server/bin/704ed70d4fd1c6bd6342c436f1ede30d1cff4710/out/vs/workbench/api/node/extensionHostProcess.js:72:14916)
+	at s.E (/home/raed_maklai/.vscode-server/bin/704ed70d4fd1c6bd6342c436f1ede30d1cff4710/out/vs/workbench/api/node/extensionHostProcess.js:72:18982)
+	at /home/raed_maklai/.vscode-server/bin/704ed70d4fd1c6bd6342c436f1ede30d1cff4710/out/vs/workbench/api/node/extensionHostProcess.js:72:18161
+	at E.invoke (/home/raed_maklai/.vscode-server/bin/704ed70d4fd1c6bd6342c436f1ede30d1cff4710/out/vs/workbench/api/node/extensionHostProcess.js:63:145)
+	at h.deliver (/home/raed_maklai/.vscode-server/bin/704ed70d4fd1c6bd6342c436f1ede30d1cff4710/out/vs/workbench/api/node/extensionHostProcess.js:63:2121)
+	at n.fire (/home/raed_maklai/.vscode-server/bin/704ed70d4fd1c6bd6342c436f1ede30d1cff4710/out/vs/workbench/api/node/extensionHostProcess.js:63:1729)
+	at d.acceptChunk (/home/raed_maklai/.vscode-server/bin/704ed70d4fd1c6bd6342c436f1ede30d1cff4710/out/vs/workbench/api/node/extensionHostProcess.js:72:12647)
+	at /home/raed_maklai/.vscode-server/bin/704ed70d4fd1c6bd6342c436f1ede30d1cff4710/out/vs/workbench/api/node/extensionHostProcess.js:72:11934
+	at E.invoke (/home/raed_maklai/.vscode-server/bin/704ed70d4fd1c6bd6342c436f1ede30d1cff4710/out/vs/workbench/api/node/extensionHostProcess.js:63:145)
+	at h.deliver (/home/raed_maklai/.vscode-server/bin/704ed70d4fd1c6bd6342c436f1ede30d1cff4710/out/vs/workbench/api/node/extensionHostProcess.js:63:2121)
+	at n.fire (/home/raed_maklai/.vscode-server/bin/704ed70d4fd1c6bd6342c436f1ede30d1cff4710/out/vs/workbench/api/node/extensionHostProcess.js:63:1729)
+	at n.u (/home/raed_maklai/.vscode-server/bin/704ed70d4fd1c6bd6342c436f1ede30d1cff4710/out/vs/workbench/api/node/extensionHostProcess.js:72:28899) setContext undefined
+2023-05-04 19:54:01.299 [error] Canceled: Canceled
+	at new l (/home/raed_maklai/.vscode-server/bin/704ed70d4fd1c6bd6342c436f1ede30d1cff4710/out/vs/workbench/api/node/extensionHostProcess.js:99:105190)
+	at c.O (/home/raed_maklai/.vscode-server/bin/704ed70d4fd1c6bd6342c436f1ede30d1cff4710/out/vs/workbench/api/node/extensionHostProcess.js:109:11692)
+	at Proxy.G.<computed>.Q.charCodeAt.G.<computed> (/home/raed_maklai/.vscode-server/bin/704ed70d4fd1c6bd6342c436f1ede30d1cff4710/out/vs/workbench/api/node/extensionHostProcess.js:109:8967)
+	at m.g (/home/raed_maklai/.vscode-server/bin/704ed70d4fd1c6bd6342c436f1ede30d1cff4710/out/vs/workbench/api/node/extensionHostProcess.js:99:125211)
+	at m.executeCommand (/home/raed_maklai/.vscode-server/bin/704ed70d4fd1c6bd6342c436f1ede30d1cff4710/out/vs/workbench/api/node/extensionHostProcess.js:99:124587)
+	at L.registerCommand.description (/home/raed_maklai/.vscode-server/bin/704ed70d4fd1c6bd6342c436f1ede30d1cff4710/out/vs/workbench/api/node/extensionHostProcess.js:99:123880)
+	at m.h (/home/raed_maklai/.vscode-server/bin/704ed70d4fd1c6bd6342c436f1ede30d1cff4710/out/vs/workbench/api/node/extensionHostProcess.js:99:125797)
+	at m.g (/home/raed_maklai/.vscode-server/bin/704ed70d4fd1c6bd6342c436f1ede30d1cff4710/out/vs/workbench/api/node/extensionHostProcess.js:99:124687)
+	at m.executeCommand (/home/raed_maklai/.vscode-server/bin/704ed70d4fd1c6bd6342c436f1ede30d1cff4710/out/vs/workbench/api/node/extensionHostProcess.js:99:124587)
+	at Object.executeCommand (/home/raed_maklai/.vscode-server/bin/704ed70d4fd1c6bd6342c436f1ede30d1cff4710/out/vs/workbench/api/node/extensionHostProcess.js:115:23801)
+	at e (/home/raed_maklai/.vscode-server/extensions/github.vscode-pull-request-github-0.62.0/dist/extension.js:1407:11346)
+	at Object.n [as setContext] (/home/raed_maklai/.vscode-server/extensions/github.vscode-pull-request-github-0.62.0/dist/extension.js:1407:11461)
+	at mc.updateActiveReviewCount (/home/raed_maklai/.vscode-server/extensions/github.vscode-pull-request-github-0.62.0/dist/extension.js:1568:20109)
+	at mc.removeRepo (/home/raed_maklai/.vscode-server/extensions/github.vscode-pull-request-github-0.62.0/dist/extension.js:1568:21186)
+	at /home/raed_maklai/.vscode-server/extensions/github.vscode-pull-request-github-0.62.0/dist/extension.js:1597:4036
+	at E.invoke (/home/raed_maklai/.vscode-server/bin/704ed70d4fd1c6bd6342c436f1ede30d1cff4710/out/vs/workbench/api/node/extensionHostProcess.js:63:145)
+	at h.deliver (/home/raed_maklai/.vscode-server/bin/704ed70d4fd1c6bd6342c436f1ede30d1cff4710/out/vs/workbench/api/node/extensionHostProcess.js:63:2121)
+	at n.fire (/home/raed_maklai/.vscode-server/bin/704ed70d4fd1c6bd6342c436f1ede30d1cff4710/out/vs/workbench/api/node/extensionHostProcess.js:63:1729)
+	at /home/raed_maklai/.vscode-server/extensions/github.vscode-pull-request-github-0.62.0/dist/extension.js:1405:461527
+	at E.invoke (/home/raed_maklai/.vscode-server/bin/704ed70d4fd1c6bd6342c436f1ede30d1cff4710/out/vs/workbench/api/node/extensionHostProcess.js:63:145)
+	at h.deliver (/home/raed_maklai/.vscode-server/bin/704ed70d4fd1c6bd6342c436f1ede30d1cff4710/out/vs/workbench/api/node/extensionHostProcess.js:63:2121)
+	at n.fire (/home/raed_maklai/.vscode-server/bin/704ed70d4fd1c6bd6342c436f1ede30d1cff4710/out/vs/workbench/api/node/extensionHostProcess.js:63:1729)
+	at /home/raed_maklai/.vscode-server/extensions/github.vscode-pull-request-github-0.62.0/dist/extension.js:1568:24559
+	at /home/raed_maklai/.vscode-server/bin/704ed70d4fd1c6bd6342c436f1ede30d1cff4710/extensions/git/dist/main.js:2:1553088
+	at E.invoke (/home/raed_maklai/.vscode-server/bin/704ed70d4fd1c6bd6342c436f1ede30d1cff4710/out/vs/workbench/api/node/extensionHostProcess.js:63:145)
+	at h.deliver (/home/raed_maklai/.vscode-server/bin/704ed70d4fd1c6bd6342c436f1ede30d1cff4710/out/vs/workbench/api/node/extensionHostProcess.js:63:2121)
+	at n.fire (/home/raed_maklai/.vscode-server/bin/704ed70d4fd1c6bd6342c436f1ede30d1cff4710/out/vs/workbench/api/node/extensionHostProcess.js:63:1729)
+	at Object.m [as dispose] (/home/raed_maklai/.vscode-server/bin/704ed70d4fd1c6bd6342c436f1ede30d1cff4710/extensions/git/dist/main.js:2:1481885)
+	at /home/raed_maklai/.vscode-server/bin/704ed70d4fd1c6bd6342c436f1ede30d1cff4710/extensions/git/dist/main.js:2:1485952
+	at Array.forEach (<anonymous>)
+	at g.dispose (/home/raed_maklai/.vscode-server/bin/704ed70d4fd1c6bd6342c436f1ede30d1cff4710/extensions/git/dist/main.js:2:1485938)
+	at t.<anonymous> (/home/raed_maklai/.vscode-server/bin/704ed70d4fd1c6bd6342c436f1ede30d1cff4710/out/vs/workbench/api/node/extensionHostProcess.js:97:12398)
+	at t.dispose (/home/raed_maklai/.vscode-server/bin/704ed70d4fd1c6bd6342c436f1ede30d1cff4710/out/vs/workbench/api/node/extensionHostProcess.js:97:12533)
+	at t.<anonymous> (/home/raed_maklai/.vscode-server/bin/704ed70d4fd1c6bd6342c436f1ede30d1cff4710/extensions/git/dist/main.js:2:1469286)
+	at t.dispose (/home/raed_maklai/.vscode-server/bin/704ed70d4fd1c6bd6342c436f1ede30d1cff4710/out/vs/workbench/api/node/extensionHostProcess.js:97:12533)
+	at I (/home/raed_maklai/.vscode-server/bin/704ed70d4fd1c6bd6342c436f1ede30d1cff4710/out/vs/workbench/api/node/extensionHostProcess.js:10:12084)
+	at E.Y (/home/raed_maklai/.vscode-server/bin/704ed70d4fd1c6bd6342c436f1ede30d1cff4710/out/vs/workbench/api/node/extensionHostProcess.js:111:11147)
+	at /home/raed_maklai/.vscode-server/bin/704ed70d4fd1c6bd6342c436f1ede30d1cff4710/out/vs/workbench/api/node/extensionHostProcess.js:111:9131
+	at Array.map (<anonymous>)
+	at E.R (/home/raed_maklai/.vscode-server/bin/704ed70d4fd1c6bd6342c436f1ede30d1cff4710/out/vs/workbench/api/node/extensionHostProcess.js:111:9118)
+	at E.terminate (/home/raed_maklai/.vscode-server/bin/704ed70d4fd1c6bd6342c436f1ede30d1cff4710/out/vs/workbench/api/node/extensionHostProcess.js:111:9389)
+	at d.terminate (/home/raed_maklai/.vscode-server/bin/704ed70d4fd1c6bd6342c436f1ede30d1cff4710/out/vs/workbench/api/node/extensionHostProcess.js:115:1544)
+	at p (/home/raed_maklai/.vscode-server/bin/704ed70d4fd1c6bd6342c436f1ede30d1cff4710/out/vs/workbench/api/node/extensionHostProcess.js:125:18690)
+	at /home/raed_maklai/.vscode-server/bin/704ed70d4fd1c6bd6342c436f1ede30d1cff4710/out/vs/workbench/api/node/extensionHostProcess.js:125:16600
+	at E.invoke (/home/raed_maklai/.vscode-server/bin/704ed70d4fd1c6bd6342c436f1ede30d1cff4710/out/vs/workbench/api/node/extensionHostProcess.js:63:145)
+	at h.deliver (/home/raed_maklai/.vscode-server/bin/704ed70d4fd1c6bd6342c436f1ede30d1cff4710/out/vs/workbench/api/node/extensionHostProcess.js:63:2121)
+	at n.fire (/home/raed_maklai/.vscode-server/bin/704ed70d4fd1c6bd6342c436f1ede30d1cff4710/out/vs/workbench/api/node/extensionHostProcess.js:63:1729)
+	at p.fire (/home/raed_maklai/.vscode-server/bin/704ed70d4fd1c6bd6342c436f1ede30d1cff4710/out/vs/workbench/api/node/extensionHostProcess.js:72:14916)
+	at s.E (/home/raed_maklai/.vscode-server/bin/704ed70d4fd1c6bd6342c436f1ede30d1cff4710/out/vs/workbench/api/node/extensionHostProcess.js:72:18982)
+	at /home/raed_maklai/.vscode-server/bin/704ed70d4fd1c6bd6342c436f1ede30d1cff4710/out/vs/workbench/api/node/extensionHostProcess.js:72:18161
+	at E.invoke (/home/raed_maklai/.vscode-server/bin/704ed70d4fd1c6bd6342c436f1ede30d1cff4710/out/vs/workbench/api/node/extensionHostProcess.js:63:145)
+	at h.deliver (/home/raed_maklai/.vscode-server/bin/704ed70d4fd1c6bd6342c436f1ede30d1cff4710/out/vs/workbench/api/node/extensionHostProcess.js:63:2121)
+	at n.fire (/home/raed_maklai/.vscode-server/bin/704ed70d4fd1c6bd6342c436f1ede30d1cff4710/out/vs/workbench/api/node/extensionHostProcess.js:63:1729)
+	at d.acceptChunk (/home/raed_maklai/.vscode-server/bin/704ed70d4fd1c6bd6342c436f1ede30d1cff4710/out/vs/workbench/api/node/extensionHostProcess.js:72:12647)
+	at /home/raed_maklai/.vscode-server/bin/704ed70d4fd1c6bd6342c436f1ede30d1cff4710/out/vs/workbench/api/node/extensionHostProcess.js:72:11934
+	at E.invoke (/home/raed_maklai/.vscode-server/bin/704ed70d4fd1c6bd6342c436f1ede30d1cff4710/out/vs/workbench/api/node/extensionHostProcess.js:63:145)
+	at h.deliver (/home/raed_maklai/.vscode-server/bin/704ed70d4fd1c6bd6342c436f1ede30d1cff4710/out/vs/workbench/api/node/extensionHostProcess.js:63:2121)
+	at n.fire (/home/raed_maklai/.vscode-server/bin/704ed70d4fd1c6bd6342c436f1ede30d1cff4710/out/vs/workbench/api/node/extensionHostProcess.js:63:1729)
+	at n.u (/home/raed_maklai/.vscode-server/bin/704ed70d4fd1c6bd6342c436f1ede30d1cff4710/out/vs/workbench/api/node/extensionHostProcess.js:72:28899) setContext undefined
+2023-05-04 19:54:01.309 [info] Extension host with pid 17565 exiting with code 0

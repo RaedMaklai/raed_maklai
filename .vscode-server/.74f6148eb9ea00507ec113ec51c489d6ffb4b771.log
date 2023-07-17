@@ -1,0 +1,193 @@
+*
+* Visual Studio Code Server
+*
+* By using the software, you agree to
+* the Visual Studio Code Server License Terms (https://aka.ms/vscode-server-license) and
+* the Microsoft Privacy Statement (https://privacy.microsoft.com/en-US/privacystatement).
+*
+Server bound to 127.0.0.1:44391 (IPv4)
+Extension host agent listening on 44391
+
+[18:52:13] 
+
+
+
+
+[18:52:13] Extension host agent started.
+[18:52:13] [127.0.0.1][0695dec2][ManagementConnection] New connection established.
+[18:52:14] [127.0.0.1][89861c47][ExtensionHostConnection] New connection established.
+[18:52:14] [127.0.0.1][89861c47][ExtensionHostConnection] <26284> Launched Extension Host Process.
+[IPC Library: Pty Host]  WARN Shell integration cannot be enabled for executable "/bin/sh" and args [
+  '-c',
+  'wget --version > /dev/null\n' +
+    'if [ $? -eq 0 ]\n' +
+    'then\n' +
+    "\twget --connect-timeout=7 --tries=1 --dns-timeout=7 -q --header='Metadata:true' -O - http://169.254.169.254/metadata/instance?api-version=2019-03-11\n" +
+    'else\n' +
+    '\tcurl --version > /dev/null\n' +
+    '\tif [ $? -eq 0 ]\n' +
+    '\tthen\n' +
+    "\t\tcurl --connect-timeout 7 -s --header='Metadata:true' http://169.254.169.254/metadata/instance?api-version=2019-03-11\n" +
+    '\tfi\n' +
+    'fi\n' +
+    'exit 0'
+]
+[IPC Library: Pty Host]  WARN Shell integration cannot be enabled for executable "/bin/sh" and args [
+  '-c',
+  'wget --version > /dev/null\n' +
+    'if [ $? -eq 0 ]\n' +
+    'then\n' +
+    '\twget --connect-timeout=7 --tries=1 --dns-timeout=7 -q  -O - http://169.254.169.254/latest/meta-data/instance-id\n' +
+    'else\n' +
+    '\tcurl --version > /dev/null\n' +
+    '\tif [ $? -eq 0 ]\n' +
+    '\tthen\n' +
+    '\t\tcurl --connect-timeout 7 -s  http://169.254.169.254/latest/meta-data/instance-id\n' +
+    '\tfi\n' +
+    'fi\n' +
+    'exit 0'
+]
+[IPC Library: Pty Host]  WARN Shell integration cannot be enabled for executable "/bin/sh" and args [
+  '-c',
+  'wget --version > /dev/null\n' +
+    'if [ $? -eq 0 ]\n' +
+    'then\n' +
+    '\twget --connect-timeout=7 --tries=1 --dns-timeout=7 -q  -O - http://169.254.169.254/metadata/v1/id\n' +
+    'else\n' +
+    '\tcurl --version > /dev/null\n' +
+    '\tif [ $? -eq 0 ]\n' +
+    '\tthen\n' +
+    '\t\tcurl --connect-timeout 7 -s  http://169.254.169.254/metadata/v1/id\n' +
+    '\tfi\n' +
+    'fi\n' +
+    'exit 0'
+]
+[IPC Library: Pty Host]  WARN Shell integration cannot be enabled for executable "/bin/sh" and args [
+  '-c',
+  'wget --version > /dev/null\n' +
+    'if [ $? -eq 0 ]\n' +
+    'then\n' +
+    "\twget --connect-timeout=7 --tries=1 --dns-timeout=7 -q --header='Metadata-Flavor:Google' -O - http://metadata.google.internal/computeMetadata/v1/instance/id\n" +
+    'else\n' +
+    '\tcurl --version > /dev/null\n' +
+    '\tif [ $? -eq 0 ]\n' +
+    '\tthen\n' +
+    "\t\tcurl --connect-timeout 7 -s --header='Metadata-Flavor:Google' http://metadata.google.internal/computeMetadata/v1/instance/id\n" +
+    '\tfi\n' +
+    'fi\n' +
+    'exit 0'
+]
+[18:52:17] Getting Manifest... github.vscode-pull-request-github
+[18:52:17] Getting Manifest... ms-toolsai.jupyter
+[18:52:17] Getting Manifest... ms-toolsai.jupyter-keymap
+[18:52:17] Getting Manifest... ms-toolsai.jupyter-renderers
+[18:52:17] Installing extension: ms-toolsai.jupyter-keymap
+[18:52:17] Installing extension: ms-toolsai.jupyter-renderers
+[18:52:17] Installing extension: ms-toolsai.jupyter
+[18:52:17] Installing extension: github.vscode-pull-request-github
+[18:52:20] Extension signature is verified: ms-toolsai.jupyter-keymap
+[18:52:20] Extension signature is verified: ms-toolsai.jupyter-renderers
+[18:52:20] Extension signature is verified: ms-toolsai.jupyter
+[18:52:20] Extension signature is verified: github.vscode-pull-request-github
+[18:52:20] Extracted extension to /home/raed_maklai/.vscode-server/extensions/.27cc73ac-8bca-4345-8b4b-9231b5be1055: ms-toolsai.jupyter-keymap
+[18:52:20] Renamed to /home/raed_maklai/.vscode-server/extensions/ms-toolsai.jupyter-keymap-1.1.2
+[18:52:20] Extracting extension completed. ms-toolsai.jupyter-keymap
+[18:52:20] Extension installed successfully: ms-toolsai.jupyter-keymap
+[18:52:20] Marked extension as uninstalled ms-toolsai.jupyter-keymap-1.1.0
+[18:52:21] Extracted extension to /home/raed_maklai/.vscode-server/extensions/.49f47665-39d6-4be1-9f05-4c145e40c2a4: ms-toolsai.jupyter-renderers
+[18:52:21] Extracted extension to /home/raed_maklai/.vscode-server/extensions/.a60f0e11-18f3-4a9e-b85d-2124f7757bd3: github.vscode-pull-request-github
+[18:52:21] Renamed to /home/raed_maklai/.vscode-server/extensions/ms-toolsai.jupyter-renderers-1.0.17
+[18:52:21] Extracting extension completed. ms-toolsai.jupyter-renderers
+[18:52:21] Extension installed successfully: ms-toolsai.jupyter-renderers
+[18:52:21] Renamed to /home/raed_maklai/.vscode-server/extensions/github.vscode-pull-request-github-0.68.1
+[18:52:21] Marked extension as uninstalled ms-toolsai.jupyter-renderers-1.0.15
+[18:52:21] Extracting extension completed. github.vscode-pull-request-github
+[18:52:21] Extension installed successfully: github.vscode-pull-request-github
+[18:52:21] Marked extension as uninstalled github.vscode-pull-request-github-0.64.0
+[18:52:23] Extracted extension to /home/raed_maklai/.vscode-server/extensions/.8185b1be-f95c-4a6e-86bc-da0f32a98028: ms-toolsai.jupyter
+[18:52:23] Renamed to /home/raed_maklai/.vscode-server/extensions/ms-toolsai.jupyter-2023.6.1101941928-linux-x64
+[18:52:23] Extracting extension completed. ms-toolsai.jupyter
+[18:52:23] Extension installed successfully: ms-toolsai.jupyter
+[18:52:23] Marked extension as uninstalled ms-toolsai.jupyter-2023.4.1011241018-linux-x64
+[18:52:26] [Error: EBUSY: resource busy or locked, unlink '/home/raed_maklai/.vscode-server/data/logs/20230424T151229/.nfs9776d116f4dd699200001138'] {
+  errno: -16,
+  code: 'EBUSY',
+  syscall: 'unlink',
+  path: '/home/raed_maklai/.vscode-server/data/logs/20230424T151229/.nfs9776d116f4dd699200001138'
+}
+[18:53:15] [127.0.0.1][0695dec2][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[18:53:15] [127.0.0.1][89861c47][ExtensionHostConnection] <26284> Extension Host Process exited with code: 0, signal: null.
+Cancelling previous shutdown timeout
+[18:53:15] Cancelling previous shutdown timeout
+Last EH closed, waiting before shutting down
+[18:53:15] Last EH closed, waiting before shutting down
+Got delay-shutdown request while in shutdown timeout, delaying
+[18:53:19] Got delay-shutdown request while in shutdown timeout, delaying
+Cancelling previous shutdown timeout
+[18:53:19] Cancelling previous shutdown timeout
+[18:53:19] [127.0.0.1][1bd1fed9][ManagementConnection] New connection established.
+[18:53:19] [127.0.0.1][9f3f1a89][ExtensionHostConnection] New connection established.
+[18:53:19] [127.0.0.1][9f3f1a89][ExtensionHostConnection] <26553> Launched Extension Host Process.
+[IPC Library: Pty Host]  WARN Shell integration cannot be enabled for executable "/bin/sh" and args [
+  '-c',
+  'wget --version > /dev/null\n' +
+    'if [ $? -eq 0 ]\n' +
+    'then\n' +
+    "\twget --connect-timeout=7 --tries=1 --dns-timeout=7 -q --header='Metadata:true' -O - http://169.254.169.254/metadata/instance?api-version=2019-03-11\n" +
+    'else\n' +
+    '\tcurl --version > /dev/null\n' +
+    '\tif [ $? -eq 0 ]\n' +
+    '\tthen\n' +
+    "\t\tcurl --connect-timeout 7 -s --header='Metadata:true' http://169.254.169.254/metadata/instance?api-version=2019-03-11\n" +
+    '\tfi\n' +
+    'fi\n' +
+    'exit 0'
+]
+[IPC Library: Pty Host]  WARN Shell integration cannot be enabled for executable "/bin/sh" and args [
+  '-c',
+  'wget --version > /dev/null\n' +
+    'if [ $? -eq 0 ]\n' +
+    'then\n' +
+    '\twget --connect-timeout=7 --tries=1 --dns-timeout=7 -q  -O - http://169.254.169.254/latest/meta-data/instance-id\n' +
+    'else\n' +
+    '\tcurl --version > /dev/null\n' +
+    '\tif [ $? -eq 0 ]\n' +
+    '\tthen\n' +
+    '\t\tcurl --connect-timeout 7 -s  http://169.254.169.254/latest/meta-data/instance-id\n' +
+    '\tfi\n' +
+    'fi\n' +
+    'exit 0'
+]
+[IPC Library: Pty Host]  WARN Shell integration cannot be enabled for executable "/bin/sh" and args [
+  '-c',
+  'wget --version > /dev/null\n' +
+    'if [ $? -eq 0 ]\n' +
+    'then\n' +
+    '\twget --connect-timeout=7 --tries=1 --dns-timeout=7 -q  -O - http://169.254.169.254/metadata/v1/id\n' +
+    'else\n' +
+    '\tcurl --version > /dev/null\n' +
+    '\tif [ $? -eq 0 ]\n' +
+    '\tthen\n' +
+    '\t\tcurl --connect-timeout 7 -s  http://169.254.169.254/metadata/v1/id\n' +
+    '\tfi\n' +
+    'fi\n' +
+    'exit 0'
+]
+[IPC Library: Pty Host]  WARN Shell integration cannot be enabled for executable "/bin/sh" and args [
+  '-c',
+  'wget --version > /dev/null\n' +
+    'if [ $? -eq 0 ]\n' +
+    'then\n' +
+    "\twget --connect-timeout=7 --tries=1 --dns-timeout=7 -q --header='Metadata-Flavor:Google' -O - http://metadata.google.internal/computeMetadata/v1/instance/id\n" +
+    'else\n' +
+    '\tcurl --version > /dev/null\n' +
+    '\tif [ $? -eq 0 ]\n' +
+    '\tthen\n' +
+    "\t\tcurl --connect-timeout 7 -s --header='Metadata-Flavor:Google' http://metadata.google.internal/computeMetadata/v1/instance/id\n" +
+    '\tfi\n' +
+    'fi\n' +
+    'exit 0'
+]
+[18:58:14] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+New EH opened, aborting shutdown
+[18:58:19] New EH opened, aborting shutdown

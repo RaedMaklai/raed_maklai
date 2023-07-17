@@ -1,0 +1,60 @@
+{
+  "aws": {
+    "account": "prod"
+  },
+  "customer_log_sources": [
+    {
+      "source": "10.0.99.2",
+      "timezone_offset": "UTC",
+      "type": "fw-meraki"
+    },
+    {
+      "source": [
+        "DC1-AD",
+        "DC1-MSWinEventLog"]
+      , 
+      "timezone_offset": "America/Chicago",
+      "type": "ad-nxlog"
+    },
+    {
+      "source": "DC1-DHCP",
+      "timezone_offset": "America/Chicago",
+      "type": "ad-nxlog-dhcp"
+    },
+    {
+      "source": "DC1-DNS",
+      "timezone_offset": "America/Chicago",
+      "type": "ad-nxlog-dns"
+    },
+
+    {
+      "source": "dc2-AD",
+      "timezone_offset": "America/Chicago",
+      "type": "ad-nxlog"
+    },
+    {
+      "source": "dc2-DHCP",
+      "timezone_offset": "America/Chicago",
+      "type": "ad-nxlog-dhcp"
+    },
+    {
+      "source": "dc2-DNS",
+      "timezone_offset": "America/Chicago",
+      "type": "ad-nxlog-dns"
+    },
+    {
+      "source": "dc2-MSWinEventLog",
+      "timezone_offset": "America/Chicago",
+      "type": "ad-nxlog"
+    }
+  ],
+  "id": "enerquip2",
+  "sensors": {
+    "nmap": {
+      "bypass": [
+        "0.0.0.0/0"
+      ]
+    }
+  },
+  "type": "deployment"
+}

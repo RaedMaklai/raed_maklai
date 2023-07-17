@@ -1,0 +1,19 @@
+2023-05-31 17:27:14.395 [info] 
+
+
+
+
+2023-05-31 17:27:14.467 [info] Extension host agent started.
+2023-05-31 17:27:15.148 [info] [127.0.0.1][346bf810][ManagementConnection] New connection established.
+2023-05-31 17:27:15.786 [info] [127.0.0.1][586d9b6b][ExtensionHostConnection] New connection established.
+2023-05-31 17:27:15.810 [info] [127.0.0.1][586d9b6b][ExtensionHostConnection] <26557> Launched Extension Host Process.
+2023-05-31 17:27:15.944 [info] Deleted from disk github.vscode-pull-request-github /home/raed_maklai/.vscode-server/extensions/github.vscode-pull-request-github-0.62.0
+2023-05-31 17:27:16.437 [info] Deleted from disk ms-toolsai.jupyter /home/raed_maklai/.vscode-server/extensions/ms-toolsai.jupyter-2023.3.1201040234
+2023-05-31 17:32:14.469 [info] New EH opened, aborting shutdown
+2023-05-31 20:16:02.552 [info] [127.0.0.1][346bf810][ManagementConnection] The client has reconnected.
+2023-05-31 20:16:02.702 [info] [127.0.0.1][586d9b6b][ExtensionHostConnection] The client has reconnected.
+2023-05-31 22:02:08.352 [info] [127.0.0.1][346bf810][ManagementConnection] The client has reconnected.
+2023-05-31 22:02:08.505 [info] [127.0.0.1][586d9b6b][ExtensionHostConnection] The client has reconnected.
+2023-06-01 03:19:03.864 [info] [127.0.0.1][586d9b6b][ExtensionHostConnection] <26557> Extension Host Process exited with code: 0, signal: null.
+2023-06-01 03:19:03.866 [info] Last EH closed, waiting before shutting down
+2023-06-01 03:24:03.866 [info] Last EH closed, shutting down

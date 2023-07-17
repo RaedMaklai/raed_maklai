@@ -1,0 +1,47 @@
+{
+  "aws": {
+    "account": "prod"
+  },
+  "customer_log_sources": [
+    {
+      "source": "10.1.1.8",
+      "timezone_offset": "America/Chicago",
+      "type": "fw-fortinet"
+    },
+    {
+      "source": [
+        "SRV-OMA-DC01-AD",
+        "SRV-OMA-DC01-MSWinEventLog"
+      ],
+      "timezone_offset": "America/Chicago",
+      "type": "ad-nxlog"
+    },
+    {
+      "source": "SRV-OMA-DC01-DNS",
+      "timezone_offset": "America/Chicago",
+      "type": "ad-nxlog-dns"
+    },
+    {
+      "source": [
+        "SRV-OMA-DC02-AD",
+        "SRV-OMA-DC02-MSWinEventLog"
+      ],
+      "timezone_offset": "America/Chicago",
+      "type": "ad-nxlog"
+    },
+    {
+      "source": "SRV-OMA-DC02-DNS",
+      "timezone_offset": "America/Chicago",
+      "type": "ad-nxlog-dns"
+    }
+  ],
+  "id": "producerslivestockcredit2",
+  "sensors": {
+    "nmap": {
+      "bypass": [
+        "0.0.0.0/0"
+      ]
+    }
+  },
+  "type": "deployment"
+}

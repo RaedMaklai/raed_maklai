@@ -1,0 +1,8 @@
+{
+    "[python]": {
+        "editor.formatOnType": true
+    },
+    "workbench.colorTheme": "Xcode Default (Light)",
+    "vim.startInInsertMode": true,
+    "githubPullRequests.pullBranch": "never"
+}

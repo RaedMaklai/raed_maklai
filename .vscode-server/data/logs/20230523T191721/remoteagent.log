@@ -1,0 +1,70 @@
+2023-05-23 19:17:21.772 [info] 
+
+
+
+
+2023-05-23 19:17:21.843 [info] Extension host agent started.
+2023-05-23 19:17:22.251 [info] [127.0.0.1][a3b8922d][ManagementConnection] New connection established.
+2023-05-23 19:17:22.444 [info] [127.0.0.1][0ac140dc][ExtensionHostConnection] New connection established.
+2023-05-23 19:17:22.452 [info] [127.0.0.1][0ac140dc][ExtensionHostConnection] <4653> Launched Extension Host Process.
+2023-05-23 19:17:28.356 [info] Getting Manifest... github.vscode-pull-request-github
+2023-05-23 19:17:28.358 [info] Getting Manifest... ms-toolsai.jupyter
+2023-05-23 19:17:28.428 [info] Installing extension: ms-toolsai.jupyter
+2023-05-23 19:17:28.455 [info] Installing extension: github.vscode-pull-request-github
+2023-05-23 19:17:30.360 [info] Extension signature is verified: github.vscode-pull-request-github
+2023-05-23 19:17:30.365 [info] Extension signature is verified: ms-toolsai.jupyter
+2023-05-23 19:17:31.517 [info] Extracted extension to /home/raed_maklai/.vscode-server/extensions/.64d7cab1-36c8-4f25-90e0-abef87cfedab: github.vscode-pull-request-github
+2023-05-23 19:17:31.562 [info] Renamed to /home/raed_maklai/.vscode-server/extensions/github.vscode-pull-request-github-0.64.0
+2023-05-23 19:17:31.576 [info] Extracting extension completed. github.vscode-pull-request-github
+2023-05-23 19:17:31.601 [info] Extension installed successfully: github.vscode-pull-request-github
+2023-05-23 19:17:31.611 [info] Marked extension as uninstalled github.vscode-pull-request-github-0.62.0
+2023-05-23 19:17:33.880 [info] Extracted extension to /home/raed_maklai/.vscode-server/extensions/.59ad7cd9-2f9d-4332-bf23-b3b3b543b2e9: ms-toolsai.jupyter
+2023-05-23 19:17:33.923 [info] Renamed to /home/raed_maklai/.vscode-server/extensions/ms-toolsai.jupyter-2023.4.1011241018-linux-x64
+2023-05-23 19:17:33.939 [info] Extracting extension completed. ms-toolsai.jupyter
+2023-05-23 19:17:33.958 [info] Extension installed successfully: ms-toolsai.jupyter
+2023-05-23 19:17:33.972 [info] Marked extension as uninstalled ms-toolsai.jupyter-2023.3.1201040234
+2023-05-23 19:22:21.844 [info] New EH opened, aborting shutdown
+2023-05-23 21:12:33.496 [info] [127.0.0.1][a3b8922d][ManagementConnection] The client has reconnected.
+2023-05-23 21:12:33.680 [info] [127.0.0.1][0ac140dc][ExtensionHostConnection] The client has reconnected.
+2023-05-23 21:45:37.203 [info] [127.0.0.1][a3b8922d][ManagementConnection] The client has reconnected.
+2023-05-23 21:45:37.403 [info] [127.0.0.1][0ac140dc][ExtensionHostConnection] The client has reconnected.
+2023-05-23 22:16:59.825 [info] [127.0.0.1][a3b8922d][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2023-05-23 22:16:59.887 [info] [127.0.0.1][0ac140dc][ExtensionHostConnection] <4653> Extension Host Process exited with code: 0, signal: null.
+2023-05-23 22:16:59.887 [info] Last EH closed, waiting before shutting down
+2023-05-23 22:17:32.289 [info] Got delay-shutdown request while in shutdown timeout, delaying
+2023-05-23 22:17:32.290 [info] Cancelling previous shutdown timeout
+2023-05-23 22:17:32.855 [info] [127.0.0.1][dbde23d7][ManagementConnection] New connection established.
+2023-05-23 22:17:33.060 [info] [127.0.0.1][53b06078][ExtensionHostConnection] New connection established.
+2023-05-23 22:17:33.081 [info] [127.0.0.1][53b06078][ExtensionHostConnection] <11225> Launched Extension Host Process.
+2023-05-23 22:22:32.292 [info] New EH opened, aborting shutdown
+2023-05-23 22:32:34.979 [info] [127.0.0.1][dbde23d7][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2023-05-23 22:32:35.022 [info] [127.0.0.1][53b06078][ExtensionHostConnection] <11225> Extension Host Process exited with code: 0, signal: null.
+2023-05-23 22:32:35.022 [info] Last EH closed, waiting before shutting down
+2023-05-23 22:32:49.278 [info] Got delay-shutdown request while in shutdown timeout, delaying
+2023-05-23 22:32:49.280 [info] Cancelling previous shutdown timeout
+2023-05-23 22:32:49.806 [info] [127.0.0.1][6cce45ad][ManagementConnection] New connection established.
+2023-05-23 22:32:50.009 [info] [127.0.0.1][e48e040e][ExtensionHostConnection] New connection established.
+2023-05-23 22:32:50.030 [info] [127.0.0.1][e48e040e][ExtensionHostConnection] <12228> Launched Extension Host Process.
+2023-05-23 22:32:53.878 [info] [127.0.0.1][6cce45ad][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2023-05-23 22:32:53.896 [info] [127.0.0.1][e48e040e][ExtensionHostConnection] <12228> Extension Host Process exited with code: 0, signal: null.
+2023-05-23 22:32:53.896 [info] Cancelling previous shutdown timeout
+2023-05-23 22:32:53.896 [info] Last EH closed, waiting before shutting down
+2023-05-23 22:33:13.966 [info] Got delay-shutdown request while in shutdown timeout, delaying
+2023-05-23 22:33:13.968 [info] Cancelling previous shutdown timeout
+2023-05-23 22:33:14.557 [info] [127.0.0.1][4cd5f09b][ManagementConnection] New connection established.
+2023-05-23 22:33:14.764 [info] [127.0.0.1][c60e9c07][ExtensionHostConnection] New connection established.
+2023-05-23 22:33:14.787 [info] [127.0.0.1][c60e9c07][ExtensionHostConnection] <12499> Launched Extension Host Process.
+2023-05-23 22:35:11.204 [info] [127.0.0.1][4cd5f09b][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2023-05-23 22:35:11.259 [info] [127.0.0.1][c60e9c07][ExtensionHostConnection] <12499> Extension Host Process exited with code: 0, signal: null.
+2023-05-23 22:35:11.259 [info] Cancelling previous shutdown timeout
+2023-05-23 22:35:11.259 [info] Last EH closed, waiting before shutting down
+2023-05-23 22:35:25.322 [info] Got delay-shutdown request while in shutdown timeout, delaying
+2023-05-23 22:35:25.323 [info] Cancelling previous shutdown timeout
+2023-05-23 22:35:25.872 [info] [127.0.0.1][88279861][ManagementConnection] New connection established.
+2023-05-23 22:35:26.087 [info] [127.0.0.1][b8af94f8][ExtensionHostConnection] New connection established.
+2023-05-23 22:35:26.101 [info] [127.0.0.1][b8af94f8][ExtensionHostConnection] <13167> Launched Extension Host Process.
+2023-05-23 22:40:25.324 [info] New EH opened, aborting shutdown
+2023-05-23 23:58:01.691 [info] [127.0.0.1][88279861][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2023-05-23 23:58:01.740 [info] [127.0.0.1][b8af94f8][ExtensionHostConnection] <13167> Extension Host Process exited with code: 0, signal: null.
+2023-05-23 23:58:01.741 [info] Last EH closed, waiting before shutting down
+2023-05-24 00:03:01.741 [info] Last EH closed, shutting down

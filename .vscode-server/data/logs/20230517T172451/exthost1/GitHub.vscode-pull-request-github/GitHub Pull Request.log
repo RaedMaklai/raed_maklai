@@ -1,0 +1,5 @@
+2023-05-17 17:24:55.815 [info] Looking for git repository
+2023-05-17 17:24:55.815 [info] Found 0 repositories during activation
+2023-05-17 17:24:55.815 [info] Git repository found, initializing review manager and pr tree view.
+2023-05-17 17:24:55.815 [info] Registering git provider
+2023-05-17 17:24:55.815 [info] TemporaryState> Error in initialization: Unable to delete nonexistent file 'vscode-remote://ssh-remote+us001/home/raed_maklai/.vscode-server/data/User/globalStorage/github.vscode-pull-request-github/temp'

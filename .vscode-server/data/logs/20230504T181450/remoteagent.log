@@ -1,0 +1,47 @@
+2023-05-04 18:14:50.759 [info] 
+
+
+
+
+2023-05-04 18:14:50.759 [info] Extension host agent started.
+2023-05-04 18:14:50.969 [info] [127.0.0.1][977e5c6c][ManagementConnection] New connection established.
+2023-05-04 18:14:51.192 [info] [127.0.0.1][2bc9a835][ExtensionHostConnection] New connection established.
+2023-05-04 18:14:51.201 [info] [127.0.0.1][2bc9a835][ExtensionHostConnection] <17565> Launched Extension Host Process.
+2023-05-04 18:14:54.641 [error] CodeExpectedError: Could not find pty on pty host
+    at L (/home/raed_maklai/.vscode-server/bin/704ed70d4fd1c6bd6342c436f1ede30d1cff4710/out/vs/platform/terminal/node/ptyHostMain.js:28:6849)
+    at L.updateIcon (/home/raed_maklai/.vscode-server/bin/704ed70d4fd1c6bd6342c436f1ede30d1cff4710/out/vs/platform/terminal/node/ptyHostMain.js:28:2680)
+    at Object.call (/home/raed_maklai/.vscode-server/bin/704ed70d4fd1c6bd6342c436f1ede30d1cff4710/out/vs/platform/terminal/node/ptyHostMain.js:17:5043)
+    at g.s (/home/raed_maklai/.vscode-server/bin/704ed70d4fd1c6bd6342c436f1ede30d1cff4710/out/vs/platform/terminal/node/ptyHostMain.js:15:5413)
+    at g.q (/home/raed_maklai/.vscode-server/bin/704ed70d4fd1c6bd6342c436f1ede30d1cff4710/out/vs/platform/terminal/node/ptyHostMain.js:15:4916)
+    at /home/raed_maklai/.vscode-server/bin/704ed70d4fd1c6bd6342c436f1ede30d1cff4710/out/vs/platform/terminal/node/ptyHostMain.js:15:4327
+    at c.invoke (/home/raed_maklai/.vscode-server/bin/704ed70d4fd1c6bd6342c436f1ede30d1cff4710/out/vs/platform/terminal/node/ptyHostMain.js:11:145)
+    at f.deliver (/home/raed_maklai/.vscode-server/bin/704ed70d4fd1c6bd6342c436f1ede30d1cff4710/out/vs/platform/terminal/node/ptyHostMain.js:11:2125)
+    at n.fire (/home/raed_maklai/.vscode-server/bin/704ed70d4fd1c6bd6342c436f1ede30d1cff4710/out/vs/platform/terminal/node/ptyHostMain.js:11:1733)
+    at process.T (/home/raed_maklai/.vscode-server/bin/704ed70d4fd1c6bd6342c436f1ede30d1cff4710/out/vs/platform/terminal/node/ptyHostMain.js:9:21039)
+    at process.emit (node:events:526:28)
+    at emit (node:internal/child_process:938:14)
+    at processTicksAndRejections (node:internal/process/task_queues:84:21)
+2023-05-04 18:19:50.562 [info] New EH opened, aborting shutdown
+2023-05-04 19:32:11.388 [info] [127.0.0.1][977e5c6c][ManagementConnection] The client has reconnected.
+2023-05-04 19:32:11.628 [info] [127.0.0.1][2bc9a835][ExtensionHostConnection] The client has reconnected.
+2023-05-04 19:54:01.272 [info] [127.0.0.1][977e5c6c][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2023-05-04 19:54:01.618 [info] [127.0.0.1][2bc9a835][ExtensionHostConnection] <17565> Extension Host Process exited with code: 0, signal: null.
+2023-05-04 19:54:01.618 [info] Last EH closed, waiting before shutting down
+2023-05-04 19:55:16.401 [info] Got delay-shutdown request while in shutdown timeout, delaying
+2023-05-04 19:55:16.401 [info] Cancelling previous shutdown timeout
+2023-05-04 19:55:17.109 [info] [127.0.0.1][b2b02c2b][ManagementConnection] New connection established.
+2023-05-04 19:55:17.208 [info] [127.0.0.1][774779c4][ExtensionHostConnection] New connection established.
+2023-05-04 19:55:17.268 [info] [127.0.0.1][774779c4][ExtensionHostConnection] <10181> Launched Extension Host Process.
+2023-05-04 20:00:16.402 [info] New EH opened, aborting shutdown
+2023-05-04 20:00:18.878 [info] [127.0.0.1][b2b02c2b][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2023-05-04 20:00:18.902 [info] [127.0.0.1][774779c4][ExtensionHostConnection] <10181> Extension Host Process exited with code: 0, signal: null.
+2023-05-04 20:00:18.902 [info] Last EH closed, waiting before shutting down
+2023-05-04 20:00:23.159 [info] Got delay-shutdown request while in shutdown timeout, delaying
+2023-05-04 20:00:23.160 [info] Cancelling previous shutdown timeout
+2023-05-04 20:00:23.682 [info] [127.0.0.1][73649973][ManagementConnection] New connection established.
+2023-05-04 20:00:23.775 [info] [127.0.0.1][75a3552f][ExtensionHostConnection] New connection established.
+2023-05-04 20:00:23.788 [info] [127.0.0.1][75a3552f][ExtensionHostConnection] <13097> Launched Extension Host Process.
+2023-05-04 20:05:23.161 [info] New EH opened, aborting shutdown
+2023-05-05 00:17:55.577 [info] [127.0.0.1][75a3552f][ExtensionHostConnection] <13097> Extension Host Process exited with code: 0, signal: null.
+2023-05-05 00:17:55.578 [info] Last EH closed, waiting before shutting down
+2023-05-05 00:22:55.578 [info] Last EH closed, shutting down

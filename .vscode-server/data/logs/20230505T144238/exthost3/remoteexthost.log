@@ -1,0 +1,9 @@
+2023-05-05 17:52:41.851 [info] Extension host with pid 3449 started
+2023-05-05 17:52:41.864 [info] Lock '/home/raed_maklai/.vscode-server/data/User/workspaceStorage/1d46d92ebe2d39db2135ad46a070afcb/vscode.lock': Lock acquired.
+2023-05-05 17:52:42.162 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2023-05-05 17:52:42.370 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2023-05-05 17:52:42.543 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2023-05-05 17:52:42.544 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2023-05-05 17:52:42.667 [info] Extension host terminating: received terminate message from renderer
+2023-05-05 17:52:42.667 [info] Lock '/home/raed_maklai/.vscode-server/data/User/workspaceStorage/1d46d92ebe2d39db2135ad46a070afcb/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
+2023-05-05 17:52:42.669 [info] Extension host with pid 3449 exiting with code 0

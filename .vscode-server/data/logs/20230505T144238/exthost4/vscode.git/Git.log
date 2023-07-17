@@ -1,0 +1,306 @@
+2023-05-05 17:53:04.441 [info] Log level: Info
+2023-05-05 17:53:04.441 [info] Validating found git in: "git"
+2023-05-05 17:53:04.441 [info] Using git "2.7.4" from "git"
+2023-05-05 17:53:04.441 [info] > git rev-parse --show-toplevel [72ms]
+2023-05-05 17:53:04.441 [info] > git rev-parse --git-dir --git-common-dir [15ms]
+2023-05-05 17:53:04.441 [info] Open repository: /mnt/disk1/sework/raed_maklai/volatile_configs
+2023-05-05 17:53:04.441 [info] > git rev-parse --show-toplevel [35ms]
+2023-05-05 17:53:04.441 [info] > git config --get commit.template [45ms]
+2023-05-05 17:53:04.441 [info] > git rev-parse --show-toplevel [24ms]
+2023-05-05 17:53:04.441 [info] > git rev-parse --show-toplevel [34ms]
+2023-05-05 17:53:04.441 [info] > git rev-parse --show-toplevel [20ms]
+2023-05-05 17:53:04.441 [info] > git rev-parse --show-toplevel [6ms]
+2023-05-05 17:53:04.441 [info] > git rev-parse --show-toplevel [5ms]
+2023-05-05 17:53:04.441 [info] > git rev-parse --show-toplevel [5ms]
+2023-05-05 17:53:04.441 [info] > git rev-parse --show-toplevel [5ms]
+2023-05-05 17:53:04.441 [info] > git rev-parse --show-toplevel [6ms]
+2023-05-05 17:53:04.441 [info] > git rev-parse --show-toplevel [6ms]
+2023-05-05 17:53:04.441 [info] > git rev-parse --show-toplevel [4ms]
+2023-05-05 17:53:04.441 [info] > git rev-parse --show-toplevel [3ms]
+2023-05-05 17:53:04.441 [info] > git rev-parse --show-toplevel [4ms]
+2023-05-05 17:53:04.441 [info] > git rev-parse --show-toplevel [5ms]
+2023-05-05 17:53:04.441 [info] > git rev-parse --show-toplevel [7ms]
+2023-05-05 17:53:04.441 [info] > git rev-parse --show-toplevel [22ms]
+2023-05-05 17:53:04.441 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master [436ms]
+2023-05-05 17:53:04.441 [info] > git status -z -uall [193ms]
+2023-05-05 17:53:04.441 [info] > git config --get commit.template [13ms]
+2023-05-05 17:53:04.441 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master [401ms]
+2023-05-05 17:53:04.471 [info] > git status -z -uall [111ms]
+2023-05-05 17:53:05.403 [info] > git config --local branch.master.github-pr-owner-number [86ms]
+2023-05-05 17:53:05.420 [info] > git config --get commit.template [12ms]
+2023-05-05 17:53:05.821 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master [408ms]
+2023-05-05 17:53:05.939 [info] > git status -z -uall [112ms]
+2023-05-05 17:53:07.977 [info] > git show --textconv 677015d02a08a459106b4ef4997799241245c32e:deployments/enerquip2.json [58ms]
+2023-05-05 17:53:08.659 [info] > git rev-parse --show-toplevel [7ms]
+2023-05-05 17:53:09.533 [info] > git rev-parse --show-toplevel [11ms]
+2023-05-05 17:53:14.606 [info] > git fetch rtkwlf master [7216ms]
+2023-05-05 17:53:14.606 [info] From github.com:rtkwlf/volatile_configs
+ * branch            master     -> FETCH_HEAD
+2023-05-05 17:53:14.638 [info] > git config --get commit.template [18ms]
+2023-05-05 17:53:15.062 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master [436ms]
+2023-05-05 17:53:15.221 [info] > git rev-parse --show-toplevel [19ms]
+2023-05-05 17:53:15.234 [info] > git status -z -uall [165ms]
+2023-05-05 17:53:16.105 [info] > git rev-parse --show-toplevel [42ms]
+2023-05-05 17:53:16.473 [info] > git config --get commit.template [92ms]
+2023-05-05 17:53:16.827 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master [436ms]
+2023-05-05 17:53:17.002 [info] > git status -z -uall [168ms]
+2023-05-05 17:53:17.761 [info] > git rev-parse --show-toplevel [14ms]
+2023-05-05 17:53:35.872 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) refs/heads/ [531ms]
+2023-05-05 17:53:35.975 [info] > git config --local branch.master.github-pr-owner-number [95ms]
+2023-05-05 17:53:35.989 [info] > git config --get commit.template [8ms]
+2023-05-05 17:53:36.414 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master [428ms]
+2023-05-05 17:53:36.557 [info] > git status -z -uall [135ms]
+2023-05-05 17:53:37.344 [info] > git rev-parse --show-toplevel [18ms]
+2023-05-05 17:53:40.681 [info] > git check-ignore -v -z --stdin [224ms]
+2023-05-05 17:53:45.626 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) refs/heads/ [445ms]
+2023-05-05 17:53:45.722 [info] > git config --local branch.master.github-pr-owner-number [85ms]
+2023-05-05 17:53:45.757 [info] > git config --get commit.template [29ms]
+2023-05-05 17:53:46.182 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master [450ms]
+2023-05-05 17:53:46.320 [info] > git status -z -uall [132ms]
+2023-05-05 17:53:47.111 [info] > git rev-parse --show-toplevel [24ms]
+2023-05-05 17:53:55.007 [info] > git rev-parse --show-toplevel [17ms]
+2023-05-05 17:54:14.524 [info] > git rev-parse --show-toplevel [16ms]
+2023-05-05 17:54:15.186 [info] > git rev-parse --show-toplevel [26ms]
+2023-05-05 17:54:15.677 [info] > git config --get commit.template [15ms]
+2023-05-05 17:54:16.125 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master [457ms]
+2023-05-05 17:54:16.270 [info] > git status -z -uall [139ms]
+2023-05-05 17:54:17.075 [info] > git rev-parse --show-toplevel [36ms]
+2023-05-05 17:54:21.778 [info] > git rev-parse --show-toplevel [20ms]
+2023-05-05 17:54:22.290 [info] > git config --get commit.template [29ms]
+2023-05-05 17:54:22.535 [info] > git rev-parse --show-toplevel [54ms]
+2023-05-05 17:54:22.739 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master [473ms]
+2023-05-05 17:54:22.952 [info] > git status -z -uall [207ms]
+2023-05-05 17:54:23.728 [info] > git rev-parse --show-toplevel [8ms]
+2023-05-05 17:55:10.870 [info] > git config --get commit.template [7ms]
+2023-05-05 17:55:11.287 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master [420ms]
+2023-05-05 17:55:11.411 [info] > git status -z -uall [118ms]
+2023-05-05 17:55:12.192 [info] > git rev-parse --show-toplevel [12ms]
+2023-05-05 17:55:12.206 [info] > git check-ignore -v -z --stdin [31ms]
+2023-05-05 17:55:16.435 [info] > git config --get commit.template [12ms]
+2023-05-05 17:55:16.839 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master [411ms]
+2023-05-05 17:55:16.959 [info] > git status -z -uall [114ms]
+2023-05-05 17:55:17.739 [info] > git rev-parse --show-toplevel [9ms]
+2023-05-05 17:55:17.752 [info] > git check-ignore -v -z --stdin [33ms]
+2023-05-05 17:55:21.981 [info] > git config --get commit.template [13ms]
+2023-05-05 17:55:22.387 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master [414ms]
+2023-05-05 17:55:22.511 [info] > git status -z -uall [118ms]
+2023-05-05 17:55:23.292 [info] > git rev-parse --show-toplevel [11ms]
+2023-05-05 17:55:23.305 [info] > git check-ignore -v -z --stdin [32ms]
+2023-05-05 17:55:36.149 [info] > git config --get commit.template [12ms]
+2023-05-05 17:55:36.564 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master [422ms]
+2023-05-05 17:55:36.684 [info] > git status -z -uall [114ms]
+2023-05-05 17:55:37.480 [info] > git rev-parse --show-toplevel [8ms]
+2023-05-05 17:55:37.486 [info] > git check-ignore -v -z --stdin [35ms]
+2023-05-05 17:55:43.586 [info] > git config --get commit.template [11ms]
+2023-05-05 17:55:43.999 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master [419ms]
+2023-05-05 17:55:44.128 [info] > git status -z -uall [123ms]
+2023-05-05 17:55:44.911 [info] > git rev-parse --show-toplevel [8ms]
+2023-05-05 17:55:44.927 [info] > git check-ignore -v -z --stdin [28ms]
+2023-05-05 17:55:49.143 [info] > git config --get commit.template [6ms]
+2023-05-05 17:55:49.557 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master [416ms]
+2023-05-05 17:55:49.680 [info] > git status -z -uall [116ms]
+2023-05-05 17:55:50.459 [info] > git rev-parse --show-toplevel [10ms]
+2023-05-05 17:55:50.475 [info] > git check-ignore -v -z --stdin [30ms]
+2023-05-05 17:55:54.702 [info] > git config --get commit.template [11ms]
+2023-05-05 17:55:55.112 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master [418ms]
+2023-05-05 17:55:55.233 [info] > git status -z -uall [115ms]
+2023-05-05 17:55:56.057 [info] > git check-ignore -v -z --stdin [34ms]
+2023-05-05 17:56:17.951 [info] > git config --get commit.template [12ms]
+2023-05-05 17:56:18.360 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master [417ms]
+2023-05-05 17:56:18.489 [info] > git status -z -uall [123ms]
+2023-05-05 17:56:19.272 [info] > git rev-parse --show-toplevel [4ms]
+2023-05-05 17:56:23.517 [info] > git config --get commit.template [19ms]
+2023-05-05 17:56:23.924 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master [421ms]
+2023-05-05 17:56:24.048 [info] > git status -z -uall [117ms]
+2023-05-05 17:56:24.841 [info] > git rev-parse --show-toplevel [15ms]
+2023-05-05 17:56:24.861 [info] > git check-ignore -v -z --stdin [43ms]
+2023-05-05 17:56:29.075 [info] > git config --get commit.template [18ms]
+2023-05-05 17:56:29.498 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master [437ms]
+2023-05-05 17:56:29.620 [info] > git status -z -uall [116ms]
+2023-05-05 17:56:30.416 [info] > git rev-parse --show-toplevel [11ms]
+2023-05-05 17:56:30.457 [info] > git check-ignore -v -z --stdin [57ms]
+2023-05-05 17:56:34.642 [info] > git config --get commit.template [12ms]
+2023-05-05 17:56:35.050 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master [414ms]
+2023-05-05 17:56:35.177 [info] > git status -z -uall [121ms]
+2023-05-05 17:56:35.993 [info] > git rev-parse --show-toplevel [9ms]
+2023-05-05 17:57:03.863 [info] > git add -A -- /mnt/disk1/sework/raed_maklai/volatile_configs/deployments/barrettdistribution10.json /mnt/disk1/sework/raed_maklai/volatile_configs/deployments/barrettdistribution11.json /mnt/disk1/sework/raed_maklai/volatile_configs/deployments/barrettdistribution12.json /mnt/disk1/sework/raed_maklai/volatile_configs/deployments/barrettdistribution13.json /mnt/disk1/sework/raed_maklai/volatile_configs/deployments/barrettdistribution16.json /mnt/disk1/sework/raed_maklai/volatile_configs/deployments/barrettdistribution17.json /mnt/disk1/sework/raed_maklai/volatile_configs/deployments/barrettdistribution18.json /mnt/disk1/sework/raed_maklai/volatile_configs/deployments/barrettdistribution19.json /mnt/disk1/sework/raed_maklai/volatile_configs/deployments/barrettdistribution2.json /mnt/disk1/sework/raed_maklai/volatile_configs/deployments/barrettdistribution20.json /mnt/disk1/sework/raed_maklai/volatile_configs/deployments/barrettdistribution21.json /mnt/disk1/sework/raed_maklai/volatile_configs/deployments/barrettdistribution22.json /mnt/disk1/sework/raed_maklai/volatile_configs/deployments/barrettdistribution23.json /mnt/disk1/sework/raed_maklai/volatile_configs/deployments/barrettdistribution24.json /mnt/disk1/sework/raed_maklai/volatile_configs/deployments/barrettdistribution25.json /mnt/disk1/sework/raed_maklai/volatile_configs/deployments/barrettdistribution3.json /mnt/disk1/sework/raed_maklai/volatile_configs/deployments/barrettdistribution4.json /mnt/disk1/sework/raed_maklai/volatile_configs/deployments/barrettdistribution5.json /mnt/disk1/sework/raed_maklai/volatile_configs/deployments/barrettdistribution6.json /mnt/disk1/sework/raed_maklai/volatile_configs/deployments/barrettdistribution7.json /mnt/disk1/sework/raed_maklai/volatile_configs/deployments/barrettdistribution8.json [96ms]
+2023-05-05 17:57:03.887 [info] > git config --get commit.template [15ms]
+2023-05-05 17:57:04.308 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master [433ms]
+2023-05-05 17:57:04.439 [info] > git status -z -uall [125ms]
+2023-05-05 17:57:05.242 [info] > git rev-parse --show-toplevel [9ms]
+2023-05-05 17:57:12.455 [info] > git rev-parse --show-toplevel [5ms]
+2023-05-05 17:57:52.868 [info] > git -c user.useConfigOnly=true commit --quiet --allow-empty-message --file - [41327ms]
+2023-05-05 17:57:52.871 [info] Calling function: determine_host
+HOST:BASTAWN
+VOLATILE_CONFIGS: /home/raed_maklai/volatile_configs
+VENV_PATH: /opt/awn/venv
+VIRTUAL_ENV: /opt/awn/venv
+RTKVCONF_LOCATION: /opt/awn/venv/site-packages/rtkvconf
+RTK_BUILD_ROOT: 
+RTK_DEPLOY_ROOT: /opt/awn
+CARSERS_LOCATION: /home/raed_maklai/volatile_configs/rules/carsers/carsers
+pwd: /mnt/disk1/sework/raed_maklai/volatile_configs
+Calling function: node_config_validation
+CHANGED DEPLOYMENT CONFIGS: deployments/barrettdistribution10.json
+deployments/barrettdistribution11.json
+deployments/barrettdistribution12.json
+deployments/barrettdistribution13.json
+deployments/barrettdistribution16.json
+deployments/barrettdistribution17.json
+deployments/barrettdistribution18.json
+deployments/barrettdistribution19.json
+deployments/barrettdistribution2.json
+deployments/barrettdistribution20.json
+deployments/barrettdistribution21.json
+deployments/barrettdistribution22.json
+deployments/barrettdistribution23.json
+deployments/barrettdistribution24.json
+deployments/barrettdistribution25.json
+deployments/barrettdistribution3.json
+deployments/barrettdistribution4.json
+deployments/barrettdistribution5.json
+deployments/barrettdistribution6.json
+deployments/barrettdistribution7.json
+deployments/barrettdistribution8.json
+RUNNING NODE_CONFIGCTL: deployments/barrettdistribution10.json
+RUNNING NODE_CONFIGCTL: deployments/barrettdistribution11.json
+RUNNING NODE_CONFIGCTL: deployments/barrettdistribution12.json
+RUNNING NODE_CONFIGCTL: deployments/barrettdistribution13.json
+RUNNING NODE_CONFIGCTL: deployments/barrettdistribution16.json
+RUNNING NODE_CONFIGCTL: deployments/barrettdistribution17.json
+RUNNING NODE_CONFIGCTL: deployments/barrettdistribution18.json
+RUNNING NODE_CONFIGCTL: deployments/barrettdistribution19.json
+RUNNING NODE_CONFIGCTL: deployments/barrettdistribution2.json
+RUNNING NODE_CONFIGCTL: deployments/barrettdistribution20.json
+RUNNING NODE_CONFIGCTL: deployments/barrettdistribution21.json
+RUNNING NODE_CONFIGCTL: deployments/barrettdistribution22.json
+RUNNING NODE_CONFIGCTL: deployments/barrettdistribution23.json
+RUNNING NODE_CONFIGCTL: deployments/barrettdistribution24.json
+RUNNING NODE_CONFIGCTL: deployments/barrettdistribution25.json
+RUNNING NODE_CONFIGCTL: deployments/barrettdistribution3.json
+RUNNING NODE_CONFIGCTL: deployments/barrettdistribution4.json
+RUNNING NODE_CONFIGCTL: deployments/barrettdistribution5.json
+RUNNING NODE_CONFIGCTL: deployments/barrettdistribution6.json
+RUNNING NODE_CONFIGCTL: deployments/barrettdistribution7.json
+RUNNING NODE_CONFIGCTL: deployments/barrettdistribution8.json
+Calling function: parsers_json_validation
+Calling function: console_files_validation
+CHANGED S10/S13 CONFIGS: 
+Calling function: intentions_verify_customerization
+Reached end
+2023-05-05 17:57:52.892 [info] > git config --get commit.template [15ms]
+2023-05-05 17:57:52.913 [info] > git config --get commit.template [15ms]
+2023-05-05 17:57:53.320 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master [418ms]
+2023-05-05 17:57:53.448 [info] > git status -z -uall [122ms]
+2023-05-05 17:57:53.654 [info] > git rev-parse --show-toplevel [12ms]
+2023-05-05 17:57:54.203 [info] > git config --local branch.master.github-pr-owner-number [78ms]
+2023-05-05 17:57:54.218 [info] > git config --get commit.template [8ms]
+2023-05-05 17:57:54.641 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master [424ms]
+2023-05-05 17:57:54.789 [info] > git status -z -uall [142ms]
+2023-05-05 17:57:55.677 [info] > git rev-parse --show-toplevel [24ms]
+2023-05-05 17:58:00.966 [info] > git push rtkwlf master:master [7495ms]
+2023-05-05 17:58:00.966 [info] To git@github.com:RaedMaklai/volatile_configs.git
+ ! [rejected]        master -> master (non-fast-forward)
+error: failed to push some refs to 'git@github.com:RaedMaklai/volatile_configs.git'
+hint: Updates were rejected because the tip of your current branch is behind
+hint: its remote counterpart. Integrate the remote changes (e.g.
+hint: 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+2023-05-05 17:58:01.008 [info] > git config --get commit.template [34ms]
+2023-05-05 17:58:01.405 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master [427ms]
+2023-05-05 17:58:01.541 [info] > git status -z -uall [128ms]
+2023-05-05 17:58:02.002 [info] > git config --get commit.template [29ms]
+2023-05-05 17:58:02.416 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master [437ms]
+2023-05-05 17:58:02.465 [info] > git rev-parse --show-toplevel [16ms]
+2023-05-05 17:58:02.554 [info] > git status -z -uall [130ms]
+2023-05-05 17:58:03.330 [info] > git rev-parse --show-toplevel [8ms]
+2023-05-05 17:58:04.658 [info] > git config --local branch.master.github-pr-owner-number [29ms]
+2023-05-05 17:58:04.702 [info] > git config --get commit.template [38ms]
+2023-05-05 17:58:05.113 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master [444ms]
+2023-05-05 17:58:05.249 [info] > git status -z -uall [129ms]
+2023-05-05 17:58:06.028 [info] > git rev-parse --show-toplevel [13ms]
+2023-05-05 17:58:06.246 [info] > git show --textconv 677015d02a08a459106b4ef4997799241245c32e:deployments/enerquip2.json [57ms]
+2023-05-05 17:58:18.878 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) refs/heads/ [424ms]
+2023-05-05 17:58:18.895 [info] > git config --local branch.master.github-pr-owner-number [10ms]
+2023-05-05 17:58:18.912 [info] > git config --get commit.template [11ms]
+2023-05-05 17:58:19.335 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master [429ms]
+2023-05-05 17:58:19.466 [info] > git status -z -uall [125ms]
+2023-05-05 17:58:20.243 [info] > git rev-parse --show-toplevel [12ms]
+2023-05-05 17:58:42.268 [info] > git config --local -l [73ms]
+2023-05-05 17:58:42.296 [info] > git config --get commit.template [19ms]
+2023-05-05 17:58:42.726 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master [442ms]
+2023-05-05 17:58:42.850 [info] > git status -z -uall [119ms]
+2023-05-05 17:58:43.622 [info] > git rev-parse --show-toplevel [4ms]
+2023-05-05 17:58:44.178 [info] > git rev-parse --show-toplevel [9ms]
+2023-05-05 17:58:51.834 [info] > git fetch rtkwlf master [8974ms]
+2023-05-05 17:58:51.835 [info] From github.com:rtkwlf/volatile_configs
+ * branch            master     -> FETCH_HEAD
+   83cfacf..1dd31f2  master     -> rtkwlf/master
+2023-05-05 17:58:51.852 [info] > git config --get commit.template [11ms]
+2023-05-05 17:58:52.279 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master [433ms]
+2023-05-05 17:58:52.399 [info] > git status -z -uall [114ms]
+2023-05-05 17:58:52.536 [info] > git rev-parse --show-toplevel [19ms]
+2023-05-05 17:58:52.925 [info] > git config --local branch.master.github-pr-owner-number [79ms]
+2023-05-05 17:58:52.943 [info] > git config --get commit.template [12ms]
+2023-05-05 17:58:53.380 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master [444ms]
+2023-05-05 17:58:53.523 [info] > git status -z -uall [137ms]
+2023-05-05 17:58:54.434 [info] > git rev-parse --show-toplevel [18ms]
+2023-05-05 17:58:55.714 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) refs/heads/ [437ms]
+2023-05-05 17:58:55.730 [info] > git config --local branch.master.github-pr-owner-number [9ms]
+2023-05-05 17:58:55.757 [info] > git config --get commit.template [19ms]
+2023-05-05 17:58:56.197 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master [455ms]
+2023-05-05 17:58:56.332 [info] > git status -z -uall [127ms]
+2023-05-05 17:58:57.115 [info] > git rev-parse --show-toplevel [11ms]
+2023-05-05 17:59:02.162 [info] > git diff fad774912eb0c4e9004fc6a999260f28f276fbe5 -- deployments/enerquip2.json [72ms]
+2023-05-05 17:59:02.348 [info] > git check-ignore -v -z --stdin [38ms]
+2023-05-05 18:03:06.949 [info] > git config --local branch.master.github-pr-owner-number [21ms]
+2023-05-05 18:03:06.989 [info] > git config --get commit.template [28ms]
+2023-05-05 18:03:27.963 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master [20997ms]
+2023-05-05 18:03:28.279 [info] > git status -z -uall [308ms]
+2023-05-05 18:03:29.141 [info] > git rev-parse --show-toplevel [78ms]
+2023-05-05 18:10:56.202 [info] > git rev-parse --show-toplevel [5ms]
+2023-05-05 18:11:00.462 [info] > git rev-parse --show-toplevel [14ms]
+2023-05-05 18:11:01.992 [info] > git show --textconv 677015d02a08a459106b4ef4997799241245c32e:deployments/enerquip2.json [61ms]
+2023-05-05 18:11:17.806 [info] > git rev-parse --show-toplevel [10ms]
+2023-05-05 18:11:18.308 [info] > git config --get commit.template [11ms]
+2023-05-05 18:11:18.739 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master [436ms]
+2023-05-05 18:11:18.867 [info] > git status -z -uall [121ms]
+2023-05-05 18:11:19.645 [info] > git rev-parse --show-toplevel [11ms]
+2023-05-05 18:11:32.337 [info] > git rev-parse --show-toplevel [4ms]
+2023-05-05 18:11:32.964 [info] > git config --get commit.template [25ms]
+2023-05-05 18:11:33.383 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master [438ms]
+2023-05-05 18:11:33.518 [info] > git status -z -uall [128ms]
+2023-05-05 18:11:33.987 [info] > git diff fad774912eb0c4e9004fc6a999260f28f276fbe5 -- deployments/enerquip2.json [79ms]
+2023-05-05 18:11:34.081 [info] > git config --local branch.master.github-pr-owner-number [80ms]
+2023-05-05 18:11:34.081 [info] > git diff fad774912eb0c4e9004fc6a999260f28f276fbe5 -- deployments/enerquip2.json [160ms]
+2023-05-05 18:11:34.082 [info] > git diff fad774912eb0c4e9004fc6a999260f28f276fbe5 -- deployments/enerquip2.json [167ms]
+2023-05-05 18:11:34.111 [info] > git config --get commit.template [22ms]
+2023-05-05 18:11:34.309 [info] > git rev-parse --show-toplevel [16ms]
+2023-05-05 18:11:34.547 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master [451ms]
+2023-05-05 18:11:34.690 [info] > git status -z -uall [135ms]
+2023-05-05 18:11:35.632 [info] > git rev-parse --show-toplevel [16ms]
+2023-05-05 18:11:38.301 [info] > git rev-parse --show-toplevel [25ms]
+2023-05-05 18:11:38.828 [info] > git config --get commit.template [13ms]
+2023-05-05 18:11:39.245 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master [424ms]
+2023-05-05 18:11:39.365 [info] > git status -z -uall [113ms]
+2023-05-05 18:11:39.850 [info] > git diff fad774912eb0c4e9004fc6a999260f28f276fbe5 -- deployments/enerquip2.json [62ms]
+2023-05-05 18:11:39.850 [info] > git diff fad774912eb0c4e9004fc6a999260f28f276fbe5 -- deployments/enerquip2.json [73ms]
+2023-05-05 18:11:39.851 [info] > git diff fad774912eb0c4e9004fc6a999260f28f276fbe5 -- deployments/enerquip2.json [68ms]
+2023-05-05 18:11:39.937 [info] > git config --local branch.master.github-pr-owner-number [58ms]
+2023-05-05 18:11:39.960 [info] > git config --get commit.template [16ms]
+2023-05-05 18:11:40.156 [info] > git rev-parse --show-toplevel [21ms]
+2023-05-05 18:11:40.366 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master [415ms]
+2023-05-05 18:11:40.493 [info] > git status -z -uall [119ms]
+2023-05-05 18:11:41.400 [info] > git rev-parse --show-toplevel [17ms]
+2023-05-05 18:11:42.159 [info] > git config --local -l [69ms]
+2023-05-05 18:11:42.195 [info] > git config --get commit.template [28ms]
+2023-05-05 18:11:42.246 [info] > git show --textconv 677015d02a08a459106b4ef4997799241245c32e:deployments/enerquip2.json [72ms]
+2023-05-05 18:11:42.621 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master [420ms]
+2023-05-05 18:11:42.747 [info] > git status -z -uall [118ms]
+2023-05-05 18:11:43.527 [info] > git rev-parse --show-toplevel [11ms]
+2023-05-05 18:16:02.694 [info] > git config --local branch.master.github-pr-owner-number [7ms]
+2023-05-05 18:16:02.724 [info] > git config --get commit.template [22ms]
+2023-05-05 18:16:03.132 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master [425ms]
+2023-05-05 18:16:03.271 [info] > git status -z -uall [132ms]
+2023-05-05 18:16:04.062 [info] > git rev-parse --show-toplevel [15ms]
+2023-05-05 18:16:04.380 [info] > git show --textconv 677015d02a08a459106b4ef4997799241245c32e:deployments/enerquip2.json [58ms]

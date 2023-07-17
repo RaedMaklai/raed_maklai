@@ -1,0 +1,26 @@
+2023-07-17 18:53:23.005 [info] Looking for git repository
+2023-07-17 18:53:23.006 [info] Found 0 repositories during activation
+2023-07-17 18:53:23.006 [info] Git repository found, initializing review manager and pr tree view.
+2023-07-17 18:53:23.009 [info] Registering git provider
+2023-07-17 18:53:23.009 [info] Review> Validate state in progress
+2023-07-17 18:53:23.009 [info] Review> Validating state...
+2023-07-17 18:53:23.110 [info] Found GitHub remote for folder /home/raed_maklai/volatile_configs-1
+2023-07-17 18:53:23.564 [info] Repo state for file:///home/raed_maklai/volatile_configs-1 changed.
+2023-07-17 18:53:23.564 [info] Repo file:///home/raed_maklai/volatile_configs-1 has already been setup.
+2023-07-17 18:53:23.565 [info] Review> No matching pull request metadata found locally for current branch master
+2023-07-17 18:53:23.565 [info] Review> no matching pull request metadata found for current branch master
+2023-07-17 18:53:23.565 [info] Review> No matching pull request metadata found on GitHub for current branch master
+2023-07-17 19:01:00.558 [info] Repository file:///home/raed_maklai has been opened
+2023-07-17 19:01:00.560 [info] Review> Validate state in progress
+2023-07-17 19:01:00.560 [info] Review> Validating state...
+2023-07-17 19:01:00.560 [warning] No remotes found. The following remotes are missing: origin, upstream
+2023-07-17 19:01:00.565 [info] No GitHub remotes found for folder /home/raed_maklai
+2023-07-17 19:01:10.918 [info] Review> Validate state in progress
+2023-07-17 19:01:10.920 [info] Review> Validating state...
+2023-07-17 19:01:10.920 [info] Repo state for file:///home/raed_maklai changed.
+2023-07-17 19:01:10.920 [info] Repo file:///home/raed_maklai has already been setup.
+2023-07-17 19:01:10.920 [warning] No remotes found. The following remotes are missing: origin, upstream
+2023-07-17 19:01:10.921 [info] No GitHub remotes found for folder /home/raed_maklai
+2023-07-17 19:01:12.558 [info] Review> No matching pull request metadata found locally for current branch master
+2023-07-17 19:01:12.558 [info] Review> no matching pull request metadata found for current branch master
+2023-07-17 19:01:12.558 [info] Review> No matching pull request metadata found on GitHub for current branch master
